@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name Keyboard_switches)(type Legacy)(uri ${KIPRJMOD}/Keyboard_switches.lib)(options "")(descr ""))
+  (lib (name MX-rescue)(type Legacy)(uri ${KIPRJMOD}/MX-rescue.lib)(options "")(descr ""))
 )
