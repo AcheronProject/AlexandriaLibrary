@@ -1,4 +1,4 @@
-(module thtDiode (layer F.Cu) (tedit 5BFF150B)
+(module thtDiode (layer F.Cu) (tedit 5BFF1758)
   (descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
   (tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
   (fp_text reference REF** (at 0.127 0.127) (layer F.SilkS)
@@ -41,7 +41,7 @@
   (pad 1 thru_hole roundrect (at -3.81 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask) (roundrect_rratio 0.1))
   (pad 2 thru_hole oval (at 3.81 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
   (model ${KISYS3DMOD}/Diode_THT.3dshapes/D_DO-35_SOD27_P7.62mm_Horizontal.wrl
-    (at (xyz 0 0 0))
+    (offset (xyz -3.809999942779541 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
