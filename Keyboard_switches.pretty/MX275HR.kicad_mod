@@ -1,4 +1,4 @@
-(module MX275HR (layer F.Cu) (tedit 5C002C46)
+(module MX275HR (layer F.Cu) (tedit 5C003CF3)
   (fp_text reference SW** (at 0 3.175) (layer Cmts.User)
     (effects (font (size 1 1) (thickness 0.15) italic))
   )
@@ -56,8 +56,8 @@
   (pad "" np_thru_hole circle (at 11.938 6.985) (size 3.048 3.048) (drill 3.048) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 11.938 -8.255) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at -11.938 -8.255) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
-  (pad 2 smd roundrect (at -6.096 -5.08) (size 2.54 2.54) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.1))
-  (pad 1 smd roundrect (at 7.366 -2.54) (size 2.54 2.54) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.1))
+  (pad 1 smd roundrect (at -6.096 -5.08) (size 2.54 2.54) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.1))
+  (pad 2 smd roundrect (at 7.366 -2.54) (size 2.54 2.54) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.1))
   (model ${KIPRJMOD}/kailh_socket_mx.stp
     (offset (xyz 0.6349999904632568 3.809999942779541 1.904999971389771))
     (scale (xyz 1 1 1))
