@@ -1,4 +1,4 @@
-(module MX100 (layer F.Cu) (tedit 5C0301FC)
+(module MX100 (layer F.Cu) (tedit 5C3BA7AD)
   (fp_text reference SW** (at 0 3.175) (layer Cmts.User)
     (effects (font (size 1 1) (thickness 0.15) italic))
   )
