@@ -23,7 +23,7 @@ The folder tree is explained below:
 
 - ./hardware contains those devices for human interaction like LEDs, encoders, general purpose switches;
 
-- ./keyboardSwitches is self-explanatory;
+- ./keyboardSwitches is self-explanatory. The footprints in this folder have a specific naming system:
 
   - The first letters are to denote the switch type: (MX) for MX switches and clones, (AL) for alps and (KC) for Kailh Choc switches. If the footprint supports two types then the prefix has both letters. For example, a footprint that supports MX and Alps would be (MXAL);
   - The next three numbers are the footprint size; (100) for a 1u footprint, (125) for a 1.25u, (2) for a 2u. 
