@@ -29,7 +29,8 @@ The folder tree is explained below:
   - The next three numbers are the footprint size; (100) for a 1u footprint, (125) for a 1.25u, (2) for a 2u. 
   - The letter "H" denotes "hotswap", meaning the footprint uses a hotswap socket. As far as I know there are no hotswap sockets for Alps switches. For MX switches it uses the Kailh hotswap sockets; their datasheet and 3D models are avaiable in the respective folder. For Kailh Choc switches the footprint uses Kailh Choch Hotswap switches, which also has 3D file and datasheet available;
   - The letter "R" denotes "reversed". All footprints with length equal or greater than 2u use stabilizers. The GMK-compatible stabs used have four holes, two big and two smaller ones; by default the smaller ones are above and the bigger below. In order not to cut the edges of the PCB right on one of those holes the designer may wish to use the smaller ones below (which is quite common, specially in the bottom-most row) in which case one need only use the reversed footprints.
-  - ./switchSlots is a library of plate slots in case you want to build a plate out of FR4 in the same factory as the PCBs. KiCad can also export the cutouts as DXF, so maybe you can also develop metal plates (I have never tested this though).
+
+- ./switchSlots is a library of plate slots in case you want to build a plate out of FR4 in the same factory as the PCBs. KiCad can also export the cutouts as DXF, so maybe you can also develop metal plates (I have never tested this though).
 
 ## FAQ 
 
