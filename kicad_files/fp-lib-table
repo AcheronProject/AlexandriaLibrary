@@ -1,4 +1,0 @@
-(fp_lib_table
-  (lib (name Keyboard_switches)(type KiCad)(uri /home/alvaro/Desktop/MX/Keyboard_switches.pretty)(options "")(descr ""))
-  (lib (name encoders)(type KiCad)(uri /home/alvaro/Desktop/MX/encoders.pretty)(options "")(descr ""))
-)
