@@ -1,8 +1,8 @@
-(module TYPE-C-31-M-13 (layer F.Cu) (tedit 5C3BE182)
+(module TYPE-C-31-M-12 (layer F.Cu) (tedit 5C86A38C)
   (fp_text reference REF** (at 0 -0.889) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value TYPE-C-31-M-13 (at 0 -3.429) (layer F.Fab)
+  (fp_text value TYPE-C-31-M-12 (at 0 -3.429) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start 4.8 8.42) (end -4.8 8.42) (layer Cmts.User) (width 0.15))
@@ -28,8 +28,8 @@
   (pad "" np_thru_hole circle (at 2.89 2.051) (size 0.65 0.65) (drill 0.65) (layers *.Cu *.Mask))
   (pad S1 thru_hole oval (at 4.3 5.7) (size 1 1.6) (drill oval 0.6 1.2) (layers *.Cu *.Mask))
   (pad S1 thru_hole oval (at 4.3 1.5) (size 1 2.1) (drill oval 0.6 1.7) (layers *.Cu *.Mask))
-  (model /home/alvaro/Desktop/MX/3d_models/TYPE-C-31-M-12.step
-    (offset (xyz -4.46 -8.300000000000001 0))
+  (model ":Acheron 3D models:TYPE-C-31-M-12.step"
+    (offset (xyz -4.46 -8.25 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )

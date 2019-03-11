@@ -1,4 +1,4 @@
-(module LED_WS2812B (layer F.Cu) (tedit 5C6DC9E3)
+(module LED_WS2812B (layer F.Cu) (tedit 5C86A25E)
   (descr https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf)
   (tags "LED RGB NeoPixel")
   (attr smd)
@@ -28,7 +28,7 @@
   (pad 2 smd rect (at -2.45 1.6) (size 1.5 1) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd rect (at 2.45 -1.6) (size 1.5 1) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at 2.45 1.6) (size 1.5 1) (layers F.Cu F.Paste F.Mask))
-  (model /home/alvaro/Desktop/MX/3d_models/WS2812_RGB_LED_updated.stp
+  (model ":Acheron 3D models:WS2812.stp"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

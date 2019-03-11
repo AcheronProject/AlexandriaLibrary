@@ -1,4 +1,4 @@
-(module Crystal_SMD_5032-4Pin_5.0x3.2mm (layer F.Cu) (tedit 5C64B31D)
+(module Crystal_SMD_5032-4Pin_5.0x3.2mm (layer F.Cu) (tedit 5C86A292)
   (descr "SMD Crystal SERIES SMD2520/4 http://www.icbase.com/File/PDF/HKC/HKC00061008.pdf, 5.0x3.2mm^2 package")
   (tags "SMD SMT crystal")
   (attr smd)
@@ -50,9 +50,9 @@
       (gr_poly (pts
          (xy -0.85 -0.7) (xy 1.35 -0.7) (xy 1.35 0.7) (xy -0.85 0.7)) (width 0.05))
     ))
-  (model /home/alvaro/Desktop/MX/3d_models/5032_XTAL.step
+  (model ":Acheron 3D models:5032_XTAL.step"
     (at (xyz 0 0 0))
-    (scale (xyz 1.5625 1.5625 1.28))
+    (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )
 )
