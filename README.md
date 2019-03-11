@@ -15,22 +15,26 @@ This library is contains the needed footprint and symbol files used in all the A
 
 In addition, the datasheets and 3D models I use to develop the footprints are also available.
 
-The folder tree is explained below:
+The folder tree is explained below.
 
-- ./components has components like resistors, caps and inductors, transistors, crystals and processors;
+The *./symbols* folder contains the schematic symbols, which main file is *acheronSymbols.lib*.
 
-- ./connectors is self-explanatory;
+The *./footprints* folder contains the footprint files.
 
-- ./hardware contains those devices for human interaction like LEDs, encoders, general purpose switches;
+- *acheronComponents* has components like resistors, caps and inductors, transistors, crystals and processors;
 
-- ./keyboardSwitches is self-explanatory. The footprints in this folder have a specific naming system:
+- *acheronConnectors* is self-explanatory;
+
+- *acheronHardware* contains those devices for human interaction like LEDs, encoders, general purpose switches;
+
+- *acheronKeyboardSwitches* is self-explanatory. The footprints in this folder have a specific naming system:
 
   - The first letters are to denote the switch type: (MX) for MX switches and clones, (AL) for alps and (KC) for Kailh Choc switches. If the footprint supports two types then the prefix has both letters. For example, a footprint that supports MX and Alps would be (MXAL);
   - The next three numbers are the footprint size; (100) for a 1u footprint, (125) for a 1.25u, (2) for a 2u. 
   - The letter "H" denotes "hotswap", meaning the footprint uses a hotswap socket. As far as I know there are no hotswap sockets for Alps switches. For MX switches it uses the Kailh hotswap sockets; their datasheet and 3D models are avaiable in the respective folder. For Kailh Choc switches the footprint uses Kailh Choch Hotswap switches, which also has 3D file and datasheet available;
   - The letter "R" denotes "reversed". All footprints with length equal or greater than 2u use stabilizers. The GMK-compatible stabs used have four holes, two big and two smaller ones; by default the smaller ones are above and the bigger below. In order not to cut the edges of the PCB right on one of those holes the designer may wish to use the smaller ones below (which is quite common, specially in the bottom-most row) in which case one need only use the reversed footprints.
 
-- ./switchSlots is a library of plate slots in case you want to build a plate out of FR4 in the same factory as the PCBs. KiCad can also export the cutouts as DXF, so maybe you can also develop metal plates (I have never tested this though).
+- *acheronSwitchSlots* is a library of plate slots in case you want to build a plate out of FR4 in the same factory as the PCBs. KiCad can also export the cutouts as DXF, so maybe you can also develop metal plates (I have never tested this though).
 
 ## FAQ 
 
