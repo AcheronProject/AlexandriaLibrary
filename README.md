@@ -90,6 +90,16 @@ The folder tree is explained below:
 
 </p></details>
 
+<!-------------------------------------------------------------------->
+
+<details>
+ <summary> <font size="+2"><b> 2019/03/11 (V2.0.1) </b></font></summary>
+ <p>
+
+ <h6> Folders were reorganized, this time for better portability. </h6>
+
+</p></details>
+
 
 ## To-do list
 
