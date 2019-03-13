@@ -1,4 +1,4 @@
-(module smdPushBtn (layer F.Cu) (tedit 5C64A9BF)
+(module smdPushBtn (layer F.Cu) (tedit 5C88654B)
   (descr "ALPS 5.2mm Square Low-profile Type (Surface Mount) SKQG Series, Without stem, http://www.alps.com/prod/info/E/HTML/Tact/SurfaceMount/SKQG/SKQGAEE010.html")
   (tags "SPST Button Switch")
   (attr smd)
@@ -66,7 +66,7 @@
   (pad 1 smd rect (at 3.1 -1.85) (size 1.8 1.1) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -3.1 1.85) (size 1.8 1.1) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 3.1 1.85) (size 1.8 1.1) (layers F.Cu F.Paste F.Mask))
-  (model /home/alvaro/Desktop/MX/3d_models/Tactile_SMD_PushBtn_5x5mm.STEP
+  (model ${ACHERONLIB}/3d_models/Tactile_SMD_PushBtn_5x5mm.STEP
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
