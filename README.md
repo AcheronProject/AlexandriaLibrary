@@ -104,6 +104,16 @@ The *./footprints* folder contains the footprint files.
 
 </p></details>
 
+<!-------------------------------------------------------------------->
+
+<details>
+ <summary> <font size="+2"><b> 2019/03/11 (V2.0.2) </b></font></summary>
+ <p>
+
+ <h6> The slotMX series of switch plate slots were added. These new slots allow the user to open the switch while it it mounted on the plate, giving him access to spring, rails and stem without needing to desolder the switch. </h6>
+
+</p></details>
+
 
 ## To-do list
 
