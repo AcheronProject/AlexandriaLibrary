@@ -114,6 +114,20 @@ The *./footprints* folder contains the footprint files.
 
 </p></details>
 
+<!-------------------------------------------------------------------->
+
+<details>
+ <summary> <font size="+2"><b> 2019/03/25 (V2.0.3) </b></font></summary>
+ <p>
+
+ <h6> Added datasheets for the ATMEGA32U4 procesor, MCP738 battery manager IC, UR133AG LDO, Kailh Choc switches. </h6>
+
+ <h6> Fixed problems with some MX switches footprints. </h6>
+
+ <h6> Added footprints for the Acheron Logos, 4 and 5 pin headers. </h6>
+
+</p></details>
+
 
 ## To-do list
 
