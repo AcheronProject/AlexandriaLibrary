@@ -1,4 +1,4 @@
-(module MX200HR (layer F.Cu) (tedit 5C03062D)
+(module MX200HR (layer F.Cu) (tedit 5C93F48E)
   (fp_text reference SW** (at 0 3.175) (layer Cmts.User)
     (effects (font (size 1 1) (thickness 0.15) italic))
   )
@@ -63,5 +63,10 @@
     (offset (xyz 0.6349999904632568 3.809999942779541 1.904999971389771))
     (scale (xyz 1 1 1))
     (rotate (xyz 180 0 0))
+  )
+  (model ${ACHERONLIB}/3d_models/kailh_socket_mx.stp
+    (offset (xyz 0.6 3.8 1.85))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -180 0 0))
   )
 )

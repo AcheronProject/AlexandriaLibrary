@@ -1,4 +1,4 @@
-(module MDBT40-256RV3 (layer F.Cu) (tedit 5C05A834)
+(module MDBT40-256RV3 (layer F.Cu) (tedit 5C96B2FF)
   (descr "8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)")
   (tags "SOIC 1.27")
   (attr smd)
@@ -427,4 +427,9 @@
   (pad 14 smd roundrect (at -3.500008 7 180) (size 0.4 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.1))
   (pad 24 smd roundrect (at 3.5 7 180) (size 0.4 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.1))
   (pad 1 smd roundrect (at 4.2 7 180) (size 0.4 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.1))
+  (model ${ACHERONLIB}/3d_models/MDBT40.step
+    (offset (xyz 0 -7.365999889373779 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
