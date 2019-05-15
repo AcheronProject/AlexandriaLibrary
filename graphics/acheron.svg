@@ -24,7 +24,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -43,10 +43,10 @@
      inkscape:window-height="1052"
      id="namedview4"
      showgrid="false"
-     inkscape:zoom="0.05573721"
-     inkscape:cx="8528.253"
-     inkscape:cy="-110.10897"
-     inkscape:window-x="1920"
+     inkscape:zoom="0.1767767"
+     inkscape:cx="9789.1604"
+     inkscape:cy="890.72411"
+     inkscape:window-x="0"
      inkscape:window-y="200"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2" />
@@ -132,8 +132,8 @@
      d="m 7577.373,18.385337 c 61.6835,0 88.7872,15.138003 88.7872,15.138003 l -10.6462,35.4398 c 267.687,105.9722 359.0639,342.62792 311.53,691.88443 -76.605,86.72915 -42.1681,202.37731 -2.1019,326.18093 -83.829,297.5463 -284.8708,386.797 -284.8708,386.797 0,0 31.7001,-444.8818 12.6374,-574.3958 l 66.9148,42.32558 135.67,-173.91939 -0.7917,-134.64838 c -128.7428,86.91768 -253.2883,127.65983 -253.2883,127.65983 -33.5326,23.21488 7.5154,204.39483 14.0624,232.15845 0.5683,2.40996 -77.9027,83.04691 -77.9027,83.04691 0,0 -78.471,-80.63695 -77.9027,-83.04691 6.547,-27.76362 47.595,-208.94357 14.0624,-232.15845 l -138.3464,-62.40878 1.4015,-193.58329 -49.6954,167.8438 c 0,0 -39.1169,-20.92461 -66.648,-39.51156 l -0.7917,134.64838 36.3361,47.28238 -6.3407,175.94775 45.1088,-127.77434 60.5658,78.4636 66.9148,-42.32558 c -19.0627,129.514 12.6374,574.3958 12.6374,574.3958 0,0 -201.0418,-89.2507 -284.8708,-386.797 40.0662,-123.80362 74.5031,-239.45178 -2.1019,-326.18093 -47.5339,-349.25651 43.843,-585.91223 311.53,-691.88443 l -10.6462,-35.4398 c 0,0 27.1037,-15.138003 88.7872,-15.138003"
      style="fill:none;stroke:#000000;stroke-width:11.33858299;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      inkscape:export-filename="/home/alvaro/Desktop/AcheronProject/acheronLibrary/graphics/acheronLogo.png"
-     inkscape:export-xdpi="1000"
-     inkscape:export-ydpi="1000" />
+     inkscape:export-xdpi="100"
+     inkscape:export-ydpi="100" />
   <text
      id="text987"
      y="1790.3219"
@@ -141,8 +141,8 @@
      style="font-style:normal;font-weight:normal;font-size:334.04519653px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:8.35113049"
      xml:space="preserve"
      inkscape:export-filename="/home/alvaro/Desktop/AcheronProject/acheronLibrary/graphics/acheronLogo.png"
-     inkscape:export-xdpi="1000"
-     inkscape:export-ydpi="1000"><tspan
+     inkscape:export-xdpi="100"
+     inkscape:export-ydpi="100"><tspan
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Standard Symbols PS';-inkscape-font-specification:'Standard Symbols PS';text-align:center;text-anchor:middle;stroke-width:8.35113049"
        id="tspan985"
        y="1790.3219"
@@ -155,8 +155,8 @@
      d="m 7525.4419,22.866907 c 0,-79.290254 -12.3639,-282.907337 -229.5122,-409.832097 37.004,-64.47668 163.5398,-125.52219 281.4435,-125.52219 38.1523,0 91.6962,10.21569 104.3112,14.98136 l -11.4651,129.02392 58.4214,-111.29598 c 15.6987,3.08367 107.7372,53.71502 130.176,92.81289 -217.1483,126.92476 -229.5122,330.541843 -229.5122,409.832097"
      style="fill:none;stroke:#000000;stroke-width:11.33858299;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
      inkscape:export-filename="/home/alvaro/Desktop/AcheronProject/acheronLibrary/graphics/acheronLogo.png"
-     inkscape:export-xdpi="1000"
-     inkscape:export-ydpi="1000" />
+     inkscape:export-xdpi="100"
+     inkscape:export-ydpi="100" />
   <path
      style="fill:#000000;stroke:#000000;stroke-width:11.33858299;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1"
      d="m 9569.1442,18.385337 c 61.6835,0 88.7872,15.138003 88.7872,15.138003 l -10.6462,35.4398 c 267.687,105.9722 359.0638,342.62792 311.53,691.88443 -76.605,86.72915 -42.1681,202.37731 -2.1019,326.18093 -83.829,297.5463 -284.8708,386.797 -284.8708,386.797 0,0 31.7001,-444.8818 12.6374,-574.3958 l 66.9148,42.32558 135.67,-173.91939 -0.7917,-134.64838 c -128.7428,86.91768 -253.2883,127.65983 -253.2883,127.65983 -33.5326,23.21488 7.5154,204.39483 14.0624,232.15845 0.5683,2.40996 -77.9027,83.04691 -77.9027,83.04691 0,0 -78.471,-80.63695 -77.9027,-83.04691 6.547,-27.76362 47.595,-208.94357 14.0624,-232.15845 l -138.3464,-62.40878 1.4015,-193.58329 -49.6954,167.8438 c 0,0 -39.1169,-20.92461 -66.648,-39.51156 l -0.7917,134.64838 36.3361,47.28238 -6.3407,175.94775 45.1088,-127.77434 60.5658,78.4636 66.9148,-42.32558 c -19.0627,129.514 12.6374,574.3958 12.6374,574.3958 0,0 -201.0418,-89.2507 -284.8708,-386.797 40.0662,-123.80362 74.5031,-239.45178 -2.1019,-326.18093 -47.5339,-349.25651 43.843,-585.91223 311.53,-691.88443 l -10.6462,-35.4398 c 0,0 27.1037,-15.138003 88.7872,-15.138003"
@@ -175,4 +175,42 @@
      inkscape:export-filename="/home/alvaro/Desktop/AcheronProject/acheronLibrary/graphics/acheronLogoFilled.png"
      inkscape:export-xdpi="1000"
      inkscape:export-ydpi="1000" />
+  <path
+     style="fill:none;stroke:#ff0000;stroke-width:3.77952766;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 3982.416,22.866907 c 0,-79.290254 -12.3639,-282.907337 -229.5122,-409.832097 37.004,-64.47668 163.5398,-125.52219 280.4303,-125.52219"
+     id="path4661"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ccc" />
+  <path
+     inkscape:export-ydpi="100"
+     inkscape:export-xdpi="100"
+     inkscape:export-filename="/home/alvaro/Desktop/AcheronProject/acheronLibrary/graphics/acheronLogo.png"
+     style="fill:none;stroke:#000000;stroke-width:6.09302187;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 11377.082,532.72253 c 33.148,0 47.712,8.13472 47.712,8.13472 l -5.721,19.04431 c 143.847,56.94635 192.951,184.11819 167.407,371.79839 -41.165,46.6057 -22.66,108.75155 -1.129,175.28005 -45.047,159.8926 -153.081,207.8533 -153.081,207.8533 0,0 17.034,-239.0664 6.791,-308.6634 l 35.958,22.7445 72.905,-93.45915 -0.426,-72.3561 c -69.182,46.707 -136.109,68.6007 -136.109,68.6007 -18.02,12.475 4.038,109.83575 7.556,124.75505 0.306,1.2951 -41.862,44.627 -41.862,44.627 0,0 -42.168,-43.3319 -41.863,-44.627 3.518,-14.9193 25.576,-112.28005 7.557,-124.75505 l -74.343,-33.5367 0.752,-104.026 -26.704,90.1944 c 0,0 -21.021,-11.2443 -35.815,-21.2324 l -0.425,72.3561 19.525,25.4082 -3.407,94.54905 24.241,-68.66205 32.546,42.16395 35.958,-22.7445 c -10.244,69.597 6.791,308.6634 6.791,308.6634 0,0 -108.034,-47.9607 -153.081,-207.8533 21.53,-66.5285 40.035,-128.67435 -1.13,-175.28005 -25.543,-187.6802 23.56,-314.85204 167.407,-371.79839 l -5.721,-19.04431 c 0,0 14.565,-8.13472 47.712,-8.13472"
+     id="path899"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cccccccccccscsccccccccccccccccc" />
+  <text
+     inkscape:export-ydpi="100"
+     inkscape:export-xdpi="100"
+     inkscape:export-filename="/home/alvaro/Desktop/AcheronProject/acheronLibrary/graphics/acheronLogo.png"
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:179.50608826px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4.4876523"
+     x="11376.724"
+     y="1484.9093"
+     id="text903"><tspan
+       sodipodi:role="line"
+       x="11399.162"
+       y="1484.9093"
+       id="tspan901"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Standard Symbols PS';-inkscape-font-specification:'Standard Symbols PS';text-align:center;text-anchor:middle;stroke-width:4.4876523">Acerwn </tspan></text>
+  <path
+     inkscape:export-ydpi="100"
+     inkscape:export-xdpi="100"
+     inkscape:export-filename="/home/alvaro/Desktop/AcheronProject/acheronLibrary/graphics/acheronLogo.png"
+     style="fill:none;stroke:#000000;stroke-width:6.09302187;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 11349.176,535.13079 c 0,-42.60825 -6.644,-152.0261 -123.333,-220.23174 19.885,-34.64788 87.882,-67.45195 151.24,-67.45195 20.502,0 49.275,5.48962 56.054,8.05055 l -6.161,69.33367 31.393,-59.8072 c 8.437,1.65708 57.895,28.86488 69.953,49.87493 -116.689,68.20564 -123.333,177.62349 -123.333,220.23174"
+     id="path905"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cccccccc" />
 </svg>
