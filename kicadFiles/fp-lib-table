@@ -6,6 +6,6 @@
   (lib (name acheronLogos)(type KiCad)(uri ${ACHERONLIB}/footprints/acheronLogos.pretty)(options "")(descr ""))
   (lib (name acheronMountingHoles)(type KiCad)(uri ${ACHERONLIB}/footprints/acheronMountingHoles.pretty)(options "")(descr ""))
   (lib (name acheronSwitchSlots)(type KiCad)(uri ${ACHERONLIB}/footprints/acheronSwitchSlots.pretty)(options "")(descr ""))
-  (lib (name austinLogo)(type KiCad)(uri /home/alvaro/Desktop/AcheronProject/DB01/graphics/austinLogo.pretty)(options "")(descr ""))
+  (lib (name austinLogo)(type KiCad)(uri /home/alvaro/Desktop/AcheronProject/Austin/graphics/austinLogo.pretty)(options "")(descr ""))
   (lib (name oshLogo)(type KiCad)(uri ${ACHERONLIB}/footprints/oshLogo.pretty)(options "")(descr ""))
 )

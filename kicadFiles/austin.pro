@@ -1,4 +1,4 @@
-update=Sat 08 Jun 2019 07:00:26 PM -03
+update=Tue 11 Jun 2019 09:06:12 PM -03
 version=1
 last_client=kicad
 [general]
@@ -29,7 +29,7 @@ MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
 TrackWidth1=0.25
-TrackWidth2=0.2
+TrackWidth2=0.25
 TrackWidth3=0.5
 TrackWidth4=1
 ViaDiameter1=0.5
@@ -242,17 +242,6 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
-Name=Fine
-Clearance=0.13
-TrackWidth=0.2
-ViaDiameter=0.45
-ViaDrill=0.3
-uViaDiameter=0.3
-uViaDrill=0.1
-dPairWidth=0.2
-dPairGap=0.25
-dPairViaGap=0.25
-[pcbnew/Netclasses/2]
 Name=Thicc Boi
 Clearance=0.25
 TrackWidth=1
@@ -263,7 +252,7 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[pcbnew/Netclasses/3]
+[pcbnew/Netclasses/2]
 Name=Thick
 Clearance=0.5
 TrackWidth=0.25
