@@ -6,8 +6,8 @@ $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
 Title "AustinPCB"
-Date "2019-06-06"
-Rev "1.0"
+Date "2019-06-20"
+Rev "1.2"
 Comp "Designed by Gondolindrim"
 Comment1 "In partnership with driftingbunnies and PheonixStar"
 Comment2 ""
@@ -8286,4 +8286,15 @@ Wire Notes Line width 20
 	15100 8750 15100 11025
 Wire Notes Line width 20
 	15100 8750 18075 8750
+$Comp
+L Mechanical:MountingHole L4
+U 1 1 5D1C668A
+P 10775 14975
+F 0 "L4" H 10875 15021 50  0000 L CNN
+F 1 "AustinLogoPlated" H 10875 14930 50  0000 L CNN
+F 2 "austinLogo:austinLogo_16x40_Plated" H 10775 14975 50  0001 C CNN
+F 3 "~" H 10775 14975 50  0001 C CNN
+	1    10775 14975
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

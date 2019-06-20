@@ -1,4 +1,4 @@
-15910678242522376
+15912242578547376
 acheronComponents
 AO4406AL
 8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
@@ -186,8 +186,8 @@ bluePill
 
 
 0
-40
-39
+50
+49
 acheronHardware
 MDBT40-256RV3
 8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
@@ -594,6 +594,13 @@ austinLogoSmall
 0
 0
 0
+austinLogo
+austinLogo_16x40_Plated
+
+
+0
+5
+1
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
