@@ -1,12 +1,12 @@
-(module austinLogo_16x40_Plated (layer F.Cu) (tedit 5D0B9393)
+(module austinLogo_16x40_Plated (layer F.Cu) (tedit 5D0FAC83)
   (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
     (effects (font (size 1.524 1.524) (thickness 0.3)))
   )
   (fp_text value LOGO (at 0.75 0) (layer F.SilkS) hide
     (effects (font (size 1.524 1.524) (thickness 0.3)))
   )
-  (pad 1 smd custom (at 12.954 -2.413) (size 0.5 0.5) (layers F.Cu F.Paste F.Mask)
-    (zone_connect 0)
+  (pad 1 smd custom (at 12.954 -2.413) (size 0.5 0.5) (layers F.Cu F.Mask)
+    (clearance 1) (zone_connect 0)
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_poly (pts
@@ -20,8 +20,8 @@
          (xy -0.230666 -0.346423) (xy -0.137687 -0.419415) (xy -0.055549 -0.466708) (xy -0.017011 -0.483347) (xy 0.017645 -0.493731)
          (xy 0.056618 -0.49928) (xy 0.108106 -0.501416) (xy 0.14605 -0.50165) (xy 0.220035 -0.499489)) (width 0.01))
     ))
-  (pad 1 smd custom (at 10.287 1.143) (size 0.5 0.5) (layers F.Cu F.Paste F.Mask)
-    (zone_connect 0)
+  (pad 1 smd custom (at 10.287 1.143) (size 0.5 0.5) (layers F.Cu F.Mask)
+    (clearance 1) (zone_connect 0)
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_poly (pts
@@ -139,8 +139,8 @@
          (xy 0.751281 -4.757714) (xy 0.782864 -4.770627) (xy 0.814927 -4.777775) (xy 0.855458 -4.780851) (xy 0.912441 -4.781547)
          (xy 0.92075 -4.78155) (xy 0.984079 -4.780606)) (width 0.01))
     ))
-  (pad 1 smd custom (at 5.588 -0.508) (size 0.5 0.5) (layers F.Cu F.Paste F.Mask)
-    (zone_connect 0)
+  (pad 1 smd custom (at 5.588 -0.508) (size 0.5 0.5) (layers F.Cu F.Mask)
+    (clearance 1) (zone_connect 0)
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_poly (pts
@@ -193,8 +193,8 @@
          (xy 0.8763 -1.109007) (xy 1.051018 -1.160872) (xy 1.208496 -1.202559) (xy 1.354411 -1.234845) (xy 1.494441 -1.258504)
          (xy 1.634263 -1.274312) (xy 1.779554 -1.283043) (xy 1.935991 -1.285474) (xy 2.109253 -1.282379)) (width 0.01))
     ))
-  (pad 1 smd custom (at 0.508 1.905) (size 0.5 0.5) (layers F.Cu F.Paste F.Mask)
-    (zone_connect 0)
+  (pad 1 smd custom (at 0.508 1.905) (size 0.5 0.5) (layers F.Cu F.Mask)
+    (clearance 1) (zone_connect 0)
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_poly (pts
@@ -244,8 +244,8 @@
          (xy 0.988136 -3.397155) (xy 1.020767 -3.437174) (xy 1.043462 -3.460715) (xy 1.124136 -3.514017) (xy 1.214933 -3.548615)
          (xy 1.310294 -3.563676) (xy 1.404664 -3.558365)) (width 0.01))
     ))
-  (pad 1 smd custom (at 1.778 -5.08) (size 0.5 0.5) (layers F.Cu F.Paste F.Mask)
-    (zone_connect 0)
+  (pad 1 smd custom (at 1.778 -5.08) (size 0.5 0.5) (layers F.Cu F.Mask)
+    (clearance 1) (zone_connect 0)
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_poly (pts
