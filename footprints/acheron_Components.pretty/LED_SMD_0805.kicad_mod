@@ -1,9 +1,9 @@
-(module smdLed0805 (layer F.Cu) (tedit 5BFDBD9E)
+(module LED_SMD_0805 (layer F.Cu) (tedit 5D222D6F)
   (fp_text reference LED** (at 0 -1.905) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15) italic))
   )
-  (fp_text value smdLed0805 (at 0 1.524) (layer F.Fab) hide
-    (effects (font (size 1 1) (thickness 0.15)))
+  (fp_text value LED_SMD_0805 (at 0 1.8) (layer F.Fab) hide
+    (effects (font (size 0.6 0.6) (thickness 0.15)))
   )
   (fp_line (start 0.7112 -0.635) (end -0.7112 -0.635) (layer Edge.Cuts) (width 0.0254))
   (fp_line (start 0.762 -0.5842) (end 0.762 0.5842) (layer Edge.Cuts) (width 0.0254))
@@ -32,6 +32,12 @@
   (fp_arc (start -2.032 0.508) (end -2.032 0.73025) (angle 97.1) (layer F.SilkS) (width 0.127))
   (fp_line (start -2.252546 -0.53547) (end -2.252546 0.48053) (layer F.SilkS) (width 0.127))
   (fp_arc (start -2.030296 -0.508) (end -2.252546 -0.508) (angle 97.1) (layer F.SilkS) (width 0.127))
+  (fp_text user K (at 3.2 0) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text user A (at -3 0) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (pad A smd roundrect (at -1.524 0) (size 1.27 1.27) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.1))
   (pad K smd custom (at 1.524 0) (size 1.27 1.27) (layers F.Cu F.Paste F.Mask)
     (zone_connect 0)
