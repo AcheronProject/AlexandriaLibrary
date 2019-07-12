@@ -2182,18 +2182,18 @@ Wire Notes Line
 	7975 12250 7975 13225
 Text GLabel 7925 15125 0    50   Input ~ 0
 3.3V
-Text GLabel 21650 12675 2    50   Input ~ 0
+Text GLabel 21650 12775 2    50   Input ~ 0
 Row3
 Text GLabel 21650 12175 2    50   Input ~ 0
 Row2
 Wire Wire Line
 	21650 12175 21575 12175
-Text GLabel 21650 12775 2    50   Input ~ 0
+Text GLabel 21650 10475 2    50   Input ~ 0
 Row4
 Wire Wire Line
-	21650 12775 21575 12775
+	21650 10475 21575 10475
 Wire Wire Line
-	21650 12675 21575 12675
+	21650 12775 21575 12775
 Wire Wire Line
 	21650 12975 21575 12975
 Text GLabel 21650 13175 2    50   Input ~ 0
@@ -7063,14 +7063,14 @@ F 3 "" H 20525 13500 50  0001 C CNN
 	1    20525 13500
 	1    0    0    -1  
 $EndComp
-Text GLabel 21650 11475 2    50   Input ~ 0
+Text GLabel 21650 11575 2    50   Input ~ 0
 Col2
 Text GLabel 21650 11675 2    50   Input ~ 0
 Col3
 Wire Wire Line
 	21650 11675 21575 11675
 Wire Wire Line
-	21650 11475 21575 11475
+	21650 11575 21575 11575
 Text GLabel 21650 10975 2    50   Input ~ 0
 Col14
 Wire Wire Line
@@ -7091,10 +7091,10 @@ Text GLabel 19350 10925 0    50   Input ~ 0
 Col19
 Wire Wire Line
 	19350 10925 19425 10925
-Text GLabel 21650 10475 2    50   Input ~ 0
+Text GLabel 21650 10575 2    50   Input ~ 0
 Row5
 Wire Wire Line
-	21650 10475 21575 10475
+	21650 10575 21575 10575
 Wire Wire Line
 	11300 13500 11400 13500
 Wire Wire Line
@@ -7948,8 +7948,8 @@ Wire Wire Line
 Text GLabel 21650 10775 2    50   Input ~ 0
 Col12
 Wire Wire Line
-	21650 10575 21575 10575
-Text GLabel 21650 10575 2    50   Input ~ 0
+	21650 10675 21575 10675
+Text GLabel 21650 10675 2    50   Input ~ 0
 Row6
 Text Notes 16225 12350 0    50   ~ 0
 CBs for "Capacitors - Bypass"
@@ -7972,12 +7972,12 @@ Wire Wire Line
 Text GLabel 21650 10875 2    50   Input ~ 0
 Col13
 Wire Wire Line
-	21650 11575 21575 11575
-Text GLabel 21650 11575 2    50   Output ~ 0
+	21650 12675 21575 12675
+Text GLabel 21650 12675 2    50   Output ~ 0
 LED_PWM
 Wire Wire Line
-	21650 10675 21575 10675
-Text GLabel 21650 10675 2    50   Input ~ 0
+	21650 11475 21575 11475
+Text GLabel 21650 11475 2    50   Input ~ 0
 Col1
 $Comp
 L Device:R_Small RI1
