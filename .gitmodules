@@ -1,0 +1,3 @@
+[submodule "kicadFiles/AcheronLibrary"]
+	path = kicadFiles/AcheronLibrary
+	url = https://github.com/Gondolindrim/AcheronLibrary
