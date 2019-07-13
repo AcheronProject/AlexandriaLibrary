@@ -2324,7 +2324,7 @@ Wire Notes Line width 20
 	10700 9150 12575 9150
 Wire Notes Line width 20
 	12575 10225 10700 10225
-Text Notes 10875 10150 0    150  Italic 30
+Text Notes 10775 10150 0    100  Italic 20
 I2C Connector
 Text GLabel 21650 11075 2    50   Input ~ 0
 SCL
@@ -2365,8 +2365,8 @@ Wire Notes Line width 20
 	12675 9125 14550 9125
 Wire Notes Line width 20
 	14550 10200 12675 10200
-Text Notes 12725 10125 0    100  Italic 20
-Serial programming
+Text Notes 12725 10150 0    100  Italic 20
+SWD
 Wire Notes Line width 20
 	14550 10200 14550 9125
 Wire Notes Line width 20
@@ -7437,7 +7437,7 @@ $Comp
 L acheronSymbols:LED LED72
 U 1 1 5DA221B4
 P 4400 11275
-F 0 "LED72" V 4275 11300 20  0000 L CNN
+F 0 "LED72" V 4275 11125 20  0000 L CNN
 F 1 "LED" V 4250 11300 20  0001 L CNN
 F 2 "acheronComponents:LED_THT_2.54mm" H 4400 11275 50  0001 C CNN
 F 3 "" H 4400 11275 50  0001 C CNN
@@ -7846,7 +7846,7 @@ Wire Wire Line
 Connection ~ 4700 10925
 Connection ~ 4700 11425
 Wire Wire Line
-	4400 11425 4700 11425
+	4400 11425 4450 11425
 Wire Wire Line
 	4400 10925 4700 10925
 $Comp
@@ -8344,12 +8344,12 @@ Connection ~ 15600 3775
 Wire Wire Line
 	14100 5175 14225 5175
 $Comp
-L acheronSymbols:MXSwitch SW?
+L acheronSymbols:MXSwitch SW114
 U 1 1 5E9FC89A
 P 14575 5150
-F 0 "SW?" H 14575 5025 50  0000 C CNN
+F 0 "SW114" H 14575 5025 50  0000 C CNN
 F 1 "MXSwitch" V 15000 5000 39  0000 L CNN
-F 2 "acheron_MX:MX225" H 14575 5150 50  0001 C CNN
+F 2 "acheron_MX:MX100" H 14575 5150 50  0001 C CNN
 F 3 "" H 14575 5150 50  0001 C CNN
 	1    14575 5150
 	1    0    0    -1  
@@ -8364,4 +8364,40 @@ Wire Wire Line
 	14225 5175 14250 5175
 Text Notes 14400 5225 0    50   ~ 0
 ISO Tilde
+$Comp
+L acheronSymbols:LED LED115
+U 1 1 5EC374A6
+P 4450 11275
+F 0 "LED115" V 4325 11325 20  0000 L CNN
+F 1 "LED" V 4300 11300 20  0001 L CNN
+F 2 "acheronComponents:LED_THT_2.54mm" H 4450 11275 50  0001 C CNN
+F 3 "" H 4450 11275 50  0001 C CNN
+	1    4450 11275
+	0    1    1    0   
+$EndComp
+Connection ~ 4450 11425
+Wire Wire Line
+	4450 11425 4700 11425
+Wire Wire Line
+	4450 11125 4400 11125
+Connection ~ 4400 11125
+$Comp
+L Mechanical:MountingHole L6
+U 1 1 5EDE1DF1
+P 10775 15400
+F 0 "L6" H 10875 15446 50  0000 L CNN
+F 1 "Austin Label Mask" H 10875 15355 50  0000 L CNN
+F 2 "austinLogo:austinLabelMask" H 10775 15400 50  0001 C CNN
+F 3 "~" H 10775 15400 50  0001 C CNN
+	1    10775 15400
+	1    0    0    -1  
+$EndComp
+Wire Notes Line width 20
+	10700 9950 11975 9950
+Wire Notes Line width 20
+	11975 9950 11975 10225
+Wire Notes Line width 20
+	12675 9950 13125 9950
+Wire Notes Line width 20
+	13125 9950 13125 10225
 $EndSCHEMATC
