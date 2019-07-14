@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AO4407A
+D P-MOSFET transistor, drain/gate/source
+K transistor PMOS P-MOS P-MOSFET
+F ~
+$ENDCMP
+#
 $CMP TYPE-C-31-M12_13
 D USB Full-Featured Type-C Receptacle connector
 K usb universal serial bus type-C full-featured
