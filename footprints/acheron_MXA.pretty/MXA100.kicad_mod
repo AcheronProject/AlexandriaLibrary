@@ -1,4 +1,4 @@
-(module MXA100 (layer F.Cu) (tedit 5D21048A)
+(module MXA100 (layer F.Cu) (tedit 5D377187)
   (fp_text reference SW** (at 0 3.175) (layer Cmts.User)
     (effects (font (size 1 1) (thickness 0.15) italic))
   )
