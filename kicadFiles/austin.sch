@@ -2180,18 +2180,18 @@ Wire Notes Line
 	7975 12250 7975 13225
 Text GLabel 7925 15125 0    50   Input ~ 0
 3.3V
-Text GLabel 21650 12775 2    50   Input ~ 0
+Text GLabel 21650 12675 2    50   Input ~ 0
 Row3
-Text GLabel 21650 12175 2    50   Input ~ 0
+Text GLabel 21650 12475 2    50   Input ~ 0
 Row2
 Wire Wire Line
-	21650 12175 21575 12175
-Text GLabel 21650 10475 2    50   Input ~ 0
+	21650 12475 21575 12475
+Text GLabel 21650 12775 2    50   Input ~ 0
 Row4
 Wire Wire Line
-	21650 10475 21575 10475
-Wire Wire Line
 	21650 12775 21575 12775
+Wire Wire Line
+	21650 12675 21575 12675
 Wire Wire Line
 	21650 12975 21575 12975
 Text GLabel 21650 13175 2    50   Input ~ 0
@@ -2284,60 +2284,6 @@ Text Notes 19675 14475 0    150  Italic 30
 MCU
 Wire Notes Line width 20
 	15100 11025 18075 11025
-$Comp
-L Connector:Conn_01x04_Male J2
-U 1 1 5C8FE384
-P 11150 9625
-F 0 "J2" H 11256 9903 50  0000 C CNN
-F 1 "Conn_01x04_Male" H 11256 9812 50  0000 C CNN
-F 2 "acheronConnectors:HEADER_4PIN" H 11150 9625 50  0001 C CNN
-F 3 "~" H 11150 9625 50  0001 C CNN
-	1    11150 9625
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11350 9525 11425 9525
-Text GLabel 11425 9525 2    50   Input ~ 0
-5V
-Wire Wire Line
-	11350 9825 11425 9825
-$Comp
-L power:GND #PWR0102
-U 1 1 5C9D3CEB
-P 11425 9825
-F 0 "#PWR0102" H 11425 9575 50  0001 C CNN
-F 1 "GND" V 11430 9697 50  0000 R CNN
-F 2 "" H 11425 9825 50  0001 C CNN
-F 3 "" H 11425 9825 50  0001 C CNN
-	1    11425 9825
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	11350 9625 11425 9625
-Text GLabel 11425 9625 2    50   Input ~ 0
-SDA
-Text GLabel 11425 9725 2    50   Input ~ 0
-SCL
-Wire Wire Line
-	11425 9725 11350 9725
-Wire Notes Line width 20
-	10700 9150 12575 9150
-Wire Notes Line width 20
-	12575 10225 10700 10225
-Text Notes 10775 10150 0    100  Italic 20
-I2C Connector
-Text GLabel 21650 11075 2    50   Input ~ 0
-SCL
-Text GLabel 21650 11175 2    50   Input ~ 0
-SDA
-Wire Wire Line
-	21650 11075 21575 11075
-Wire Wire Line
-	21575 11175 21650 11175
-Wire Notes Line width 20
-	12575 10225 12575 9150
-Wire Notes Line width 20
-	10700 10225 10700 9150
 Wire Notes Line width 20
 	10225 14125 10225 15850
 Wire Notes Line width 20
@@ -7061,14 +7007,14 @@ F 3 "" H 20525 13500 50  0001 C CNN
 	1    20525 13500
 	1    0    0    -1  
 $EndComp
-Text GLabel 21650 11575 2    50   Input ~ 0
+Text GLabel 21650 11475 2    50   Input ~ 0
 Col2
 Text GLabel 21650 11675 2    50   Input ~ 0
 Col3
 Wire Wire Line
 	21650 11675 21575 11675
 Wire Wire Line
-	21650 11575 21575 11575
+	21650 11475 21575 11475
 Text GLabel 21650 10975 2    50   Input ~ 0
 Col14
 Wire Wire Line
@@ -7089,10 +7035,10 @@ Text GLabel 19350 10925 0    50   Input ~ 0
 Col19
 Wire Wire Line
 	19350 10925 19425 10925
-Text GLabel 21650 10575 2    50   Input ~ 0
+Text GLabel 21650 10475 2    50   Input ~ 0
 Row5
 Wire Wire Line
-	21650 10575 21575 10575
+	21650 10475 21575 10475
 Wire Wire Line
 	11300 13500 11400 13500
 Wire Wire Line
@@ -7942,8 +7888,8 @@ Wire Wire Line
 Text GLabel 21650 10775 2    50   Input ~ 0
 Col12
 Wire Wire Line
-	21650 10675 21575 10675
-Text GLabel 21650 10675 2    50   Input ~ 0
+	21650 10575 21575 10575
+Text GLabel 21650 10575 2    50   Input ~ 0
 Row6
 Text Notes 16225 12350 0    50   ~ 0
 CBs for "Capacitors - Bypass"
@@ -7955,10 +7901,10 @@ Wire Wire Line
 	21650 12875 21575 12875
 Text GLabel 21650 12875 2    50   Input ~ 0
 Col7
-Text GLabel 21650 12275 2    50   Input ~ 0
+Text GLabel 21650 12375 2    50   Input ~ 0
 Col16
 Wire Wire Line
-	21650 12275 21575 12275
+	21650 12375 21575 12375
 Text GLabel 21650 11775 2    50   Input ~ 0
 Col4
 Wire Wire Line
@@ -7966,12 +7912,12 @@ Wire Wire Line
 Text GLabel 21650 10875 2    50   Input ~ 0
 Col13
 Wire Wire Line
-	21650 12675 21575 12675
-Text GLabel 21650 12675 2    50   Output ~ 0
+	21650 11175 21575 11175
+Text GLabel 21650 11175 2    50   Output ~ 0
 LED_PWM
 Wire Wire Line
-	21650 11475 21575 11475
-Text GLabel 21650 11475 2    50   Input ~ 0
+	21650 10675 21575 10675
+Text GLabel 21650 10675 2    50   Input ~ 0
 Col1
 $Comp
 L Device:R_Small RI1
@@ -8092,17 +8038,17 @@ Text GLabel 16925 13700 1    50   Input ~ 0
 CAPSLCK
 Text Notes 3750 13500 0    50   ~ 0
 RGP for "Gate Parallel"\nRGS for "Gate Series"
-Text GLabel 19350 10825 0    50   Input ~ 0
+Text GLabel 21650 12075 2    50   Input ~ 0
 SCRLLCK
 Wire Wire Line
-	19350 10825 19425 10825
-Text GLabel 21650 12375 2    50   Input ~ 0
+	21650 12075 21575 12075
+Text GLabel 21650 12175 2    50   Input ~ 0
 CAPSLCK
 Wire Wire Line
-	21575 12375 21650 12375
+	21575 12175 21650 12175
 Wire Wire Line
-	21650 12475 21575 12475
-Text GLabel 21650 12475 2    50   Input ~ 0
+	21650 12275 21575 12275
+Text GLabel 21650 12275 2    50   Input ~ 0
 NUMLCK
 $Comp
 L Regulator_Linear:TLV1117-33 U2
@@ -8137,17 +8083,6 @@ F 3 "~" H 10775 14975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0109
-U 1 1 5D2771A8
-P 21600 12075
-F 0 "#PWR0109" H 21600 11825 50  0001 C CNN
-F 1 "GND" V 21600 11875 50  0000 C CNN
-F 2 "" H 21600 12075 50  0001 C CNN
-F 3 "" H 21600 12075 50  0001 C CNN
-	1    21600 12075
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:GND #PWR0110
 U 1 1 5D37D0BF
 P 21600 11375
@@ -8160,8 +8095,6 @@ F 3 "" H 21600 11375 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	21600 11375 21575 11375
-Wire Wire Line
-	21600 12075 21575 12075
 Wire Notes Line width 20
 	1250 7700 3050 7700
 Wire Notes Line width 20
@@ -8393,10 +8326,6 @@ F 3 "~" H 10775 15400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Notes Line width 20
-	10700 9950 11975 9950
-Wire Notes Line width 20
-	11975 9950 11975 10225
-Wire Notes Line width 20
 	12675 9950 13125 9950
 Wire Notes Line width 20
 	13125 9950 13125 10225
@@ -8411,4 +8340,17 @@ F 3 "~" H 10775 14350 50  0001 C CNN
 	1    10775 14350
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 5DCDF6A1
+P 19400 10825
+F 0 "#PWR0109" H 19400 10575 50  0001 C CNN
+F 1 "GND" V 19400 10625 50  0000 C CNN
+F 2 "" H 19400 10825 50  0001 C CNN
+F 3 "" H 19400 10825 50  0001 C CNN
+	1    19400 10825
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	19400 10825 19425 10825
 $EndSCHEMATC
