@@ -7015,7 +7015,7 @@ Wire Notes Line width 20
 Wire Notes Line width 20
 	625  8275 7150 8275
 $Comp
-L acheronSymbols:STM32F072_LQFP48 U1
+L austin-rescue:STM32F072_LQFP48-acheronSymbols U1
 U 1 1 6623D717
 P 20525 11725
 F 0 "U1" H 20975 13775 50  0000 C CNB
@@ -8400,4 +8400,15 @@ Wire Notes Line width 20
 	12675 9950 13125 9950
 Wire Notes Line width 20
 	13125 9950 13125 10225
+$Comp
+L Mechanical:MountingHole L1
+U 1 1 5D596B36
+P 10775 14350
+F 0 "L1" H 10875 14396 50  0000 L CNN
+F 1 "Drift Mechanics Logo" H 10875 14305 50  0000 L CNN
+F 2 "austinLogo:driftMechanics_logo" H 10775 14350 50  0001 C CNN
+F 3 "~" H 10775 14350 50  0001 C CNN
+	1    10775 14350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
