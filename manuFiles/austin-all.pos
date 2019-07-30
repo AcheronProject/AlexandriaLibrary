@@ -1,11 +1,10 @@
-### Module positions - created on Sun 28 Jul 2019 09:22:23 PM -03 ###
+### Module positions - created on Mon 29 Jul 2019 10:31:50 PM -03 ###
 ### Printed by Pcbnew version kicad 5.1.2
 ## Unit = mm, Angle = deg.
 ## Side : All
 # Ref     Val               Package                                              PosX       PosY       Rot  Side
 CRI1      100n              C_0805_2012Metric_Pad1.15x1.40mm_HandSolder      246.7500   -12.0000  270.0000  bottom
 CRO1      100n              C_0805_2012Metric_Pad1.15x1.40mm_HandSolder      262.0000   -12.0000  270.0000  bottom
-CSH1      4.7n              C_0805_2012Metric_Pad1.15x1.40mm_HandSolder      186.8000    13.9500    0.0000  bottom
 DF1       RB060M-60TR       D_SOD-123                                        174.0437     0.7719    0.0000  bottom
 DS33      1N4007            D_SOD-123                                        265.0000   -11.5000  270.0000  bottom
 F1        1A                Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder   173.8000     4.6000  180.0000  bottom
@@ -26,7 +25,7 @@ RL11      360               R_SMD_1026                                       214
 RL12      360               R_SMD_1026                                       233.3625     0.0000  270.0000  bottom
 RL13      360               R_SMD_1026                                       252.4000    -0.3125  270.0000  bottom
 RL14      360               R_SMD_1026                                       257.0000    -0.2000  270.0000  bottom
-RL15      360               R_SMD_1026                                       300.0388     0.0000  270.0000  bottom
+RL15      360               R_SMD_1026                                       299.0000    -3.0000  270.0000  bottom
 RL16      360               R_SMD_1026                                       323.8500     0.0000  270.0000  bottom
 RL17      360               R_SMD_1026                                       342.9000     0.0000  270.0000  bottom
 RL18      360               R_SMD_1026                                       361.9515     2.3813   90.0000  bottom
@@ -86,7 +85,7 @@ RL75      360               R_SMD_1026                                       323
 RL76      360               R_SMD_1026                                       342.9000   -61.9125  270.0000  bottom
 RL77      360               R_SMD_1026                                       361.0000   -57.5000  270.0000  bottom
 RL78      360               R_SMD_1026                                       370.8000   -72.0000  180.0000  bottom
-RL79      360               R_SMD_1026                                        25.0031   -80.9625  270.0000  bottom
+RL79      360               R_SMD_1026                                        29.5000   -80.9625  270.0000  bottom
 RL80      360               R_SMD_1026                                        52.3875   -80.9625  270.0000  bottom
 RL81      360               R_SMD_1026                                        71.4375   -80.9625  270.0000  bottom
 RL82      360               R_SMD_1026                                        90.4875   -80.9625  270.0000  bottom
@@ -115,15 +114,15 @@ RL105     360               R_SMD_1026                                       304
 RL106     360               R_SMD_1026                                       343.0000   -96.0000  270.0000  bottom
 RL107     360               R_SMD_1026                                       343.0000  -101.7500  270.0000  bottom
 RL108     360               R_SMD_1026                                       361.9515   -27.3845  270.0000  bottom
-RSH1      1M                R_SMD_1026                                       185.4000    11.6500  180.0000  bottom
 U2        TLV1117-33        SOT-223-3_TabPin2                                255.0000   -12.0000  180.0000  bottom
-CB1       100n              C_0805_2012Metric_Pad1.15x1.40mm_HandSolder     -275.7500   -16.7500  270.0000  top
+CB1       100n              C_0805_2012Metric_Pad1.15x1.40mm_HandSolder     -275.5000   -16.7500  270.0000  top
 CB2       100n              C_0805_2012Metric_Pad1.15x1.40mm_HandSolder     -271.2500    -5.0000    0.0000  top
 CB3       100n              C_0805_2012Metric_Pad1.15x1.40mm_HandSolder     -285.2500    -4.5000   90.0000  top
 CB4       100n              C_0805_2012Metric_Pad1.15x1.40mm_HandSolder     -289.4100   -11.9000  270.0000  top
 CB5       10u               C_0805_2012Metric_Pad1.15x1.40mm_HandSolder     -287.2100   -11.9000  270.0000  top
 CRST1     10u               C_0805_2012Metric_Pad1.15x1.40mm_HandSolder     -294.4187   -11.7313  270.0000  top
 CRST2     4.7n              C_0805_2012Metric_Pad1.15x1.40mm_HandSolder     -310.2687   -11.6376  270.0000  top
+CSH1      4.7n              C_0805_2012Metric_Pad1.15x1.40mm_HandSolder     -171.0000     5.5000  180.0000  top
 CUSB1     4.7n              C_0805_2012Metric_Pad1.15x1.40mm_HandSolder     -167.2500    -3.7500  180.0000  top
 D1        1N4148            D_SOD-123                                         -9.5250     5.9531  270.0000  top
 D2        1N4148            D_SOD-123                                        -14.2876     5.9531  270.0000  top
@@ -232,12 +231,13 @@ D108      1N4148            D_SOD-123                                       -363
 DRST1     1N4148            D_SOD-123                                       -298.0937   -11.7313   90.0000  top
 Q1        AO4406AL          SOIC-8                                          -285.2250   -78.8375  180.0000  top
 QRST1     DTC123J           SOT-23                                          -305.5062   -11.6376    0.0000  top
-RCC1      5.1k              R_SMD_1026                                      -174.5000    -1.0000   90.0000  top
+RCC1      5.1k              R_SMD_1026                                      -177.0380    -1.7415   90.0000  top
 RGP1      10k               R_SMD_1026                                      -279.2719   -78.8375   90.0000  top
 RGS1      100               R_SMD_1026                                      -276.8000   -78.8000  270.0000  top
 RL58      360               R_SMD_1026                                      -371.7500   -61.0000  180.0000  top
 RL95      360               R_SMD_1026                                      -370.8000   -72.0000  180.0000  top
 RRST1     100k              R_SMD_1026                                      -300.4750   -11.7313   90.0000  top
+RSH1      1M                R_SMD_1026                                      -171.0000     8.0000    0.0000  top
 SWRST1    SW_Push           smdPushBtn                                      -318.6031   -11.6376    0.0000  top
 U1        STM32F072_LQFP48  LQFP-48_7x7mm_P0.5mm                            -278.6074    -9.5250    0.0000  top
 U3        USBLC6-2SC6       SOT-23-6                                        -171.5000    -3.5000  270.0000  top

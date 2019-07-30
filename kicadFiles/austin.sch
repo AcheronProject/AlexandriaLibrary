@@ -2394,7 +2394,7 @@ F 3 "http://www2.st.com/resource/en/datasheet/CD00050750.pdf" H 11400 13300 50  
 	0    1    1    0   
 $EndComp
 Text GLabel 11000 13500 0    50   BiDi ~ 0
-D+Bus
+DBus+
 Wire Wire Line
 	11000 13500 11100 13500
 $Comp
@@ -2413,7 +2413,7 @@ Wire Wire Line
 Wire Wire Line
 	11100 12375 11000 12375
 Text GLabel 11000 12375 0    50   BiDi ~ 0
-D-Bus
+DBus-
 $Comp
 L Device:C_Small CUSB1
 U 1 1 5D7F45E2
@@ -2457,9 +2457,9 @@ Wire Wire Line
 Wire Wire Line
 	9225 10825 9300 10825
 Text GLabel 9400 11125 2    50   BiDi ~ 0
-D+Bus
+DBus+
 Text GLabel 9400 10825 2    50   BiDi ~ 0
-D-Bus
+DBus-
 Wire Wire Line
 	9300 11125 9400 11125
 Connection ~ 9300 11125
@@ -8078,19 +8078,6 @@ F 3 "~" H 10775 14975 50  0001 C CNN
 	1    10775 14975
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0110
-U 1 1 5D37D0BF
-P 21600 11375
-F 0 "#PWR0110" H 21600 11125 50  0001 C CNN
-F 1 "GND" V 21600 11175 50  0000 C CNN
-F 2 "" H 21600 11375 50  0001 C CNN
-F 3 "" H 21600 11375 50  0001 C CNN
-	1    21600 11375
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	21600 11375 21575 11375
 Wire Notes Line width 20
 	1250 7700 3050 7700
 Wire Notes Line width 20
