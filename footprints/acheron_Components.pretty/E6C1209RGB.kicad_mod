@@ -1,4 +1,4 @@
-(module E6C1209RGB (layer F.Cu) (tedit 5D43902A)
+(module E6C1209RGB (layer F.Cu) (tedit 5D43A511)
   (fp_text reference REF** (at 0 -3.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.25)))
   )
@@ -7,7 +7,7 @@
   )
   (fp_poly (pts (xy -1.8 -1.9) (xy -1.1 -1.9) (xy -1.1 -2.6)) (layer F.SilkS) (width 0.1))
   (pad "" np_thru_hole oval (at 0 0) (size 2.1 4.5) (drill oval 2.1 4.5) (layers *.Cu *.Mask))
-  (pad 3 smd custom (at -1.6 1) (size 1 1) (layers F.Cu F.Paste F.Mask)
+  (pad 3 smd custom (at -1.7 1) (size 1 1) (layers F.Cu F.Paste F.Mask)
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_poly (pts
@@ -34,7 +34,7 @@
          (xy 0.078062 0.649951) (xy -0.499014 0.649951) (xy -0.499014 -0.750069) (xy 0.550985 -0.750069) (xy 0.551157 -0.256938)
 ) (width 0.01))
     ))
-  (pad 1 smd custom (at -1.6 -1) (size 1 1) (layers F.Cu F.Paste F.Mask)
+  (pad 1 smd custom (at -1.7 -1) (size 1 1) (layers F.Cu F.Paste F.Mask)
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_poly (pts
@@ -97,7 +97,7 @@
          (xy 0.203277 -0.649697) (xy 0.221264 -0.649697) (xy 0.240171 -0.649698) (xy 0.615769 -0.649698) (xy 0.624913 -0.648564)
 ) (width 0.01))
     ))
-  (pad 2 smd custom (at 1.6 -1) (size 1 1) (layers F.Cu F.Paste F.Mask)
+  (pad 2 smd custom (at 1.7 -1) (size 1 1) (layers F.Cu F.Paste F.Mask)
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_poly (pts
@@ -124,7 +124,7 @@
          (xy -0.187866 -0.649947) (xy -0.157449 -0.649949) (xy -0.126026 -0.649951) (xy 0.499014 -0.649951) (xy 0.499014 0.750068)
 ) (width 0.01))
     ))
-  (pad 4 smd custom (at 1.6 1) (size 1 1) (layers F.Cu F.Paste F.Mask)
+  (pad 4 smd custom (at 1.7 1) (size 1 1) (layers F.Cu F.Paste F.Mask)
     (options (clearance outline) (anchor circle))
     (primitives
       (gr_poly (pts
@@ -152,4 +152,9 @@
          (xy -0.551153 -0.253165) (xy -0.551151 -0.257446) (xy -0.550987 -0.750069) (xy 0.499014 -0.750069) (xy 0.499014 0.649951)
 ) (width 0.01))
     ))
+  (model ${KIPRJMOD}/AcheronLibrary/3d_models/E6C1209RGB.iges
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
+  )
 )
