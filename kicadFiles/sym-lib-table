@@ -1,4 +1,4 @@
 (sym_lib_table
-  (lib (name acheronSymbols)(type Legacy)(uri ${ACHERONLIB}/symbols/acheronSymbols.lib)(options "")(descr ""))
+  (lib (name acheronSymbols)(type Legacy)(uri ${KIPRJMOD}/AcheronLibrary/symbols/acheronSymbols.lib)(options "")(descr ""))
   (lib (name austin-rescue)(type Legacy)(uri ${KIPRJMOD}/austin-rescue.lib)(options "")(descr ""))
 )
