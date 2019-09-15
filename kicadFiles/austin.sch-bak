@@ -3607,8 +3607,8 @@ L austin-rescue:MXSwitch-acheronSymbols SW79
 U 1 1 5F742759
 P 2600 6200
 F 0 "SW79" H 1900 6275 40  0000 L CNN
-F 1 "ANSI LShift" H 1850 6275 40  0000 R CNN
-F 2 "acheron_MX:MX225" H 2600 6200 50  0001 C CNN
+F 1 "ISO LShift" H 1850 6275 40  0000 R CNN
+F 2 "acheron_MX:MX125" H 2600 6200 50  0001 C CNN
 F 3 "" H 2600 6200 50  0001 C CNN
 	1    2600 6200
 	1    0    0    -1  
@@ -8333,14 +8333,14 @@ Connection ~ 12100 6200
 Connection ~ 13100 6200
 Connection ~ 14100 5175
 Wire Wire Line
-	3100 5175 3100 7225
+	3100 5175 3100 6200
 Wire Wire Line
 	12600 5500 14600 5500
 $Comp
-L Device:D D?
+L Device:D D34
 U 1 1 5D9F1416
 P 3600 5675
-F 0 "D?" V 3569 5754 31  0000 L CNN
+F 0 "D34" V 3569 5754 31  0000 L CNN
 F 1 "1N4148" V 3631 5754 31  0000 L CNN
 F 2 "acheronComponents:D_SOD-123" H 3600 5675 50  0001 C CNN
 F 3 "~" H 3600 5675 50  0001 C CNN
@@ -8349,13 +8349,11 @@ F 3 "~" H 3600 5675 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3600 5850 3600 5825
-Wire Wire Line
-	3250 6200 3100 6200
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW?
+L austin-rescue:MXSwitch-acheronSymbols SW78
 U 1 1 5D9F141E
 P 3600 6200
-F 0 "SW?" H 3600 6250 50  0000 C CNN
+F 0 "SW78" H 3600 6250 50  0000 C CNN
 F 1 "ISO Slash" H 3600 6150 39  0000 C CNN
 F 2 "acheron_MX:MX100" H 3600 6200 50  0001 C CNN
 F 3 "" H 3600 6200 50  0001 C CNN
@@ -8363,11 +8361,11 @@ F 3 "" H 3600 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW?
+L austin-rescue:MXSwitch-acheronSymbols SW58
 U 1 1 5DAF33C9
 P 2625 6175
-F 0 "SW?" H 1900 6125 40  0000 L CNN
-F 1 "ISO LShift" H 1850 6125 40  0000 R CNN
+F 0 "SW58" H 1900 6125 40  0000 L CNN
+F 1 "ANSI LShift" H 1850 6125 40  0000 R CNN
 F 2 "acheron_MX:MX225" H 2625 6175 50  0001 C CNN
 F 3 "" H 2625 6175 50  0001 C CNN
 	1    2625 6175
@@ -8395,4 +8393,9 @@ Connection ~ 11100 6200
 Wire Wire Line
 	15100 4150 15100 6200
 Connection ~ 15100 4150
+Wire Wire Line
+	3250 6200 3100 6200
+Connection ~ 3100 6200
+Wire Wire Line
+	3100 6200 3100 7225
 $EndSCHEMATC

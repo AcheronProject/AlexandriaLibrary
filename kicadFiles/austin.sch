@@ -2002,7 +2002,7 @@ U 1 1 5EA2CF13
 P 9425 10175
 F 0 "RCC1" V 9350 10115 31  0000 L CNN
 F 1 "5.1k" V 9425 10125 31  0000 L CNN
-F 2 "acheronComponents:R_SMD_1026" H 9425 10175 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 9425 10175 50  0001 C CNN
 F 3 "~" H 9425 10175 50  0001 C CNN
 	1    9425 10175
 	0    1    1    0   
@@ -2501,15 +2501,6 @@ F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 8775 10
 	1    8625 10825
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9225 10175 9275 10175
-Wire Wire Line
-	9275 10175 9275 10375
-Wire Wire Line
-	9275 10375 9225 10375
-Connection ~ 9275 10175
-Wire Wire Line
-	9275 10175 9325 10175
 Text GLabel 11875 12950 2    50   Input ~ 0
 VBUS
 Wire Wire Line
@@ -8398,4 +8389,32 @@ Wire Wire Line
 Connection ~ 3100 6200
 Wire Wire Line
 	3100 6200 3100 7225
+Wire Wire Line
+	9225 10175 9325 10175
+$Comp
+L Device:R_Small RCC?
+U 1 1 5ED7EC85
+P 9425 10375
+F 0 "RCC?" V 9350 10315 31  0000 L CNN
+F 1 "5.1k" V 9425 10325 31  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 9425 10375 50  0001 C CNN
+F 3 "~" H 9425 10375 50  0001 C CNN
+	1    9425 10375
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9225 10375 9325 10375
+Wire Wire Line
+	9525 10375 9575 10375
+$Comp
+L power:GND #PWR?
+U 1 1 5EE88A46
+P 9575 10375
+F 0 "#PWR?" H 9575 10125 50  0001 C CNN
+F 1 "GND" V 9600 10425 31  0000 R CNN
+F 2 "" H 9575 10375 50  0001 C CNN
+F 3 "" H 9575 10375 50  0001 C CNN
+	1    9575 10375
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
