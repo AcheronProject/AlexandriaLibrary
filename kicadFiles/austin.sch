@@ -3762,8 +3762,6 @@ $EndComp
 Wire Wire Line
 	15600 5850 15600 5825
 Wire Wire Line
-	14600 5525 14600 5500
-Wire Wire Line
 	13250 6200 13100 6200
 Wire Wire Line
 	15250 6200 15100 6200
@@ -3940,7 +3938,7 @@ Connection ~ 18600 5500
 Connection ~ 19600 5500
 Connection ~ 14600 5500
 Wire Wire Line
-	14600 5500 17600 5500
+	14600 5500 15600 5500
 Wire Wire Line
 	1750 6525 2600 6525
 $Comp
@@ -8243,7 +8241,7 @@ Connection ~ 14100 5175
 Wire Wire Line
 	3100 5175 3100 6200
 Wire Wire Line
-	12600 5500 14600 5500
+	12600 5500 13600 5500
 $Comp
 L Device:D D34
 U 1 1 5D9F1416
@@ -8502,4 +8500,14 @@ Wire Wire Line
 Connection ~ 5550 12675
 Wire Wire Line
 	5300 12675 5550 12675
+Wire Wire Line
+	13600 5500 13600 5525
+Connection ~ 13600 5500
+Wire Wire Line
+	13600 5500 14600 5500
+Wire Wire Line
+	15600 5525 15600 5500
+Connection ~ 15600 5500
+Wire Wire Line
+	15600 5500 17600 5500
 $EndSCHEMATC

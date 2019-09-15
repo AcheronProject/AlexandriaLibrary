@@ -6388,16 +6388,14 @@ $EndComp
 $Comp
 L austin-rescue:LED-acheronSymbols LED112
 U 1 1 6404FD5D
-P 5500 12525
-F 0 "LED112" V 5675 12425 20  0000 L CNN
-F 1 "LED" V 5350 12550 20  0001 L CNN
-F 2 "acheronComponents:LED_THT_2.54mm" H 5500 12525 50  0001 C CNN
-F 3 "" H 5500 12525 50  0001 C CNN
-	1    5500 12525
+P 5550 12525
+F 0 "LED112" V 5725 12425 20  0000 L CNN
+F 1 "LED" V 5400 12550 20  0001 L CNN
+F 2 "acheronComponents:LED_THT_2.54mm" H 5550 12525 50  0001 C CNN
+F 3 "" H 5550 12525 50  0001 C CNN
+	1    5550 12525
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	5500 12375 5600 12375
 Connection ~ 5600 12375
 Wire Wire Line
 	1100 9000 1400 9000
@@ -6524,12 +6522,9 @@ Connection ~ 4700 12675
 Connection ~ 5300 12675
 Wire Wire Line
 	5300 12675 4700 12675
-Connection ~ 5500 12675
-Wire Wire Line
-	5500 12675 5300 12675
 Connection ~ 5600 12675
 Wire Wire Line
-	5600 12675 5500 12675
+	5600 12675 5550 12675
 Connection ~ 5900 12675
 Wire Wire Line
 	5900 12675 5600 12675
@@ -7752,10 +7747,6 @@ Connection ~ 6500 12050
 Wire Wire Line
 	6500 12050 6900 12050
 Wire Wire Line
-	4700 12050 5600 12050
-Wire Wire Line
-	4700 11550 5600 11550
-Wire Wire Line
 	4700 10925 5300 10925
 Connection ~ 5300 10925
 Wire Wire Line
@@ -8109,12 +8100,7 @@ F 3 "" H 1000 12525 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6600 12375 6500 12375
-Connection ~ 6500 12375
-Wire Wire Line
 	1100 12675 1000 12675
-Wire Wire Line
-	6500 12675 6900 12675
 Connection ~ 1100 12675
 Wire Wire Line
 	1000 12375 1100 12375
@@ -8460,4 +8446,60 @@ Wire Notes Line width 20
 	12500 9075 12500 8825
 Wire Wire Line
 	13600 9925 13525 9925
+$Comp
+L austin-rescue:LED-acheronSymbols LED59
+U 1 1 63404F5C
+P 975 11900
+F 0 "LED59" V 1075 11700 20  0000 L CNN
+F 1 "LED" V 825 11925 20  0001 L CNN
+F 2 "acheronComponents:LED_THT_2.54mm" H 975 11900 50  0001 C CNN
+F 3 "" H 975 11900 50  0001 C CNN
+	1    975  11900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	975  12050 1100 12050
+Wire Wire Line
+	6500 12675 6900 12675
+Connection ~ 1100 12050
+Wire Wire Line
+	975  11750 1100 11750
+Connection ~ 1100 11750
+$Comp
+L Device:R_Small RL35
+U 1 1 6386A587
+P 5200 11650
+F 0 "RL35" H 5259 11681 31  0000 L CNN
+F 1 "360" H 5259 11619 31  0000 L CNN
+F 2 "acheronComponents:R_SMD_1026" H 5200 11650 50  0001 C CNN
+F 3 "~" H 5200 11650 50  0001 C CNN
+	1    5200 11650
+	1    0    0    -1  
+$EndComp
+$Comp
+L austin-rescue:LED-acheronSymbols LED96
+U 1 1 6386A58D
+P 5200 11900
+F 0 "LED96" V 5300 11700 20  0000 L CNN
+F 1 "LED" V 5050 11925 20  0001 L CNN
+F 2 "acheronComponents:LED_THT_2.54mm" H 5200 11900 50  0001 C CNN
+F 3 "" H 5200 11900 50  0001 C CNN
+	1    5200 11900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4700 11550 5200 11550
+Connection ~ 5200 11550
+Wire Wire Line
+	5200 11550 5600 11550
+Wire Wire Line
+	4700 12050 5200 12050
+Connection ~ 5200 12050
+Wire Wire Line
+	5200 12050 5600 12050
+Wire Wire Line
+	5550 12375 5600 12375
+Connection ~ 5550 12675
+Wire Wire Line
+	5300 12675 5550 12675
 $EndSCHEMATC
