@@ -6,8 +6,8 @@ $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
 Title "AustinPCB"
-Date "2019-09-14"
-Rev "1.3"
+Date "2019-09-15"
+Rev "Alpha"
 Comp "Designed by Gondolindrim"
 Comment1 "In partnership with driftingbunnies and PheonixStar"
 Comment2 ""
