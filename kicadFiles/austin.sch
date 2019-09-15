@@ -2170,18 +2170,18 @@ Wire Notes Line
 	7975 12250 7975 13225
 Text GLabel 7925 15125 0    50   Input ~ 0
 3.3V
-Text GLabel 21725 11825 2    50   Input ~ 0
+Text GLabel 21725 13425 2    50   Input ~ 0
 Row3
 Text GLabel 21725 13125 2    50   Input ~ 0
 Row2
 Wire Wire Line
 	21725 13125 21650 13125
-Text GLabel 21725 13425 2    50   Input ~ 0
+Text GLabel 21725 11125 2    50   Input ~ 0
 Row4
 Wire Wire Line
-	21725 13425 21650 13425
+	21725 11125 21650 11125
 Wire Wire Line
-	21725 11825 21650 11825
+	21725 13425 21650 13425
 Wire Wire Line
 	21725 13625 21650 13625
 Text GLabel 21725 13825 2    50   Output ~ 0
@@ -2195,12 +2195,12 @@ Wire Wire Line
 $Comp
 L Mechanical:MountingHole L2
 U 1 1 5C525928
-P 10775 14550
-F 0 "L2" H 10875 14596 50  0000 L CNN
-F 1 "LogoBack" H 10875 14505 50  0000 L CNN
-F 2 "acheronLogos:acheronLongExtended" H 10775 14550 50  0001 C CNN
-F 3 "~" H 10775 14550 50  0001 C CNN
-	1    10775 14550
+P 10500 14550
+F 0 "L2" H 10600 14596 50  0000 L CNN
+F 1 "LogoBack" H 10600 14505 50  0000 L CNN
+F 2 "acheronLogos:acheronLongExtended" H 10500 14550 50  0001 C CNN
+F 3 "~" H 10500 14550 50  0001 C CNN
+	1    10500 14550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2226,12 +2226,12 @@ Wire Wire Line
 $Comp
 L Mechanical:MountingHole L3
 U 1 1 5C66B5D5
-P 10775 14775
-F 0 "L3" H 10875 14821 50  0000 L CNN
-F 1 "OSHLogo" H 10875 14730 50  0000 L CNN
-F 2 "oshLogo:osh-logoExtended" H 10775 14775 50  0001 C CNN
-F 3 "~" H 10775 14775 50  0001 C CNN
-	1    10775 14775
+P 10500 14775
+F 0 "L3" H 10600 14821 50  0000 L CNN
+F 1 "OSHLogo" H 10600 14730 50  0000 L CNN
+F 2 "oshLogo:osh-logoExtended" H 10500 14775 50  0001 C CNN
+F 3 "~" H 10500 14775 50  0001 C CNN
+	1    10500 14775
 	1    0    0    -1  
 $EndComp
 Connection ~ 2600 1400
@@ -2293,17 +2293,17 @@ Wire Wire Line
 Wire Wire Line
 	9300 11225 9300 11125
 Wire Wire Line
-	13650 9875 13575 9875
-Text GLabel 13650 9875 2    50   Input ~ 0
+	13600 10125 13525 10125
+Text GLabel 13600 10125 2    50   Input ~ 0
 SWCLK
-Text GLabel 13650 9975 2    50   Input ~ 0
+Text GLabel 13600 10225 2    50   Input ~ 0
 SWDIO
 Wire Wire Line
-	13575 9975 13650 9975
-Text GLabel 13075 9300 1    50   Input ~ 0
+	13525 10225 13600 10225
+Text GLabel 13025 9550 1    50   Input ~ 0
 3.3V
 Wire Wire Line
-	13075 9375 13075 9300
+	13025 9625 13025 9550
 Wire Notes Line width 20
 	9825 13975 9825 15750
 Wire Notes Line width 20
@@ -6388,16 +6388,14 @@ $EndComp
 $Comp
 L austin-rescue:LED-acheronSymbols LED112
 U 1 1 6404FD5D
-P 5500 12525
-F 0 "LED112" V 5675 12425 20  0000 L CNN
-F 1 "LED" V 5350 12550 20  0001 L CNN
-F 2 "acheronComponents:LED_THT_2.54mm" H 5500 12525 50  0001 C CNN
-F 3 "" H 5500 12525 50  0001 C CNN
-	1    5500 12525
+P 5550 12525
+F 0 "LED112" V 5725 12425 20  0000 L CNN
+F 1 "LED" V 5400 12550 20  0001 L CNN
+F 2 "acheronComponents:LED_THT_2.54mm" H 5550 12525 50  0001 C CNN
+F 3 "" H 5550 12525 50  0001 C CNN
+	1    5550 12525
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	5500 12375 5600 12375
 Connection ~ 5600 12375
 Wire Wire Line
 	1100 9000 1400 9000
@@ -6524,12 +6522,9 @@ Connection ~ 4700 12675
 Connection ~ 5300 12675
 Wire Wire Line
 	5300 12675 4700 12675
-Connection ~ 5500 12675
-Wire Wire Line
-	5500 12675 5300 12675
 Connection ~ 5600 12675
 Wire Wire Line
-	5600 12675 5500 12675
+	5600 12675 5550 12675
 Connection ~ 5900 12675
 Wire Wire Line
 	5900 12675 5600 12675
@@ -6887,8 +6882,8 @@ $Comp
 L austin-rescue:STM32F072_LQFP48-acheronSymbols U1
 U 1 1 6623D717
 P 20600 12375
-F 0 "U1" H 21050 14425 50  0000 C CNB
-F 1 "STM32F072_LQFP48" H 21050 14300 50  0000 C CNB
+F 0 "U1" H 20600 14425 50  0000 C CNB
+F 1 "STM32F072_LQFP48" H 20600 14300 50  0000 C CNB
 F 2 "acheronComponents:LQFP-48_7x7mm_P0.5mm" H 19850 10975 50  0001 R CNN
 F 3 "" H 20600 12375 50  0001 C CNN
 	1    20600 12375
@@ -6930,14 +6925,14 @@ F 3 "" H 20600 14150 50  0001 C CNN
 	1    20600 14150
 	1    0    0    -1  
 $EndComp
-Text GLabel 21725 12125 2    50   Output ~ 0
+Text GLabel 21725 12225 2    50   Output ~ 0
 Col2
 Text GLabel 21725 12325 2    50   Output ~ 0
 Col3
 Wire Wire Line
 	21725 12325 21650 12325
 Wire Wire Line
-	21725 12125 21650 12125
+	21725 12225 21650 12225
 Text GLabel 21725 11625 2    50   Output ~ 0
 Col14
 Wire Wire Line
@@ -6958,10 +6953,10 @@ Text GLabel 19425 11575 0    50   Output ~ 0
 Col19
 Wire Wire Line
 	19425 11575 19500 11575
-Text GLabel 21725 11125 2    50   Input ~ 0
+Text GLabel 21725 11225 2    50   Input ~ 0
 Row5
 Wire Wire Line
-	21725 11125 21650 11125
+	21725 11225 21650 11225
 Wire Wire Line
 	11300 13500 11400 13500
 Wire Wire Line
@@ -7752,10 +7747,6 @@ Connection ~ 6500 12050
 Wire Wire Line
 	6500 12050 6900 12050
 Wire Wire Line
-	4700 12050 5600 12050
-Wire Wire Line
-	4700 11550 5600 11550
-Wire Wire Line
 	4700 10925 5300 10925
 Connection ~ 5300 10925
 Wire Wire Line
@@ -7806,8 +7797,8 @@ Wire Wire Line
 Text GLabel 21725 11425 2    50   Output ~ 0
 Col12
 Wire Wire Line
-	21725 11225 21650 11225
-Text GLabel 21725 11225 2    50   Input ~ 0
+	21725 11325 21650 11325
+Text GLabel 21725 11325 2    50   Input ~ 0
 Row6
 Text Notes 16225 12350 0    50   ~ 0
 CBs for "Capacitors - Bypass"
@@ -7834,8 +7825,8 @@ Wire Wire Line
 Text GLabel 21725 13325 2    50   Output ~ 0
 LED_PWM
 Wire Wire Line
-	21725 11325 21650 11325
-Text GLabel 21725 11325 2    50   Output ~ 0
+	21725 12125 21650 12125
+Text GLabel 21725 12125 2    50   Output ~ 0
 Col1
 $Comp
 L Device:R_Small RI1
@@ -7979,12 +7970,12 @@ Wire Notes Line width 20
 $Comp
 L Mechanical:MountingHole L4
 U 1 1 5D1C668A
-P 10775 14975
-F 0 "L4" H 10875 15021 50  0000 L CNN
-F 1 "AustinLogoPlated" H 10875 14930 50  0000 L CNN
-F 2 "austinLogo:austinLogo_16x40_Plated" H 10775 14975 50  0001 C CNN
-F 3 "~" H 10775 14975 50  0001 C CNN
-	1    10775 14975
+P 10500 14975
+F 0 "L4" H 10600 15021 50  0000 L CNN
+F 1 "AustinLogoPlated" H 10600 14930 50  0000 L CNN
+F 2 "austinLogo:austinLogo_16x40_Plated" H 10500 14975 50  0001 C CNN
+F 3 "~" H 10500 14975 50  0001 C CNN
+	1    10500 14975
 	1    0    0    -1  
 $EndComp
 Wire Notes Line width 20
@@ -8024,12 +8015,12 @@ Wire Notes Line width 20
 $Comp
 L Mechanical:MountingHole L5
 U 1 1 5D281946
-P 10775 15175
-F 0 "L5" H 10875 15221 50  0000 L CNN
-F 1 "AustinLabel" H 10875 15130 50  0000 L CNN
-F 2 "austinLogo:austinLabel" H 10775 15175 50  0001 C CNN
-F 3 "~" H 10775 15175 50  0001 C CNN
-	1    10775 15175
+P 10500 15175
+F 0 "L5" H 10600 15221 50  0000 L CNN
+F 1 "AustinLabel" H 10600 15130 50  0000 L CNN
+F 2 "austinLogo:austinLabel" H 10500 15175 50  0001 C CNN
+F 3 "~" H 10500 15175 50  0001 C CNN
+	1    10500 15175
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -8109,12 +8100,7 @@ F 3 "" H 1000 12525 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6600 12375 6500 12375
-Connection ~ 6500 12375
-Wire Wire Line
 	1100 12675 1000 12675
-Wire Wire Line
-	6500 12675 6900 12675
 Connection ~ 1100 12675
 Wire Wire Line
 	1000 12375 1100 12375
@@ -8207,23 +8193,23 @@ Connection ~ 4400 11125
 $Comp
 L Mechanical:MountingHole L6
 U 1 1 5EDE1DF1
-P 10775 15400
-F 0 "L6" H 10875 15446 50  0000 L CNN
-F 1 "Austin Label Mask" H 10875 15355 50  0000 L CNN
-F 2 "austinLogo:austinLabelMask" H 10775 15400 50  0001 C CNN
-F 3 "~" H 10775 15400 50  0001 C CNN
-	1    10775 15400
+P 10500 15400
+F 0 "L6" H 10600 15446 50  0000 L CNN
+F 1 "Austin Label Mask" H 10600 15355 50  0000 L CNN
+F 2 "austinLogo:austinLabelMask" H 10500 15400 50  0001 C CNN
+F 3 "~" H 10500 15400 50  0001 C CNN
+	1    10500 15400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole L1
 U 1 1 5D596B36
-P 10775 14350
-F 0 "L1" H 10875 14396 50  0000 L CNN
-F 1 "Drift Mechanics Logo" H 10875 14305 50  0000 L CNN
-F 2 "austinLogo:driftMechanics_logo" H 10775 14350 50  0001 C CNN
-F 3 "~" H 10775 14350 50  0001 C CNN
-	1    10775 14350
+P 10500 14350
+F 0 "L1" H 10600 14396 50  0000 L CNN
+F 1 "Drift Mechanics Logo" H 10600 14305 50  0000 L CNN
+F 2 "austinLogo:driftMechanics_logo" H 10500 14350 50  0001 C CNN
+F 3 "~" H 10500 14350 50  0001 C CNN
+	1    10500 14350
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -8323,10 +8309,10 @@ Wire Wire Line
 Wire Wire Line
 	9225 10175 9325 10175
 $Comp
-L Device:R_Small RCC?
+L Device:R_Small RCC2
 U 1 1 5ED7EC85
 P 9425 10375
-F 0 "RCC?" V 9350 10315 31  0000 L CNN
+F 0 "RCC2" V 9350 10315 31  0000 L CNN
 F 1 "5.1k" V 9425 10325 31  0000 L CNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9425 10375 50  0001 C CNN
 F 3 "~" H 9425 10375 50  0001 C CNN
@@ -8338,10 +8324,10 @@ Wire Wire Line
 Wire Wire Line
 	9525 10375 9575 10375
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0102
 U 1 1 5EE88A46
 P 9575 10375
-F 0 "#PWR?" H 9575 10125 50  0001 C CNN
+F 0 "#PWR0102" H 9575 10125 50  0001 C CNN
 F 1 "GND" V 9600 10425 31  0000 R CNN
 F 2 "" H 9575 10375 50  0001 C CNN
 F 3 "" H 9575 10375 50  0001 C CNN
@@ -8364,10 +8350,10 @@ Wire Wire Line
 Wire Wire Line
 	16000 9575 16350 9575
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0103
 U 1 1 5F2B0631
 P 16350 9950
-F 0 "#PWR?" H 16350 9700 50  0001 C CNN
+F 0 "#PWR0103" H 16350 9700 50  0001 C CNN
 F 1 "GND" V 16355 9822 50  0000 R CNN
 F 2 "" H 16350 9950 50  0001 C CNN
 F 3 "" H 16350 9950 50  0001 C CNN
@@ -8406,48 +8392,46 @@ Bypass capacitors
 Wire Notes Line width 20
 	16350 11550 16350 11275
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0109
 U 1 1 6095C6BA
-P 13075 10650
-F 0 "#PWR?" H 13075 10400 50  0001 C CNN
-F 1 "GND" V 13080 10522 50  0000 R CNN
-F 2 "" H 13075 10650 50  0001 C CNN
-F 3 "" H 13075 10650 50  0001 C CNN
-	1    13075 10650
+P 13025 10900
+F 0 "#PWR0109" H 13025 10650 50  0001 C CNN
+F 1 "GND" V 13030 10772 50  0000 R CNN
+F 2 "" H 13025 10900 50  0001 C CNN
+F 3 "" H 13025 10900 50  0001 C CNN
+	1    13025 10900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13075 10575 13075 10650
+	13025 10825 13025 10900
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0110
 U 1 1 60A621A1
-P 12975 10650
-F 0 "#PWR?" H 12975 10400 50  0001 C CNN
-F 1 "GND" V 12980 10522 50  0000 R CNN
-F 2 "" H 12975 10650 50  0001 C CNN
-F 3 "" H 12975 10650 50  0001 C CNN
-	1    12975 10650
+P 12925 10900
+F 0 "#PWR0110" H 12925 10650 50  0001 C CNN
+F 1 "GND" V 12930 10772 50  0000 R CNN
+F 2 "" H 12925 10900 50  0001 C CNN
+F 3 "" H 12925 10900 50  0001 C CNN
+	1    12925 10900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12975 10575 12975 10650
-Text GLabel 13750 9675 2    50   BiDi ~ 0
+	12925 10825 12925 10900
+Text GLabel 13600 9925 2    50   BiDi ~ 0
 NRST
-Wire Wire Line
-	13575 9675 13750 9675
 $Comp
 L Connector:Conn_ARM_JTAG_SWD_10 J5
 U 1 1 612B01AD
-P 13075 9975
-F 0 "J5" H 13125 11025 50  0000 R CNN
-F 1 "Conn_ARM_JTAG_SWD_10" H 13525 10950 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 13075 9975 50  0001 C CNN
-F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf" V 12725 8725 50  0001 C CNN
-	1    13075 9975
+P 13025 10225
+F 0 "J5" H 13075 11275 50  0000 R CNN
+F 1 "Conn_ARM_JTAG_SWD_10" H 13475 11200 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 13025 10225 50  0001 C CNN
+F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf" V 12675 8975 50  0001 C CNN
+	1    13025 10225
 	1    0    0    -1  
 $EndComp
-NoConn ~ 13575 10075
-NoConn ~ 13575 10175
+NoConn ~ 13525 10325
+NoConn ~ 13525 10425
 Wire Notes Line width 20
 	12025 8825 14200 8825
 Wire Notes Line width 20
@@ -8460,4 +8444,62 @@ Wire Notes Line width 20
 	12025 9075 12500 9075
 Wire Notes Line width 20
 	12500 9075 12500 8825
+Wire Wire Line
+	13600 9925 13525 9925
+$Comp
+L austin-rescue:LED-acheronSymbols LED59
+U 1 1 63404F5C
+P 975 11900
+F 0 "LED59" V 1075 11700 20  0000 L CNN
+F 1 "LED" V 825 11925 20  0001 L CNN
+F 2 "acheronComponents:LED_THT_2.54mm" H 975 11900 50  0001 C CNN
+F 3 "" H 975 11900 50  0001 C CNN
+	1    975  11900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	975  12050 1100 12050
+Wire Wire Line
+	6500 12675 6900 12675
+Connection ~ 1100 12050
+Wire Wire Line
+	975  11750 1100 11750
+Connection ~ 1100 11750
+$Comp
+L Device:R_Small RL35
+U 1 1 6386A587
+P 5200 11650
+F 0 "RL35" H 5259 11681 31  0000 L CNN
+F 1 "360" H 5259 11619 31  0000 L CNN
+F 2 "acheronComponents:R_SMD_1026" H 5200 11650 50  0001 C CNN
+F 3 "~" H 5200 11650 50  0001 C CNN
+	1    5200 11650
+	1    0    0    -1  
+$EndComp
+$Comp
+L austin-rescue:LED-acheronSymbols LED96
+U 1 1 6386A58D
+P 5200 11900
+F 0 "LED96" V 5300 11700 20  0000 L CNN
+F 1 "LED" V 5050 11925 20  0001 L CNN
+F 2 "acheronComponents:LED_THT_2.54mm" H 5200 11900 50  0001 C CNN
+F 3 "" H 5200 11900 50  0001 C CNN
+	1    5200 11900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4700 11550 5200 11550
+Connection ~ 5200 11550
+Wire Wire Line
+	5200 11550 5600 11550
+Wire Wire Line
+	4700 12050 5200 12050
+Connection ~ 5200 12050
+Wire Wire Line
+	5200 12050 5600 12050
+Wire Wire Line
+	5550 12375 5600 12375
+Connection ~ 5550 12675
+Wire Wire Line
+	5300 12675 5550 12675
 $EndSCHEMATC
