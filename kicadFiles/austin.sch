@@ -6,8 +6,8 @@ $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
 Title "AustinPCB"
-Date "2019-06-20"
-Rev "1.2"
+Date "2019-09-14"
+Rev "1.3"
 Comp "Designed by Gondolindrim"
 Comment1 "In partnership with driftingbunnies and PheonixStar"
 Comment2 ""
@@ -2180,7 +2180,7 @@ Wire Notes Line
 	7975 12250 7975 13225
 Text GLabel 7925 15125 0    50   Input ~ 0
 3.3V
-Text GLabel 21650 12675 2    50   Input ~ 0
+Text GLabel 21650 11175 2    50   Input ~ 0
 Row3
 Text GLabel 21650 12475 2    50   Input ~ 0
 Row2
@@ -2191,7 +2191,7 @@ Row4
 Wire Wire Line
 	21650 12775 21575 12775
 Wire Wire Line
-	21650 12675 21575 12675
+	21650 11175 21575 11175
 Wire Wire Line
 	21650 12975 21575 12975
 Text GLabel 21650 13175 2    50   Input ~ 0
@@ -3532,16 +3532,16 @@ $EndComp
 $Comp
 L Device:D D80
 U 1 1 5F74272B
-P 3600 5675
-F 0 "D80" V 3569 5754 31  0000 L CNN
-F 1 "1N4148" V 3631 5754 31  0000 L CNN
-F 2 "acheronComponents:D_SOD-123" H 3600 5675 50  0001 C CNN
-F 3 "~" H 3600 5675 50  0001 C CNN
-	1    3600 5675
+P 4600 5675
+F 0 "D80" V 4569 5754 31  0000 L CNN
+F 1 "1N4148" V 4631 5754 31  0000 L CNN
+F 2 "acheronComponents:D_SOD-123" H 4600 5675 50  0001 C CNN
+F 3 "~" H 4600 5675 50  0001 C CNN
+	1    4600 5675
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3600 5850 3600 5825
+	4600 5850 4600 5825
 Wire Wire Line
 	3600 5525 3600 5500
 Connection ~ 2600 5500
@@ -3553,7 +3553,7 @@ Wire Wire Line
 Wire Wire Line
 	2250 6200 2100 6200
 Wire Wire Line
-	3250 6200 3100 6200
+	4250 6200 4100 6200
 $Comp
 L austin-rescue:MXSwitch-acheronSymbols SW77
 U 1 1 5F742739
@@ -3568,23 +3568,8 @@ $EndComp
 $Comp
 L Device:D D81
 U 1 1 5F74273F
-P 4600 5675
-F 0 "D81" V 4569 5754 31  0000 L CNN
-F 1 "1N4148" V 4631 5754 31  0000 L CNN
-F 2 "acheronComponents:D_SOD-123" H 4600 5675 50  0001 C CNN
-F 3 "~" H 4600 5675 50  0001 C CNN
-	1    4600 5675
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4600 5850 4600 5825
-Wire Wire Line
-	4600 5525 4600 5500
-$Comp
-L Device:D D82
-U 1 1 5F74274D
 P 5600 5675
-F 0 "D82" V 5569 5754 31  0000 L CNN
+F 0 "D81" V 5569 5754 31  0000 L CNN
 F 1 "1N4148" V 5631 5754 31  0000 L CNN
 F 2 "acheronComponents:D_SOD-123" H 5600 5675 50  0001 C CNN
 F 3 "~" H 5600 5675 50  0001 C CNN
@@ -3594,30 +3579,12 @@ $EndComp
 Wire Wire Line
 	5600 5850 5600 5825
 Wire Wire Line
-	5600 5525 5600 5500
-Connection ~ 4600 5500
-Wire Wire Line
-	4600 5500 5600 5500
-Wire Wire Line
-	4250 6200 4100 6200
-Wire Wire Line
-	5250 6200 5100 6200
+	4600 5525 4600 5500
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW79
-U 1 1 5F742759
-P 2600 6200
-F 0 "SW79" H 2500 6250 50  0000 L CNN
-F 1 "MXSwitch" H 2475 6025 39  0000 L CNN
-F 2 "acheron_MX:MX225" H 2600 6200 50  0001 C CNN
-F 3 "" H 2600 6200 50  0001 C CNN
-	1    2600 6200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D83
-U 1 1 5F74275F
+L Device:D D82
+U 1 1 5F74274D
 P 6600 5675
-F 0 "D83" V 6569 5754 31  0000 L CNN
+F 0 "D82" V 6569 5754 31  0000 L CNN
 F 1 "1N4148" V 6631 5754 31  0000 L CNN
 F 2 "acheronComponents:D_SOD-123" H 6600 5675 50  0001 C CNN
 F 3 "~" H 6600 5675 50  0001 C CNN
@@ -3627,23 +3594,30 @@ $EndComp
 Wire Wire Line
 	6600 5850 6600 5825
 Wire Wire Line
-	6600 5525 6600 5500
+	5600 5525 5600 5500
+Connection ~ 4600 5500
+Wire Wire Line
+	4600 5500 5600 5500
+Wire Wire Line
+	5250 6200 5100 6200
+Wire Wire Line
+	6250 6200 6100 6200
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW80
-U 1 1 5F742767
-P 3600 6200
-F 0 "SW80" H 3500 6250 50  0000 L CNN
-F 1 "MXSwitch" H 3475 6025 39  0000 L CNN
-F 2 "acheron_MX:MX100" H 3600 6200 50  0001 C CNN
-F 3 "" H 3600 6200 50  0001 C CNN
-	1    3600 6200
+L austin-rescue:MXSwitch-acheronSymbols SW79
+U 1 1 5F742759
+P 2600 6200
+F 0 "SW79" H 1900 6275 40  0000 L CNN
+F 1 "ISO LShift" H 1850 6275 40  0000 R CNN
+F 2 "acheron_MX:MX125" H 2600 6200 50  0001 C CNN
+F 3 "" H 2600 6200 50  0001 C CNN
+	1    2600 6200
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D84
-U 1 1 5F74276D
+L Device:D D83
+U 1 1 5F74275F
 P 7600 5675
-F 0 "D84" V 7569 5754 31  0000 L CNN
+F 0 "D83" V 7569 5754 31  0000 L CNN
 F 1 "1N4148" V 7631 5754 31  0000 L CNN
 F 2 "acheronComponents:D_SOD-123" H 7600 5675 50  0001 C CNN
 F 3 "~" H 7600 5675 50  0001 C CNN
@@ -3653,20 +3627,12 @@ $EndComp
 Wire Wire Line
 	7600 5850 7600 5825
 Wire Wire Line
-	7600 5525 7600 5500
-Connection ~ 6600 5500
-Connection ~ 7600 5500
-Wire Wire Line
-	7600 5500 8600 5500
-Wire Wire Line
-	6250 6200 6100 6200
-Wire Wire Line
-	7250 6200 7100 6200
+	6600 5525 6600 5500
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW81
-U 1 1 5F74277A
+L austin-rescue:MXSwitch-acheronSymbols SW80
+U 1 1 5F742767
 P 4600 6200
-F 0 "SW81" H 4500 6250 50  0000 L CNN
+F 0 "SW80" H 4500 6250 50  0000 L CNN
 F 1 "MXSwitch" H 4475 6025 39  0000 L CNN
 F 2 "acheron_MX:MX100" H 4600 6200 50  0001 C CNN
 F 3 "" H 4600 6200 50  0001 C CNN
@@ -3674,10 +3640,10 @@ F 3 "" H 4600 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D85
-U 1 1 5F742780
+L Device:D D84
+U 1 1 5F74276D
 P 8600 5675
-F 0 "D85" V 8569 5754 31  0000 L CNN
+F 0 "D84" V 8569 5754 31  0000 L CNN
 F 1 "1N4148" V 8631 5754 31  0000 L CNN
 F 2 "acheronComponents:D_SOD-123" H 8600 5675 50  0001 C CNN
 F 3 "~" H 8600 5675 50  0001 C CNN
@@ -3687,12 +3653,20 @@ $EndComp
 Wire Wire Line
 	8600 5850 8600 5825
 Wire Wire Line
-	8600 5525 8600 5500
+	7600 5525 7600 5500
+Connection ~ 6600 5500
+Connection ~ 7600 5500
+Wire Wire Line
+	7600 5500 8600 5500
+Wire Wire Line
+	7250 6200 7100 6200
+Wire Wire Line
+	8250 6200 8100 6200
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW82
-U 1 1 5F742788
+L austin-rescue:MXSwitch-acheronSymbols SW81
+U 1 1 5F74277A
 P 5600 6200
-F 0 "SW82" H 5500 6250 50  0000 L CNN
+F 0 "SW81" H 5500 6250 50  0000 L CNN
 F 1 "MXSwitch" H 5475 6025 39  0000 L CNN
 F 2 "acheron_MX:MX100" H 5600 6200 50  0001 C CNN
 F 3 "" H 5600 6200 50  0001 C CNN
@@ -3700,10 +3674,10 @@ F 3 "" H 5600 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D86
-U 1 1 5F74278E
+L Device:D D85
+U 1 1 5F742780
 P 9600 5675
-F 0 "D86" V 9569 5754 31  0000 L CNN
+F 0 "D85" V 9569 5754 31  0000 L CNN
 F 1 "1N4148" V 9631 5754 31  0000 L CNN
 F 2 "acheronComponents:D_SOD-123" H 9600 5675 50  0001 C CNN
 F 3 "~" H 9600 5675 50  0001 C CNN
@@ -3713,19 +3687,12 @@ $EndComp
 Wire Wire Line
 	9600 5850 9600 5825
 Wire Wire Line
-	9600 5525 9600 5500
-Connection ~ 8600 5500
-Wire Wire Line
-	8600 5500 9600 5500
-Wire Wire Line
-	8250 6200 8100 6200
-Wire Wire Line
-	9250 6200 9100 6200
+	8600 5525 8600 5500
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW83
-U 1 1 5F74279A
+L austin-rescue:MXSwitch-acheronSymbols SW82
+U 1 1 5F742788
 P 6600 6200
-F 0 "SW83" H 6500 6250 50  0000 L CNN
+F 0 "SW82" H 6500 6250 50  0000 L CNN
 F 1 "MXSwitch" H 6475 6025 39  0000 L CNN
 F 2 "acheron_MX:MX100" H 6600 6200 50  0001 C CNN
 F 3 "" H 6600 6200 50  0001 C CNN
@@ -3733,10 +3700,10 @@ F 3 "" H 6600 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D87
-U 1 1 5F7427A0
+L Device:D D86
+U 1 1 5F74278E
 P 10600 5675
-F 0 "D87" V 10569 5754 31  0000 L CNN
+F 0 "D86" V 10569 5754 31  0000 L CNN
 F 1 "1N4148" V 10631 5754 31  0000 L CNN
 F 2 "acheronComponents:D_SOD-123" H 10600 5675 50  0001 C CNN
 F 3 "~" H 10600 5675 50  0001 C CNN
@@ -3746,12 +3713,19 @@ $EndComp
 Wire Wire Line
 	10600 5850 10600 5825
 Wire Wire Line
-	10600 5525 10600 5500
+	9600 5525 9600 5500
+Connection ~ 8600 5500
+Wire Wire Line
+	8600 5500 9600 5500
+Wire Wire Line
+	9250 6200 9100 6200
+Wire Wire Line
+	10250 6200 10100 6200
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW84
-U 1 1 5F7427A8
+L austin-rescue:MXSwitch-acheronSymbols SW83
+U 1 1 5F74279A
 P 7600 6200
-F 0 "SW84" H 7500 6250 50  0000 L CNN
+F 0 "SW83" H 7500 6250 50  0000 L CNN
 F 1 "MXSwitch" H 7475 6025 39  0000 L CNN
 F 2 "acheron_MX:MX100" H 7600 6200 50  0001 C CNN
 F 3 "" H 7600 6200 50  0001 C CNN
@@ -3759,10 +3733,10 @@ F 3 "" H 7600 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D88
-U 1 1 5F7427AE
+L Device:D D87
+U 1 1 5F7427A0
 P 11600 5675
-F 0 "D88" V 11569 5754 31  0000 L CNN
+F 0 "D87" V 11569 5754 31  0000 L CNN
 F 1 "1N4148" V 11631 5754 31  0000 L CNN
 F 2 "acheronComponents:D_SOD-123" H 11600 5675 50  0001 C CNN
 F 3 "~" H 11600 5675 50  0001 C CNN
@@ -3772,20 +3746,12 @@ $EndComp
 Wire Wire Line
 	11600 5850 11600 5825
 Wire Wire Line
-	11600 5525 11600 5500
-Connection ~ 10600 5500
-Wire Wire Line
-	10600 5500 11600 5500
-Connection ~ 11600 5500
-Wire Wire Line
-	10250 6200 10100 6200
-Wire Wire Line
-	11250 6200 11100 6200
+	10600 5525 10600 5500
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW85
-U 1 1 5F7427BB
+L austin-rescue:MXSwitch-acheronSymbols SW84
+U 1 1 5F7427A8
 P 8600 6200
-F 0 "SW85" H 8525 6250 50  0000 L CNN
+F 0 "SW84" H 8500 6250 50  0000 L CNN
 F 1 "MXSwitch" H 8475 6025 39  0000 L CNN
 F 2 "acheron_MX:MX100" H 8600 6200 50  0001 C CNN
 F 3 "" H 8600 6200 50  0001 C CNN
@@ -3793,10 +3759,10 @@ F 3 "" H 8600 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D D89
-U 1 1 5F7427C1
+L Device:D D88
+U 1 1 5F7427AE
 P 12600 5675
-F 0 "D89" V 12569 5754 31  0000 L CNN
+F 0 "D88" V 12569 5754 31  0000 L CNN
 F 1 "1N4148" V 12631 5754 31  0000 L CNN
 F 2 "acheronComponents:D_SOD-123" H 12600 5675 50  0001 C CNN
 F 3 "~" H 12600 5675 50  0001 C CNN
@@ -3806,26 +3772,60 @@ $EndComp
 Wire Wire Line
 	12600 5850 12600 5825
 Wire Wire Line
+	11600 5525 11600 5500
+Connection ~ 10600 5500
+Wire Wire Line
+	10600 5500 11600 5500
+Connection ~ 11600 5500
+Wire Wire Line
+	11250 6200 11100 6200
+Wire Wire Line
+	12250 6200 12100 6200
+$Comp
+L austin-rescue:MXSwitch-acheronSymbols SW85
+U 1 1 5F7427BB
+P 9600 6200
+F 0 "SW85" H 9525 6250 50  0000 L CNN
+F 1 "MXSwitch" H 9475 6025 39  0000 L CNN
+F 2 "acheron_MX:MX100" H 9600 6200 50  0001 C CNN
+F 3 "" H 9600 6200 50  0001 C CNN
+	1    9600 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D89
+U 1 1 5F7427C1
+P 13600 5675
+F 0 "D89" V 13569 5754 31  0000 L CNN
+F 1 "1N4148" V 13631 5754 31  0000 L CNN
+F 2 "acheronComponents:D_SOD-123" H 13600 5675 50  0001 C CNN
+F 3 "~" H 13600 5675 50  0001 C CNN
+	1    13600 5675
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13600 5850 13600 5825
+Wire Wire Line
 	12600 5525 12600 5500
 $Comp
 L Device:D D91
 U 1 1 5F7427CF
-P 14600 5675
-F 0 "D91" V 14569 5754 31  0000 L CNN
-F 1 "1N4148" V 14631 5754 31  0000 L CNN
-F 2 "acheronComponents:D_SOD-123" H 14600 5675 50  0001 C CNN
-F 3 "~" H 14600 5675 50  0001 C CNN
-	1    14600 5675
+P 15600 5675
+F 0 "D91" V 15569 5754 31  0000 L CNN
+F 1 "1N4148" V 15631 5754 31  0000 L CNN
+F 2 "acheronComponents:D_SOD-123" H 15600 5675 50  0001 C CNN
+F 3 "~" H 15600 5675 50  0001 C CNN
+	1    15600 5675
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	14600 5850 14600 5825
+	15600 5850 15600 5825
 Wire Wire Line
 	14600 5525 14600 5500
 Wire Wire Line
-	12250 6200 12100 6200
+	13250 6200 13100 6200
 Wire Wire Line
-	14250 6200 14100 6200
+	15250 6200 15100 6200
 Wire Wire Line
 	11600 5500 12600 5500
 Wire Wire Line
@@ -3837,17 +3837,13 @@ Connection ~ 9600 5500
 Wire Wire Line
 	6600 5500 7600 5500
 Wire Wire Line
-	6100 5175 6100 6200
-Wire Wire Line
 	7100 5175 7100 6200
 Wire Wire Line
-	3100 5175 3100 6200
-Wire Wire Line
-	4100 5175 4100 6200
+	8100 5175 8100 6200
 Wire Wire Line
 	5100 5175 5100 6200
 Wire Wire Line
-	8100 5175 8100 6200
+	6100 5175 6100 6200
 Wire Wire Line
 	9100 5175 9100 6200
 Wire Wire Line
@@ -3857,45 +3853,43 @@ Wire Wire Line
 Wire Wire Line
 	12100 5175 12100 6200
 Wire Wire Line
-	14100 5175 14100 6200
+	13100 5175 13100 6200
 Text GLabel 1750 5500 0    50   Input ~ 0
 Row5
 Wire Wire Line
 	2100 5175 2100 5200
-Text Notes 2500 6300 0    50   ~ 0
-Shift
-Text Notes 3575 6300 0    50   ~ 0
-Z
 Text Notes 4575 6300 0    50   ~ 0
-X
+Z
 Text Notes 5575 6300 0    50   ~ 0
-C
+X
 Text Notes 6575 6300 0    50   ~ 0
-V
+C
 Text Notes 7575 6300 0    50   ~ 0
-B
+V
 Text Notes 8575 6300 0    50   ~ 0
-N
+B
 Text Notes 9575 6300 0    50   ~ 0
-M
+N
 Text Notes 10575 6300 0    50   ~ 0
-<,
+M
 Text Notes 11575 6300 0    50   ~ 0
+<,
+Text Notes 12575 6300 0    50   ~ 0
 .>
-Text Notes 12525 6300 0    50   ~ 0
+Text Notes 13525 6300 0    50   ~ 0
 /?
-Text Notes 14550 6300 0    50   ~ 0
+Text Notes 15550 6300 0    50   ~ 0
 Up
 Connection ~ 12600 5500
 $Comp
 L austin-rescue:MXSwitch-acheronSymbols SW87
 U 1 1 5F742810
-P 10600 6200
-F 0 "SW87" H 10500 6250 50  0000 L CNN
-F 1 "MXSwitch" H 10475 6025 39  0000 L CNN
-F 2 "acheron_MX:MX100" H 10600 6200 50  0001 C CNN
-F 3 "" H 10600 6200 50  0001 C CNN
-	1    10600 6200
+P 11600 6200
+F 0 "SW87" H 11500 6250 50  0000 L CNN
+F 1 "MXSwitch" H 11475 6025 39  0000 L CNN
+F 2 "acheron_MX:MX100" H 11600 6200 50  0001 C CNN
+F 3 "" H 11600 6200 50  0001 C CNN
+	1    11600 6200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3920,12 +3914,12 @@ Text Notes 17600 6300 2    50   ~ 0
 $Comp
 L austin-rescue:MXSwitch-acheronSymbols SW88
 U 1 1 5F742821
-P 11600 6200
-F 0 "SW88" H 11500 6250 50  0000 L CNN
-F 1 "MXSwitch" H 11475 6025 39  0000 L CNN
-F 2 "acheron_MX:MX100" H 11600 6200 50  0001 C CNN
-F 3 "" H 11600 6200 50  0001 C CNN
-	1    11600 6200
+P 12600 6200
+F 0 "SW88" H 12500 6250 50  0000 L CNN
+F 1 "MXSwitch" H 12475 6025 39  0000 L CNN
+F 2 "acheron_MX:MX100" H 12600 6200 50  0001 C CNN
+F 3 "" H 12600 6200 50  0001 C CNN
+	1    12600 6200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3950,12 +3944,12 @@ Text Notes 18625 6300 2    50   ~ 0
 $Comp
 L austin-rescue:MXSwitch-acheronSymbols SW89
 U 1 1 5F742832
-P 12600 6200
-F 0 "SW89" H 12500 6250 50  0000 L CNN
-F 1 "MXSwitch" H 12475 6025 39  0000 L CNN
-F 2 "acheron_MX:MX100" H 12600 6200 50  0001 C CNN
-F 3 "" H 12600 6200 50  0001 C CNN
-	1    12600 6200
+P 13600 6200
+F 0 "SW89" H 13500 6250 50  0000 L CNN
+F 1 "MXSwitch" H 13475 6025 39  0000 L CNN
+F 2 "acheron_MX:MX100" H 13600 6200 50  0001 C CNN
+F 3 "" H 13600 6200 50  0001 C CNN
+	1    13600 6200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -4165,13 +4159,9 @@ Wire Wire Line
 Wire Wire Line
 	7100 6200 7100 7225
 Wire Wire Line
-	3100 6200 3100 7225
-Wire Wire Line
-	11100 6200 11100 7225
-Wire Wire Line
 	12100 6200 12100 7225
 Wire Wire Line
-	14100 6200 14100 7225
+	13100 6200 13100 7225
 Text GLabel 1750 6525 0    50   Input ~ 0
 Row6
 Wire Wire Line
@@ -4491,23 +4481,23 @@ SplitBsL
 $Comp
 L austin-rescue:MXSwitch-acheronSymbols SW86
 U 1 1 5F7427C9
-P 9600 6200
-F 0 "SW86" H 9500 6250 50  0000 L CNN
-F 1 "MXSwitch" H 9475 6025 39  0000 L CNN
-F 2 "acheron_MX:MX100" H 9600 6200 50  0001 C CNN
-F 3 "" H 9600 6200 50  0001 C CNN
-	1    9600 6200
+P 10600 6200
+F 0 "SW86" H 10500 6250 50  0000 L CNN
+F 1 "MXSwitch" H 10475 6025 39  0000 L CNN
+F 2 "acheron_MX:MX100" H 10600 6200 50  0001 C CNN
+F 3 "" H 10600 6200 50  0001 C CNN
+	1    10600 6200
 	1    0    0    -1  
 $EndComp
 $Comp
 L austin-rescue:MXSwitch-acheronSymbols SW91
 U 1 1 615D8558
-P 14600 6200
-F 0 "SW91" H 14500 6250 50  0000 L CNN
-F 1 "MXSwitch" H 14475 6025 39  0000 L CNN
-F 2 "acheron_MX:MX100" H 14600 6200 50  0001 C CNN
-F 3 "" H 14600 6200 50  0001 C CNN
-	1    14600 6200
+P 15600 6200
+F 0 "SW91" H 15500 6250 50  0000 L CNN
+F 1 "MXSwitch" H 15475 6025 39  0000 L CNN
+F 2 "acheron_MX:MX100" H 15600 6200 50  0001 C CNN
+F 3 "" H 15600 6200 50  0001 C CNN
+	1    15600 6200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -4542,10 +4532,7 @@ Wire Wire Line
 	3100 7250 3100 7225
 Connection ~ 3100 7225
 Wire Wire Line
-	4100 7250 4100 6200
-Wire Wire Line
 	4100 7250 4250 7250
-Connection ~ 4100 6200
 $Comp
 L Device:D D98
 U 1 1 61CFF8F0
@@ -4573,7 +4560,6 @@ Wire Wire Line
 	7225 7250 7100 7250
 Wire Wire Line
 	7100 7250 7100 7225
-Connection ~ 7100 7225
 Wire Notes Line width 20
 	22475 8075 22475 725 
 Text GLabel 14100 1125 1    50   Input ~ 0
@@ -7180,29 +7166,29 @@ Wire Wire Line
 $Comp
 L Device:D D90
 U 1 1 5D60C507
-P 13600 5650
-F 0 "D90" V 13569 5729 31  0000 L CNN
-F 1 "1N4148" V 13631 5729 31  0000 L CNN
-F 2 "acheronComponents:D_SOD-123" H 13600 5650 50  0001 C CNN
-F 3 "~" H 13600 5650 50  0001 C CNN
-	1    13600 5650
+P 14600 5650
+F 0 "D90" V 14569 5729 31  0000 L CNN
+F 1 "1N4148" V 14631 5729 31  0000 L CNN
+F 2 "acheronComponents:D_SOD-123" H 14600 5650 50  0001 C CNN
+F 3 "~" H 14600 5650 50  0001 C CNN
+	1    14600 5650
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	13600 5825 13600 5800
+	14600 5825 14600 5800
 Wire Wire Line
-	13250 6175 13100 6175
-Text Notes 13525 6275 0    50   ~ 0
+	14250 6175 14100 6175
+Text Notes 14525 6275 0    50   ~ 0
 Shift
 $Comp
 L austin-rescue:MXSwitch-acheronSymbols SW90
 U 1 1 5D60C510
-P 13600 6175
-F 0 "SW90" H 13500 6225 50  0000 L CNN
-F 1 "MXSwitch" H 13475 6000 39  0000 L CNN
-F 2 "acheron_MX:MX175" H 13600 6175 50  0001 C CNN
-F 3 "" H 13600 6175 50  0001 C CNN
-	1    13600 6175
+P 14600 6175
+F 0 "SW90" H 14500 6225 50  0000 L CNN
+F 1 "MXSwitch" H 14475 6000 39  0000 L CNN
+F 2 "acheron_MX:MX175" H 14600 6175 50  0001 C CNN
+F 3 "" H 14600 6175 50  0001 C CNN
+	1    14600 6175
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -7836,11 +7822,6 @@ Wire Wire Line
 Wire Wire Line
 	19975 10025 20225 10025
 Wire Wire Line
-	12600 5500 13600 5500
-Connection ~ 13600 5500
-Wire Wire Line
-	13600 5500 14600 5500
-Wire Wire Line
 	12600 4475 13600 4475
 Connection ~ 13600 4475
 Wire Wire Line
@@ -7850,9 +7831,9 @@ Wire Wire Line
 Connection ~ 5300 11425
 Wire Wire Line
 	5300 11425 5600 11425
-Connection ~ 13100 6175
+Connection ~ 14100 6175
 Wire Wire Line
-	13100 6175 13100 7225
+	14100 6175 14100 7225
 Wire Wire Line
 	6200 10150 6500 10150
 Connection ~ 6500 10150
@@ -7908,8 +7889,8 @@ Wire Wire Line
 Text GLabel 21650 10875 2    50   Input ~ 0
 Col13
 Wire Wire Line
-	21650 11175 21575 11175
-Text GLabel 21650 11175 2    50   Output ~ 0
+	21650 12675 21575 12675
+Text GLabel 21650 12675 2    50   Output ~ 0
 LED_PWM
 Wire Wire Line
 	21650 10675 21575 10675
@@ -8003,17 +7984,6 @@ F 3 "" H 16625 14300 50  0001 C CNN
 	1    16625 14300
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0108
-U 1 1 5EAECE4D
-P 16925 14300
-F 0 "#PWR0108" H 16925 14050 50  0001 C CNN
-F 1 "GND" H 16930 14127 50  0000 C CNN
-F 2 "" H 16925 14300 50  0001 C CNN
-F 3 "" H 16925 14300 50  0001 C CNN
-	1    16925 14300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	16325 14300 16325 14250
 Wire Wire Line
@@ -8030,8 +8000,6 @@ Text GLabel 16325 13700 1    50   Input ~ 0
 SCRLLCK
 Text GLabel 16625 13700 1    50   Input ~ 0
 NUMLCK
-Text GLabel 16925 13700 1    50   Input ~ 0
-CAPSLCK
 Text Notes 3750 13500 0    50   ~ 0
 RGP for "Gate Parallel"\nRGS for "Gate Series"
 Text GLabel 21650 12075 2    50   Input ~ 0
@@ -8248,7 +8216,7 @@ Wire Wire Line
 	13100 5175 13250 5175
 Connection ~ 13100 5175
 Wire Wire Line
-	13100 5175 13100 6175
+	14100 5175 14100 6175
 Wire Wire Line
 	15225 4125 15225 4150
 Connection ~ 15225 4150
@@ -8340,4 +8308,94 @@ Wire Notes Line
 	7975 12250 8450 12250
 Wire Notes Line
 	7975 13225 8450 13225
+Text GLabel 16925 13700 1    50   Input ~ 0
+CAPSLCK
+$Comp
+L power:GND #PWR0108
+U 1 1 5EAECE4D
+P 16925 14300
+F 0 "#PWR0108" H 16925 14050 50  0001 C CNN
+F 1 "GND" H 16930 14127 50  0000 C CNN
+F 2 "" H 16925 14300 50  0001 C CNN
+F 3 "" H 16925 14300 50  0001 C CNN
+	1    16925 14300
+	1    0    0    -1  
+$EndComp
+Connection ~ 5100 5175
+Connection ~ 6100 5175
+Connection ~ 7100 5175
+Connection ~ 8100 5175
+Connection ~ 9100 5175
+Connection ~ 10100 5175
+Connection ~ 11100 5175
+Connection ~ 12100 5175
+Connection ~ 12100 6200
+Connection ~ 13100 6200
+Connection ~ 14100 5175
+Wire Wire Line
+	3100 5175 3100 6200
+Wire Wire Line
+	12600 5500 14600 5500
+$Comp
+L Device:D D34
+U 1 1 5D9F1416
+P 3600 5675
+F 0 "D34" V 3569 5754 31  0000 L CNN
+F 1 "1N4148" V 3631 5754 31  0000 L CNN
+F 2 "acheronComponents:D_SOD-123" H 3600 5675 50  0001 C CNN
+F 3 "~" H 3600 5675 50  0001 C CNN
+	1    3600 5675
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3600 5850 3600 5825
+$Comp
+L austin-rescue:MXSwitch-acheronSymbols SW78
+U 1 1 5D9F141E
+P 3600 6200
+F 0 "SW78" H 3600 6250 50  0000 C CNN
+F 1 "ISO Slash" H 3600 6150 39  0000 C CNN
+F 2 "acheron_MX:MX100" H 3600 6200 50  0001 C CNN
+F 3 "" H 3600 6200 50  0001 C CNN
+	1    3600 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L austin-rescue:MXSwitch-acheronSymbols SW58
+U 1 1 5DAF33C9
+P 2625 6175
+F 0 "SW58" H 1900 6125 40  0000 L CNN
+F 1 "ANSI LShift" H 1850 6125 40  0000 R CNN
+F 2 "acheron_MX:MX225" H 2625 6175 50  0001 C CNN
+F 3 "" H 2625 6175 50  0001 C CNN
+	1    2625 6175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2275 6175 2250 6175
+Wire Wire Line
+	2250 6175 2250 6200
+Connection ~ 2250 6200
+Wire Wire Line
+	2625 5825 2600 5825
+Connection ~ 2600 5825
+Wire Wire Line
+	4100 5175 4100 6200
+Connection ~ 4100 5175
+Connection ~ 4100 6200
+Wire Wire Line
+	4100 6200 4100 7250
+Connection ~ 7100 6200
+Connection ~ 7100 7225
+Wire Wire Line
+	11100 7225 11100 6200
+Connection ~ 11100 6200
+Wire Wire Line
+	15100 4150 15100 6200
+Connection ~ 15100 4150
+Wire Wire Line
+	3250 6200 3100 6200
+Connection ~ 3100 6200
+Wire Wire Line
+	3100 6200 3100 7225
 $EndSCHEMATC
