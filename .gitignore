@@ -21,4 +21,4 @@ _autosave-*
 *.ses
 
 # Final manufacturing files meant for release
-/manuFiles
+manuFiles/
