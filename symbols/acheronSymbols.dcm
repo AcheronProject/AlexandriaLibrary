@@ -18,4 +18,10 @@ K usb universal serial bus type-C full-featured
 F https://www.usb.org/sites/default/files/documents/usb_type-c.zip
 $ENDCMP
 #
+$CMP WS2811M
+D 3-Channel 8-Bit PWM LED Driver, DIP-8/SOIC-8
+K PWM LED driver
+F https://cdn-shop.adafruit.com/datasheets/WS2811.pdf
+$ENDCMP
+#
 #End Doc Library

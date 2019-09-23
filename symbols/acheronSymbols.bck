@@ -1,9 +1,27 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AO4407A
+D P-MOSFET transistor, drain/gate/source
+K transistor PMOS P-MOS P-MOSFET
+F ~
+$ENDCMP
+#
+$CMP LED_GBRA
+D RGB LED, anode/red/green/blue
+K LED RGB diode
+F ~
+$ENDCMP
+#
 $CMP TYPE-C-31-M12_13
 D USB Full-Featured Type-C Receptacle connector
 K usb universal serial bus type-C full-featured
 F https://www.usb.org/sites/default/files/documents/usb_type-c.zip
+$ENDCMP
+#
+$CMP WS2811M
+D 3-Channel 8-Bit PWM LED Driver, DIP-8/SOIC-8
+K PWM LED driver
+F https://cdn-shop.adafruit.com/datasheets/WS2811.pdf
 $ENDCMP
 #
 #End Doc Library
