@@ -1,4 +1,4 @@
-16328979137819038
+16351232393714038
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -72198,6 +72198,20 @@ resistor
 2
 2
 acheronComponents
+LED_RGB_SMD_6028_2.8x3.5mm
+
+
+0
+4
+4
+acheronComponents
+LED_RGB_SMD_6028_2.8x3.5mm_Round
+
+
+0
+4
+4
+acheronComponents
 LED_SMD_0805
 
 
@@ -72232,6 +72246,20 @@ LQFP QFP
 0
 48
 48
+acheronComponents
+MSOP-8-1EP_3x3mm_P0.65mm_EP1.68x1.88mm
+MS8E Package; 8-Lead Plastic MSOP, Exposed Die Pad (see Linear Technology 05081662_K_MS8E.pdf)
+SSOP 0.65
+0
+13
+9
+acheronComponents
+QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm
+QFN, 44 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/2512S.pdf#page=17), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
+QFN DFN_QFN
+0
+61
+45
 acheronComponents
 R_SMD_1026
 Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
@@ -72274,48 +72302,20 @@ QFP 0.8
 0
 44
 44
-acheronConnectors
-HEADER_4PIN
-
-
+acheronComponents
+UQFN-48-1EP_6x6mm_P0.4mm_EP4.62x4.62mm
+UQFN, 48 Pin (https://github.com/KiCad/kicad-symbols/pull/1189#issuecomment-449506354), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
+UQFN DFN_QFN
 0
-4
-4
+53
+49
 acheronConnectors
-HEADER_4PIN_ANGLE
-
-
+Conn_ARM_JTAG_SWD_10
+Through hole straight pin header, 1x14, 2.54mm pitch, single row
+Through hole pin header THT 1x14 2.54mm single row
 0
-4
-4
-acheronConnectors
-HEADER_5PIN
-
-
-0
-5
-5
-acheronConnectors
-HEADER_6PIN
-
-
-0
-6
-6
-acheronConnectors
-HEADER_6PIN_ANGLE
-
-
-0
-6
-6
-acheronConnectors
-HEADER_6PIN_HORIZONTAL
-
-
-0
-6
-6
+10
+10
 acheronConnectors
 JSTBM04B-ASRS
 
@@ -72331,11 +72331,95 @@ JST_BM04B-ASRS
 6
 5
 acheronConnectors
+PinHeader_1x4_P2.54mm_Angled
+
+
+0
+4
+4
+acheronConnectors
+PinHeader_1x4_P2.54mm_Vertical
+Through hole straight pin header, 1x14, 2.54mm pitch, single row
+Through hole pin header THT 1x14 2.54mm single row
+0
+4
+4
+acheronConnectors
+PinHeader_1x5_P2.54mm_Vertical
+Through hole straight pin header, 1x14, 2.54mm pitch, single row
+Through hole pin header THT 1x14 2.54mm single row
+0
+5
+5
+acheronConnectors
+PinHeader_1x6_P2.54mm_Angled
+
+
+0
+6
+6
+acheronConnectors
+PinHeader_1x6_P2.54mm_Vertical
+Through hole straight pin header, 1x14, 2.54mm pitch, single row
+Through hole pin header THT 1x14 2.54mm single row
+0
+6
+6
+acheronConnectors
+PinHeader_1x7_P2.54mm_Vertical
+Through hole straight pin header, 1x14, 2.54mm pitch, single row
+Through hole pin header THT 1x14 2.54mm single row
+0
+7
+7
+acheronConnectors
+PinHeader_1x8_P2.54mm_Vertical
+Through hole straight pin header, 1x14, 2.54mm pitch, single row
+Through hole pin header THT 1x14 2.54mm single row
+0
+8
+8
+acheronConnectors
+PinHeader_1x10_P2.54mm_Vertical
+Through hole straight pin header, 1x14, 2.54mm pitch, single row
+Through hole pin header THT 1x14 2.54mm single row
+0
+10
+10
+acheronConnectors
+PinHeader_1x14_P2.54mm_Vertical
+Through hole straight pin header, 1x14, 2.54mm pitch, single row
+Through hole pin header THT 1x14 2.54mm single row
+0
+14
+14
+acheronConnectors
+PinHeader_1x20_P2.54mm_Vertical
+Through hole straight pin header, 1x14, 2.54mm pitch, single row
+Through hole pin header THT 1x14 2.54mm single row
+0
+14
+14
+acheronConnectors
+PinHeader_2x3_P2.54mm_Vertical
+Through hole straight pin header, 1x14, 2.54mm pitch, single row
+Through hole pin header THT 1x14 2.54mm single row
+0
+6
+6
+acheronConnectors
+PinHeader_2x5_P2.54mm_Vertical
+Through hole straight pin header, 1x14, 2.54mm pitch, single row
+Through hole pin header THT 1x14 2.54mm single row
+0
+10
+10
+acheronConnectors
 TYPE-C-31-M-12
 
 
 0
-20
+16
 13
 acheronConnectors
 USB_MiniB_Hirose_UX60-MB-5S8
@@ -72400,6 +72484,34 @@ acheronLongExtended
 0
 0
 0
+acheronLogos
+acheronShort_0.3x0.5in
+
+
+0
+0
+0
+acheronLogos
+acheronShort_0.3x0.5in_Plated
+
+
+0
+8
+1
+acheronLogos
+acheronShort_15.2x21mm
+
+
+0
+0
+0
+acheronLogos
+acheronShort_15.2x21mm_Plated
+
+
+0
+8
+1
 acheronMountingHoles
 MountingHole_2.5x4.0mm
 
@@ -72409,6 +72521,13 @@ MountingHole_2.5x4.0mm
 1
 acheronMountingHoles
 MountingHole_2.5x5.0mm
+
+
+0
+1
+1
+acheronMountingHoles
+Mounting_Hole_Oval_2.5x8mm
 
 
 0
@@ -72426,7 +72545,7 @@ MoutingHole_Oval_BackOnly_7mm_5.0x2.5mm
 
 
 0
-1
+2
 1
 acheronMountingHoles
 MoutingHole_Oval_Poker_7mm_5.0x2.5mm
@@ -72764,6 +72883,13 @@ MX_ISOEnter
 0
 2
 2
+acheron_MX
+MX_ISOEnter_Vertical
+
+
+0
+2
+2
 acheron_MXA
 MXA100
 
@@ -72988,31 +73114,3 @@ driftMechanics_logo
 0
 2
 2
-oshLogo
-brazilFlag
-
-
-0
-3
-1
-oshLogo
-osh-logo
-
-
-0
-0
-0
-oshLogo
-osh-logoExtended
-
-
-0
-0
-0
-oshLogo
-usFlag
-
-
-0
-1
-1

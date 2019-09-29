@@ -6,7 +6,7 @@ $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
 Title "AustinPCB"
-Date "2019-09-15"
+Date "2019-09-29"
 Rev "Alpha"
 Comp "Designed by Gondolindrim"
 Comment1 "In partnership with driftingbunnies and PheonixStar"
@@ -7131,7 +7131,7 @@ U 1 1 5D72A694
 P 17575 7250
 F 0 "SW112" H 17000 7025 50  0000 L CNN
 F 1 "MXSwitch" H 17450 7075 39  0000 L CNN
-F 2 "acheron_MX:MX200R" H 17575 7250 50  0001 C CNN
+F 2 "acheron_MX:MX200" H 17575 7250 50  0001 C CNN
 F 3 "" H 17575 7250 50  0001 C CNN
 	1    17575 7250
 	1    0    0    -1  
@@ -7927,23 +7927,19 @@ Wire Wire Line
 Wire Wire Line
 	16675 13825 16675 13775
 Text GLabel 16075 13775 1    50   Input ~ 0
-SCRLLCK
+INDICATOR1
 Text GLabel 16375 13775 1    50   Input ~ 0
-NUMLCK
+INDICATOR2
 Text Notes 3750 13500 0    50   ~ 0
 RGP for "Gate Parallel"\nRGS for "Gate Series"
-Text GLabel 21725 12725 2    50   Input ~ 0
-SCRLLCK
+Text GLabel 21725 12725 2    50   Output ~ 0
+INDICATOR1
 Wire Wire Line
 	21725 12725 21650 12725
-Text GLabel 21725 12825 2    50   Input ~ 0
-CAPSLCK
 Wire Wire Line
 	21650 12825 21725 12825
 Wire Wire Line
 	21725 12925 21650 12925
-Text GLabel 21725 12925 2    50   Input ~ 0
-NUMLCK
 $Comp
 L Regulator_Linear:TLV1117-33 U2
 U 1 1 5D21E92D
@@ -8215,7 +8211,7 @@ Wire Notes Line
 Wire Notes Line
 	7975 13225 8450 13225
 Text GLabel 16675 13775 1    50   Input ~ 0
-CAPSLCK
+INDICATOR3
 $Comp
 L power:GND #PWR0108
 U 1 1 5EAECE4D
@@ -8510,4 +8506,8 @@ Wire Wire Line
 Connection ~ 15600 5500
 Wire Wire Line
 	15600 5500 17600 5500
+Text GLabel 21725 12825 2    50   Output ~ 0
+INDICATOR3
+Text GLabel 21725 12925 2    50   Output ~ 0
+INDICATOR2
 $EndSCHEMATC
