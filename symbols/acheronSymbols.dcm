@@ -12,6 +12,12 @@ K LED RGB diode
 F ~
 $ENDCMP
 #
+$CMP L_Core_Ferrite_Coupled_1423
+D Coupled inductor with ferrite core
+K inductor choke coil reactor magnetic coupled
+F ~
+$ENDCMP
+#
 $CMP TYPE-C-31-M12_13
 D USB Full-Featured Type-C Receptacle connector
 K usb universal serial bus type-C full-featured
