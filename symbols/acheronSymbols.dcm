@@ -6,6 +6,11 @@ K transistor PMOS P-MOS P-MOSFET
 F ~
 $ENDCMP
 #
+$CMP DTC123J
+D Digital NPN Transistor, 2k2/47k, SOT-23
+K ROHM Digital NPN Transistor
+$ENDCMP
+#
 $CMP LED_GBRA
 D RGB LED, anode/red/green/blue
 K LED RGB diode
