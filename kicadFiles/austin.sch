@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:austin-cache
 EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
@@ -26,7 +25,7 @@ F 3 "" H 8625 12375 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW1
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW1
 U 1 1 5C015E05
 P 2600 2100
 F 0 "SW1" H 2525 2150 50  0000 L CNN
@@ -54,7 +53,7 @@ Wire Wire Line
 Wire Wire Line
 	2600 1425 2600 1400
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW2
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW2
 U 1 1 5C0D3AD9
 P 3600 2100
 F 0 "SW2" H 3525 2150 50  0000 L CNN
@@ -89,7 +88,7 @@ Wire Wire Line
 Wire Wire Line
 	3250 2100 3100 2100
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW3
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW3
 U 1 1 5C115BC6
 P 4600 2100
 F 0 "SW3" H 4525 2150 50  0000 L CNN
@@ -115,7 +114,7 @@ Wire Wire Line
 Wire Wire Line
 	4600 1425 4600 1400
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW4
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW4
 U 1 1 5C115BD7
 P 5600 2100
 F 0 "SW4" H 5525 2150 50  0000 L CNN
@@ -148,7 +147,7 @@ Wire Wire Line
 Wire Wire Line
 	5250 2100 5100 2100
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW5
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW5
 U 1 1 5C12DA31
 P 6600 2100
 F 0 "SW5" H 6525 2150 50  0000 L CNN
@@ -174,7 +173,7 @@ Wire Wire Line
 Wire Wire Line
 	6600 1425 6600 1400
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW6
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW6
 U 1 1 5C12DA42
 P 7600 2100
 F 0 "SW6" H 7525 2150 50  0000 L CNN
@@ -210,7 +209,7 @@ Wire Wire Line
 Wire Wire Line
 	7250 2100 7100 2100
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW7
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW7
 U 1 1 5C12DA5E
 P 8600 2100
 F 0 "SW7" H 8525 2150 50  0000 L CNN
@@ -236,7 +235,7 @@ Wire Wire Line
 Wire Wire Line
 	8600 1425 8600 1400
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW8
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW8
 U 1 1 5C12DA6F
 P 9600 2100
 F 0 "SW8" H 9525 2150 50  0000 L CNN
@@ -269,7 +268,7 @@ Wire Wire Line
 Wire Wire Line
 	9250 2100 9100 2100
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW9
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW9
 U 1 1 5C15A34B
 P 10600 2100
 F 0 "SW9" H 10525 2150 50  0000 L CNN
@@ -295,7 +294,7 @@ Wire Wire Line
 Wire Wire Line
 	10600 1425 10600 1400
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW10
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW10
 U 1 1 5C15A35C
 P 11600 2100
 F 0 "SW10" H 11500 2150 50  0000 L CNN
@@ -329,7 +328,7 @@ Wire Wire Line
 Wire Wire Line
 	11250 2100 11100 2100
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW11
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW11
 U 1 1 5C15A378
 P 12600 2100
 F 0 "SW11" H 12500 2150 50  0000 L CNN
@@ -355,7 +354,7 @@ Wire Wire Line
 Wire Wire Line
 	12600 1425 12600 1400
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW12
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW12
 U 1 1 5C15A389
 P 13600 2100
 F 0 "SW12" H 13500 2150 50  0000 L CNN
@@ -398,7 +397,7 @@ Connection ~ 12600 1400
 Wire Wire Line
 	1750 2425 2600 2425
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW20
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW20
 U 1 1 5C1B87E3
 P 2600 3125
 F 0 "SW20" H 2500 3175 50  0000 L CNN
@@ -460,7 +459,7 @@ $EndComp
 Wire Wire Line
 	4600 2450 4600 2425
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW22
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW22
 U 1 1 5C1B881C
 P 4600 3125
 F 0 "SW22" H 4500 3175 50  0000 L CNN
@@ -493,7 +492,7 @@ Wire Wire Line
 Wire Wire Line
 	5250 3125 5100 3125
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW23
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW23
 U 1 1 5C1B8832
 P 5600 3125
 F 0 "SW23" H 5500 3175 50  0000 L CNN
@@ -519,7 +518,7 @@ Wire Wire Line
 Wire Wire Line
 	6600 2450 6600 2425
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW24
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW24
 U 1 1 5C1B8842
 P 6600 3125
 F 0 "SW24" H 6500 3175 50  0000 L CNN
@@ -555,7 +554,7 @@ Wire Wire Line
 Wire Wire Line
 	7250 3125 7100 3125
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW25
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW25
 U 1 1 5C1B885A
 P 7600 3125
 F 0 "SW25" H 7500 3175 50  0000 L CNN
@@ -581,7 +580,7 @@ Wire Wire Line
 Wire Wire Line
 	8600 2450 8600 2425
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW26
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW26
 U 1 1 5C1B886A
 P 8600 3125
 F 0 "SW26" H 8500 3175 50  0000 L CNN
@@ -614,7 +613,7 @@ Wire Wire Line
 Wire Wire Line
 	9250 3125 9100 3125
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW27
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW27
 U 1 1 5C1B8880
 P 9600 3125
 F 0 "SW27" H 9500 3175 50  0000 L CNN
@@ -640,7 +639,7 @@ Wire Wire Line
 Wire Wire Line
 	10600 2450 10600 2425
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW28
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW28
 U 1 1 5C1B8890
 P 10600 3125
 F 0 "SW28" H 10500 3175 50  0000 L CNN
@@ -689,7 +688,7 @@ Wire Wire Line
 Wire Wire Line
 	12600 2450 12600 2425
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW30
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW30
 U 1 1 5C1B88B7
 P 12600 3125
 F 0 "SW30" H 12500 3175 50  0000 L CNN
@@ -732,7 +731,7 @@ Connection ~ 12600 2425
 Wire Wire Line
 	1750 3450 2600 3450
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW39
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW39
 U 1 1 5C1D740D
 P 20600 3125
 F 0 "SW39" H 20500 3175 50  0000 L CNN
@@ -758,7 +757,7 @@ Wire Wire Line
 Wire Wire Line
 	2600 3475 2600 3450
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW40
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW40
 U 1 1 5C1D741D
 P 2600 4150
 F 0 "SW40" H 2500 4200 50  0000 L CNN
@@ -792,7 +791,7 @@ Wire Wire Line
 Wire Wire Line
 	3250 4150 3100 4150
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW41
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW41
 U 1 1 5C1D7433
 P 3600 4150
 F 0 "SW41" H 3500 4200 50  0000 L CNN
@@ -818,7 +817,7 @@ Wire Wire Line
 Wire Wire Line
 	4600 3475 4600 3450
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW42
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW42
 U 1 1 5C1D7443
 P 4600 4150
 F 0 "SW42" H 4500 4200 50  0000 L CNN
@@ -851,7 +850,7 @@ Wire Wire Line
 Wire Wire Line
 	5250 4150 5100 4150
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW43
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW43
 U 1 1 5C1D7457
 P 5600 4150
 F 0 "SW43" H 5500 4200 50  0000 L CNN
@@ -877,7 +876,7 @@ Wire Wire Line
 Wire Wire Line
 	6600 3475 6600 3450
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW44
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW44
 U 1 1 5C1D7467
 P 6600 4150
 F 0 "SW44" H 6500 4200 50  0000 L CNN
@@ -913,7 +912,7 @@ Wire Wire Line
 Wire Wire Line
 	7250 4150 7100 4150
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW45
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW45
 U 1 1 5C1D747D
 P 7600 4150
 F 0 "SW45" H 7500 4200 50  0000 L CNN
@@ -939,7 +938,7 @@ Wire Wire Line
 Wire Wire Line
 	8600 3475 8600 3450
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW46
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW46
 U 1 1 5C1D748D
 P 8600 4150
 F 0 "SW46" H 8500 4200 50  0000 L CNN
@@ -972,7 +971,7 @@ Wire Wire Line
 Wire Wire Line
 	9250 4150 9100 4150
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW47
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW47
 U 1 1 5C1D74A1
 P 9600 4150
 F 0 "SW47" H 9500 4200 50  0000 L CNN
@@ -998,7 +997,7 @@ Wire Wire Line
 Wire Wire Line
 	10600 3475 10600 3450
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW48
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW48
 U 1 1 5C1D74B1
 P 10600 4150
 F 0 "SW48" H 10500 4200 50  0000 L CNN
@@ -1032,7 +1031,7 @@ Wire Wire Line
 Wire Wire Line
 	11250 4150 11100 4150
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW49
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW49
 U 1 1 5C1D74C6
 P 11600 4150
 F 0 "SW49" H 11500 4200 50  0000 L CNN
@@ -1058,7 +1057,7 @@ Wire Wire Line
 Wire Wire Line
 	12600 3475 12600 3450
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW50
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW50
 U 1 1 5C1D74D6
 P 12600 4150
 F 0 "SW50" H 12500 4200 50  0000 L CNN
@@ -1205,7 +1204,7 @@ Wire Wire Line
 Wire Wire Line
 	3250 5175 3100 5175
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW60
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW60
 U 1 1 5C2777BF
 P 2600 5175
 F 0 "SW60" H 2725 5575 50  0000 L CNN
@@ -1231,7 +1230,7 @@ Wire Wire Line
 Wire Wire Line
 	4600 4500 4600 4475
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW61
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW61
 U 1 1 5C2777CF
 P 2575 5200
 F 0 "SW61" H 1750 5175 50  0000 L CNN
@@ -1264,7 +1263,7 @@ Wire Wire Line
 Wire Wire Line
 	5250 5175 5100 5175
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW62
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW62
 U 1 1 5C2777E3
 P 3600 5175
 F 0 "SW62" H 3500 5225 50  0000 L CNN
@@ -1290,7 +1289,7 @@ Wire Wire Line
 Wire Wire Line
 	6600 4500 6600 4475
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW63
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW63
 U 1 1 5C2777F3
 P 4600 5175
 F 0 "SW63" H 4500 5225 50  0000 L CNN
@@ -1324,7 +1323,7 @@ Wire Wire Line
 Wire Wire Line
 	7250 5175 7100 5175
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW64
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW64
 U 1 1 5C277809
 P 5600 5175
 F 0 "SW64" H 5500 5225 50  0000 L CNN
@@ -1350,7 +1349,7 @@ Wire Wire Line
 Wire Wire Line
 	8600 4500 8600 4475
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW65
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW65
 U 1 1 5C277819
 P 6600 5175
 F 0 "SW65" H 6500 5225 50  0000 L CNN
@@ -1383,7 +1382,7 @@ Wire Wire Line
 Wire Wire Line
 	9250 5175 9100 5175
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW66
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW66
 U 1 1 5C27782D
 P 7600 5175
 F 0 "SW66" H 7500 5225 50  0000 L CNN
@@ -1409,7 +1408,7 @@ Wire Wire Line
 Wire Wire Line
 	10600 4500 10600 4475
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW67
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW67
 U 1 1 5C27783D
 P 8600 5175
 F 0 "SW67" H 8500 5225 50  0000 L CNN
@@ -1443,7 +1442,7 @@ Wire Wire Line
 Wire Wire Line
 	11250 5175 11100 5175
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW68
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW68
 U 1 1 5C277852
 P 9600 5175
 F 0 "SW68" H 9525 5225 50  0000 L CNN
@@ -1469,7 +1468,7 @@ Wire Wire Line
 Wire Wire Line
 	12600 4500 12600 4475
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW69
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW69
 U 1 1 5C277862
 P 10600 5175
 F 0 "SW69" H 10500 5225 50  0000 L CNN
@@ -1748,7 +1747,7 @@ Connection ~ 3450 13525
 Wire Wire Line
 	3450 13525 3450 13625
 $Comp
-L austin-rescue:LED-acheronSymbols LED1
+L austin-rescue:LED-acheronSymbols-austin-rescue LED1
 U 1 1 5D1EBF5B
 P 1100 9350
 F 0 "LED1" V 975 9375 20  0000 L CNN
@@ -1759,7 +1758,7 @@ F 3 "" H 1100 9350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L austin-rescue:AO4406AL-acheronSymbols Q1
+L austin-rescue:AO4406AL-acheronSymbols-austin-rescue Q1
 U 1 1 5DDB1E0B
 P 3450 13150
 F 0 "Q1" H 3556 13172 50  0000 L CNN
@@ -2441,7 +2440,7 @@ Connection ~ 9325 9675
 Wire Wire Line
 	9325 9675 9675 9675
 $Comp
-L austin-rescue:TYPE-C-31-M12_13-acheronSymbols J1
+L austin-rescue:TYPE-C-31-M12_13-acheronSymbols-austin-rescue J1
 U 1 1 5D05AFC6
 P 8625 10825
 F 0 "J1" H 8732 12092 50  0000 C CNN
@@ -2481,7 +2480,7 @@ F10
 Text Notes 13675 2200 2    50   ~ 0
 F11
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW13
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW13
 U 1 1 5D26A780
 P 14600 2100
 F 0 "SW13" H 14500 2150 50  0000 L CNN
@@ -2513,7 +2512,7 @@ Wire Wire Line
 Text Notes 14675 2200 2    50   ~ 0
 F12
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW14
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW14
 U 1 1 5D2DD902
 P 15600 2100
 F 0 "SW14" H 15500 2150 50  0000 L CNN
@@ -2545,7 +2544,7 @@ Wire Wire Line
 Text Notes 15700 2200 2    50   ~ 0
 PrtSc
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW15
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW15
 U 1 1 5D351F9B
 P 16600 2100
 F 0 "SW15" H 16500 2150 50  0000 L CNN
@@ -2577,7 +2576,7 @@ Wire Wire Line
 Text Notes 16725 2200 2    50   ~ 0
 ScrLck
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW16
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW16
 U 1 1 5D3C7B17
 P 17600 2100
 F 0 "SW16" H 17525 2150 50  0000 L CNN
@@ -2613,7 +2612,7 @@ Connection ~ 14600 1400
 Connection ~ 15600 1400
 Connection ~ 16600 1400
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW17
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW17
 U 1 1 5D53EB66
 P 18600 2100
 F 0 "SW17" H 18525 2150 50  0000 L CNN
@@ -2651,7 +2650,7 @@ Wire Notes Line
 Wire Notes Line width 20
 	18525 14650 18525 8950
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW18
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW18
 U 1 1 5D90E9A1
 P 19600 2100
 F 0 "SW18" H 19525 2150 50  0000 L CNN
@@ -2683,7 +2682,7 @@ Wire Wire Line
 Text Notes 19675 2200 2    50   ~ 0
 End
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW19
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW19
 U 1 1 5D9897E0
 P 20600 2100
 F 0 "SW19" H 20525 2150 50  0000 L CNN
@@ -2739,7 +2738,7 @@ Text Notes 12575 3225 0    50   ~ 0
 Text Notes 13550 3225 0    50   ~ 0
 -_
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW31
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW31
 U 1 1 5DA08D2D
 P 13600 3125
 F 0 "SW31" H 13500 3175 50  0000 L CNN
@@ -2771,7 +2770,7 @@ Wire Wire Line
 Text Notes 14675 3225 2    50   ~ 0
 +=
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW32
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW32
 U 1 1 5DA84F26
 P 14600 3125
 F 0 "SW32" H 14500 3175 50  0000 L CNN
@@ -2801,7 +2800,7 @@ Wire Wire Line
 Wire Wire Line
 	14600 2425 15600 2425
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW34
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW34
 U 1 1 5DB032F4
 P 16575 3150
 F 0 "SW34" H 16100 3050 50  0000 L CNN
@@ -2831,7 +2830,7 @@ Wire Wire Line
 Text Notes 17050 2850 2    50   ~ 0
 SplitBsR
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW33
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW33
 U 1 1 5DB80F5E
 P 15600 3125
 F 0 "SW33" H 15125 3025 50  0000 L CNN
@@ -2845,7 +2844,7 @@ Connection ~ 16600 2750
 Text Notes 16275 3350 2    50   ~ 0
 Backspace
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW35
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW35
 U 1 1 5DD07806
 P 16600 3125
 F 0 "SW35" H 16725 3500 50  0000 L CNN
@@ -2877,7 +2876,7 @@ Wire Wire Line
 Text Notes 17675 3225 2    50   ~ 0
 Insert
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW36
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW36
 U 1 1 5DD879E9
 P 17600 3125
 F 0 "SW36" H 17500 3175 50  0000 L CNN
@@ -2909,7 +2908,7 @@ Wire Wire Line
 Text Notes 18750 3225 2    50   ~ 0
 Numlock
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW37
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW37
 U 1 1 5DE08DFE
 P 18600 3125
 F 0 "SW37" H 18525 3175 50  0000 L CNN
@@ -2941,7 +2940,7 @@ Wire Wire Line
 Text Notes 19625 3225 2    50   ~ 0
 /
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW38
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW38
 U 1 1 5DE8BB2B
 P 19600 3125
 F 0 "SW38" H 19500 3175 50  0000 L CNN
@@ -3003,7 +3002,7 @@ P
 Text Notes 13575 4250 0    50   ~ 0
 [{
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW51
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW51
 U 1 1 5DF95CC5
 P 13600 4150
 F 0 "SW51" H 13500 4200 50  0000 L CNN
@@ -3035,7 +3034,7 @@ Wire Wire Line
 Text Notes 14650 4250 2    50   ~ 0
 ]}
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW52
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW52
 U 1 1 5E01BEF5
 P 14600 4150
 F 0 "SW52" H 14500 4200 50  0000 L CNN
@@ -3067,7 +3066,7 @@ Wire Wire Line
 Text Notes 15650 4250 2    50   ~ 0
 \|
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW53
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW53
 U 1 1 5E0A36AB
 P 15600 4150
 F 0 "SW53" H 15500 4000 50  0000 L CNN
@@ -3099,7 +3098,7 @@ Wire Wire Line
 Text Notes 16675 4250 2    50   ~ 0
 PgUp
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW54
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW54
 U 1 1 5E241921
 P 16600 4150
 F 0 "SW54" H 16500 4200 50  0000 L CNN
@@ -3131,7 +3130,7 @@ Wire Wire Line
 Text Notes 17600 4250 2    50   ~ 0
 7
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW55
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW55
 U 1 1 5E2CBA2D
 P 17600 4150
 F 0 "SW55" H 17500 4200 50  0000 L CNN
@@ -3163,7 +3162,7 @@ Text Notes 18625 4250 2    50   ~ 0
 Wire Wire Line
 	17600 3450 18600 3450
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW56
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW56
 U 1 1 5E4744F8
 P 18600 4150
 F 0 "SW56" H 18500 4200 50  0000 L CNN
@@ -3229,7 +3228,7 @@ Connection ~ 14100 3125
 Wire Wire Line
 	14100 3125 14100 2100
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW70
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW70
 U 1 1 5E741073
 P 11600 5175
 F 0 "SW70" H 11500 5225 50  0000 L CNN
@@ -3259,7 +3258,7 @@ Wire Wire Line
 Text Notes 16725 5275 2    50   ~ 0
 PgDwn
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW71
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW71
 U 1 1 5E7D14DD
 P 12600 5175
 F 0 "SW71" H 12500 5225 50  0000 L CNN
@@ -3291,7 +3290,7 @@ Wire Wire Line
 Text Notes 17600 5275 2    50   ~ 0
 4
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW72
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW72
 U 1 1 5E862837
 P 13600 5175
 F 0 "SW72" H 13500 5225 50  0000 L CNN
@@ -3323,7 +3322,7 @@ Wire Wire Line
 Text Notes 18625 5275 2    50   ~ 0
 5
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW73
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW73
 U 1 1 5E8F5421
 P 14600 5175
 F 0 "SW73" H 14575 5250 50  0000 C CNN
@@ -3353,7 +3352,7 @@ Wire Wire Line
 Wire Wire Line
 	18600 4475 19600 4475
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW74
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW74
 U 1 1 5E98912A
 P 16600 5175
 F 0 "SW74" H 16500 5225 50  0000 L CNN
@@ -3366,7 +3365,7 @@ $EndComp
 Text Notes 19625 5275 2    50   ~ 0
 6
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW57
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW57
 U 1 1 5EA215D9
 P 19600 4150
 F 0 "SW57" H 19500 4200 50  0000 L CNN
@@ -3460,7 +3459,7 @@ Wire Wire Line
 Wire Wire Line
 	2600 5525 2600 5500
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW76
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW76
 U 1 1 5F742725
 P 18600 5175
 F 0 "SW76" H 18500 5225 50  0000 L CNN
@@ -3496,7 +3495,7 @@ Wire Wire Line
 Wire Wire Line
 	4250 6200 4100 6200
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW77
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW77
 U 1 1 5F742739
 P 19600 5175
 F 0 "SW77" H 19500 5225 50  0000 L CNN
@@ -3544,7 +3543,7 @@ Wire Wire Line
 Wire Wire Line
 	6250 6200 6100 6200
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW79
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW79
 U 1 1 5F742759
 P 2600 6200
 F 0 "SW79" H 1900 6275 40  0000 L CNN
@@ -3570,7 +3569,7 @@ Wire Wire Line
 Wire Wire Line
 	6600 5525 6600 5500
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW80
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW80
 U 1 1 5F742767
 P 4600 6200
 F 0 "SW80" H 4500 6250 50  0000 L CNN
@@ -3604,7 +3603,7 @@ Wire Wire Line
 Wire Wire Line
 	8250 6200 8100 6200
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW81
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW81
 U 1 1 5F74277A
 P 5600 6200
 F 0 "SW81" H 5500 6250 50  0000 L CNN
@@ -3630,7 +3629,7 @@ Wire Wire Line
 Wire Wire Line
 	8600 5525 8600 5500
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW82
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW82
 U 1 1 5F742788
 P 6600 6200
 F 0 "SW82" H 6500 6250 50  0000 L CNN
@@ -3663,7 +3662,7 @@ Wire Wire Line
 Wire Wire Line
 	10250 6200 10100 6200
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW83
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW83
 U 1 1 5F74279A
 P 7600 6200
 F 0 "SW83" H 7500 6250 50  0000 L CNN
@@ -3689,7 +3688,7 @@ Wire Wire Line
 Wire Wire Line
 	10600 5525 10600 5500
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW84
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW84
 U 1 1 5F7427A8
 P 8600 6200
 F 0 "SW84" H 8500 6250 50  0000 L CNN
@@ -3723,7 +3722,7 @@ Wire Wire Line
 Wire Wire Line
 	12250 6200 12100 6200
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW85
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW85
 U 1 1 5F7427BB
 P 9600 6200
 F 0 "SW85" H 9525 6250 50  0000 L CNN
@@ -3821,7 +3820,7 @@ Text Notes 15550 6300 0    50   ~ 0
 Up
 Connection ~ 12600 5500
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW87
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW87
 U 1 1 5F742810
 P 11600 6200
 F 0 "SW87" H 11500 6250 50  0000 L CNN
@@ -3851,7 +3850,7 @@ Wire Wire Line
 Text Notes 17600 6300 2    50   ~ 0
 1
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW88
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW88
 U 1 1 5F742821
 P 12600 6200
 F 0 "SW88" H 12500 6250 50  0000 L CNN
@@ -3881,7 +3880,7 @@ Wire Wire Line
 Text Notes 18625 6300 2    50   ~ 0
 2
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW89
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW89
 U 1 1 5F742832
 P 13600 6200
 F 0 "SW89" H 13500 6250 50  0000 L CNN
@@ -3980,7 +3979,7 @@ Wire Wire Line
 Wire Wire Line
 	3250 7225 3100 7225
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW93
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW93
 U 1 1 5F8CF009
 P 18600 6200
 F 0 "SW93" H 18500 6250 50  0000 L CNN
@@ -4009,7 +4008,7 @@ Connection ~ 7600 6525
 Wire Wire Line
 	7250 7225 7100 7225
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW94
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW94
 U 1 1 5F8CF04A
 P 19600 6200
 F 0 "SW94" H 19500 6250 50  0000 L CNN
@@ -4038,7 +4037,7 @@ Connection ~ 11600 6525
 Wire Wire Line
 	11250 7225 11100 7225
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW95
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW95
 U 1 1 5F8CF05D
 P 20600 6200
 F 0 "SW95" H 20500 6225 50  0000 L CNN
@@ -4064,7 +4063,7 @@ Wire Wire Line
 Wire Wire Line
 	12600 6550 12600 6525
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW98
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW98
 U 1 1 5F8CF06B
 P 4600 7250
 F 0 "SW98" H 4500 7325 50  0000 L CNN
@@ -4121,7 +4120,7 @@ Wire Wire Line
 	12600 6525 13600 6525
 Connection ~ 12600 6525
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW102
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW102
 U 1 1 5F8CF0B2
 P 13600 7225
 F 0 "SW102" H 13475 7300 50  0000 L CNN
@@ -4151,7 +4150,7 @@ Wire Wire Line
 Text Notes 17975 6950 2    50   ~ 0
 Split0L
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW100
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW100
 U 1 1 5F8CF0C3
 P 11600 7225
 F 0 "SW100" H 11475 7300 50  0000 L CNN
@@ -4211,7 +4210,7 @@ Wire Wire Line
 Wire Wire Line
 	7600 6525 11600 6525
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW96
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW96
 U 1 1 5FD0EEC4
 P 2600 7225
 F 0 "SW96" H 2750 7625 50  0000 L CNN
@@ -4245,7 +4244,7 @@ Wire Wire Line
 	13600 6525 14600 6525
 Connection ~ 13100 4150
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW99
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW99
 U 1 1 5FF864A1
 P 7600 7225
 F 0 "SW99" H 7750 7625 50  0000 L CNN
@@ -4283,7 +4282,7 @@ Connection ~ 18100 6200
 Wire Wire Line
 	18100 6200 18100 5175
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW101
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW101
 U 1 1 602DC8C6
 P 12600 7225
 F 0 "SW101" H 12475 7300 50  0000 L CNN
@@ -4342,7 +4341,7 @@ Wire Wire Line
 Wire Wire Line
 	16100 3125 16250 3125
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW21
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW21
 U 1 1 5C1B87F4
 P 3600 3125
 F 0 "SW21" H 3500 3175 50  0000 L CNN
@@ -4359,7 +4358,7 @@ B2LWin
 Text Notes 4475 7325 0    50   ~ 0
 B1LAlt
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW97
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW97
 U 1 1 6115A11E
 P 3600 7225
 F 0 "SW97" H 3750 7625 50  0000 L CNN
@@ -4372,7 +4371,7 @@ $EndComp
 Text Notes 7750 6950 0    50   ~ 0
 B1Spc
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW110
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW110
 U 1 1 612384D0
 P 3575 7250
 F 0 "SW110" H 3000 7150 50  0000 L CNN
@@ -4383,7 +4382,7 @@ F 3 "" H 3575 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW111
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW111
 U 1 1 61317853
 P 7575 7250
 F 0 "SW111" H 7050 7025 50  0000 L CNN
@@ -4405,7 +4404,7 @@ Wire Wire Line
 Text Notes 1750 5425 0    50   ~ 0
 Stepped\nCaps
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW75
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW75
 U 1 1 615C8EB2
 P 17600 5175
 F 0 "SW75" H 17500 5225 50  0000 L CNN
@@ -4418,7 +4417,7 @@ $EndComp
 Text Notes 15750 3225 2    50   ~ 0
 SplitBsL
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW86
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW86
 U 1 1 5F7427C9
 P 10600 6200
 F 0 "SW86" H 10500 6250 50  0000 L CNN
@@ -4429,7 +4428,7 @@ F 3 "" H 10600 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW91
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW91
 U 1 1 615D8558
 P 15600 6200
 F 0 "SW91" H 15500 6250 50  0000 L CNN
@@ -4440,7 +4439,7 @@ F 3 "" H 15600 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW105
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW105
 U 1 1 615DCBC8
 P 17600 7225
 F 0 "SW105" H 17475 7275 50  0000 L CNN
@@ -4533,7 +4532,7 @@ F 3 "~" H 1400 9100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED2
+L austin-rescue:LED-acheronSymbols-austin-rescue LED2
 U 1 1 630FD893
 P 1400 9350
 F 0 "LED2" V 1275 9375 20  0000 L CNN
@@ -4555,7 +4554,7 @@ F 3 "~" H 1700 9100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED3
+L austin-rescue:LED-acheronSymbols-austin-rescue LED3
 U 1 1 63195305
 P 1700 9350
 F 0 "LED3" V 1575 9375 20  0000 L CNN
@@ -4577,7 +4576,7 @@ F 3 "~" H 2000 9100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED4
+L austin-rescue:LED-acheronSymbols-austin-rescue LED4
 U 1 1 63195311
 P 2000 9350
 F 0 "LED4" V 1875 9375 20  0000 L CNN
@@ -4599,7 +4598,7 @@ F 3 "~" H 2300 9100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED5
+L austin-rescue:LED-acheronSymbols-austin-rescue LED5
 U 1 1 6322FBDB
 P 2300 9350
 F 0 "LED5" V 2175 9375 20  0000 L CNN
@@ -4621,7 +4620,7 @@ F 3 "~" H 2600 9100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED6
+L austin-rescue:LED-acheronSymbols-austin-rescue LED6
 U 1 1 6322FBE7
 P 2600 9350
 F 0 "LED6" V 2475 9375 20  0000 L CNN
@@ -4643,7 +4642,7 @@ F 3 "~" H 2900 9100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED7
+L austin-rescue:LED-acheronSymbols-austin-rescue LED7
 U 1 1 6322FBF3
 P 2900 9350
 F 0 "LED7" V 2775 9375 20  0000 L CNN
@@ -4665,7 +4664,7 @@ F 3 "~" H 3200 9100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED8
+L austin-rescue:LED-acheronSymbols-austin-rescue LED8
 U 1 1 6322FBFF
 P 3200 9350
 F 0 "LED8" V 3075 9375 20  0000 L CNN
@@ -4687,7 +4686,7 @@ F 3 "~" H 3500 9100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED9
+L austin-rescue:LED-acheronSymbols-austin-rescue LED9
 U 1 1 6340F979
 P 3500 9350
 F 0 "LED9" V 3375 9375 20  0000 L CNN
@@ -4709,7 +4708,7 @@ F 3 "~" H 3800 9100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED10
+L austin-rescue:LED-acheronSymbols-austin-rescue LED10
 U 1 1 6340F985
 P 3800 9350
 F 0 "LED10" V 3675 9375 20  0000 L CNN
@@ -4731,7 +4730,7 @@ F 3 "~" H 4100 9100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED11
+L austin-rescue:LED-acheronSymbols-austin-rescue LED11
 U 1 1 6340F991
 P 4100 9350
 F 0 "LED11" V 3975 9375 20  0000 L CNN
@@ -4753,7 +4752,7 @@ F 3 "~" H 4400 9100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED12
+L austin-rescue:LED-acheronSymbols-austin-rescue LED12
 U 1 1 6340F99D
 P 4400 9350
 F 0 "LED12" V 4275 9375 20  0000 L CNN
@@ -4775,7 +4774,7 @@ F 3 "~" H 4700 9100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED13
+L austin-rescue:LED-acheronSymbols-austin-rescue LED13
 U 1 1 6340F9A9
 P 4700 9350
 F 0 "LED13" V 4575 9375 20  0000 L CNN
@@ -4797,7 +4796,7 @@ F 3 "~" H 5000 9100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED14
+L austin-rescue:LED-acheronSymbols-austin-rescue LED14
 U 1 1 6340F9B5
 P 5000 9350
 F 0 "LED14" V 4875 9375 20  0000 L CNN
@@ -4819,7 +4818,7 @@ F 3 "~" H 5300 9100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED15
+L austin-rescue:LED-acheronSymbols-austin-rescue LED15
 U 1 1 6340F9C1
 P 5300 9350
 F 0 "LED15" V 5175 9375 20  0000 L CNN
@@ -4841,7 +4840,7 @@ F 3 "~" H 5600 9100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED16
+L austin-rescue:LED-acheronSymbols-austin-rescue LED16
 U 1 1 6340F9CD
 P 5600 9350
 F 0 "LED16" V 5475 9375 20  0000 L CNN
@@ -4863,7 +4862,7 @@ F 3 "~" H 5900 9100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED17
+L austin-rescue:LED-acheronSymbols-austin-rescue LED17
 U 1 1 635E12D0
 P 5900 9350
 F 0 "LED17" V 5775 9375 20  0000 L CNN
@@ -4885,7 +4884,7 @@ F 3 "~" H 6200 9100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED18
+L austin-rescue:LED-acheronSymbols-austin-rescue LED18
 U 1 1 635E12DC
 P 6200 9350
 F 0 "LED18" V 6075 9375 20  0000 L CNN
@@ -4907,7 +4906,7 @@ F 3 "~" H 6500 9100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED19
+L austin-rescue:LED-acheronSymbols-austin-rescue LED19
 U 1 1 635E12E8
 P 6500 9350
 F 0 "LED19" V 6375 9375 20  0000 L CNN
@@ -4929,7 +4928,7 @@ F 3 "~" H 1100 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED20
+L austin-rescue:LED-acheronSymbols-austin-rescue LED20
 U 1 1 6369CB24
 P 1100 10000
 F 0 "LED20" V 975 10025 20  0000 L CNN
@@ -4951,7 +4950,7 @@ F 3 "~" H 1400 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED21
+L austin-rescue:LED-acheronSymbols-austin-rescue LED21
 U 1 1 6369CB30
 P 1400 10000
 F 0 "LED21" V 1275 10025 20  0000 L CNN
@@ -4973,7 +4972,7 @@ F 3 "~" H 1700 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED22
+L austin-rescue:LED-acheronSymbols-austin-rescue LED22
 U 1 1 6369CB3C
 P 1700 10000
 F 0 "LED22" V 1575 10025 20  0000 L CNN
@@ -4995,7 +4994,7 @@ F 3 "~" H 2000 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED23
+L austin-rescue:LED-acheronSymbols-austin-rescue LED23
 U 1 1 6369CB48
 P 2000 10000
 F 0 "LED23" V 1875 10025 20  0000 L CNN
@@ -5017,7 +5016,7 @@ F 3 "~" H 2300 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED24
+L austin-rescue:LED-acheronSymbols-austin-rescue LED24
 U 1 1 6369CB54
 P 2300 10000
 F 0 "LED24" V 2175 10025 20  0000 L CNN
@@ -5039,7 +5038,7 @@ F 3 "~" H 2600 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED25
+L austin-rescue:LED-acheronSymbols-austin-rescue LED25
 U 1 1 6369CB60
 P 2600 10000
 F 0 "LED25" V 2475 10025 20  0000 L CNN
@@ -5061,7 +5060,7 @@ F 3 "~" H 2900 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED26
+L austin-rescue:LED-acheronSymbols-austin-rescue LED26
 U 1 1 6369CB6C
 P 2900 10000
 F 0 "LED26" V 2775 10025 20  0000 L CNN
@@ -5083,7 +5082,7 @@ F 3 "~" H 3200 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED27
+L austin-rescue:LED-acheronSymbols-austin-rescue LED27
 U 1 1 6369CB78
 P 3200 10000
 F 0 "LED27" V 3075 10025 20  0000 L CNN
@@ -5105,7 +5104,7 @@ F 3 "~" H 3500 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED28
+L austin-rescue:LED-acheronSymbols-austin-rescue LED28
 U 1 1 6369CB84
 P 3500 10000
 F 0 "LED28" V 3375 10025 20  0000 L CNN
@@ -5127,7 +5126,7 @@ F 3 "~" H 3800 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED29
+L austin-rescue:LED-acheronSymbols-austin-rescue LED29
 U 1 1 6369CB90
 P 3800 10000
 F 0 "LED29" V 3675 10025 20  0000 L CNN
@@ -5149,7 +5148,7 @@ F 3 "~" H 4100 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED30
+L austin-rescue:LED-acheronSymbols-austin-rescue LED30
 U 1 1 6369CB9C
 P 4100 10000
 F 0 "LED30" V 3975 10025 20  0000 L CNN
@@ -5171,7 +5170,7 @@ F 3 "~" H 4400 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED31
+L austin-rescue:LED-acheronSymbols-austin-rescue LED31
 U 1 1 6369CBA8
 P 4400 10000
 F 0 "LED31" V 4275 10025 20  0000 L CNN
@@ -5193,7 +5192,7 @@ F 3 "~" H 4700 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED32
+L austin-rescue:LED-acheronSymbols-austin-rescue LED32
 U 1 1 6369CBB4
 P 4700 10000
 F 0 "LED32" V 4575 10025 20  0000 L CNN
@@ -5215,7 +5214,7 @@ F 3 "~" H 5000 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED33
+L austin-rescue:LED-acheronSymbols-austin-rescue LED33
 U 1 1 6369CBC0
 P 5000 10000
 F 0 "LED33" V 4875 10025 20  0000 L CNN
@@ -5237,7 +5236,7 @@ F 3 "~" H 5300 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED34
+L austin-rescue:LED-acheronSymbols-austin-rescue LED34
 U 1 1 6369CBCC
 P 5300 10000
 F 0 "LED34" V 5175 10025 20  0000 L CNN
@@ -5259,7 +5258,7 @@ F 3 "~" H 5600 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED36
+L austin-rescue:LED-acheronSymbols-austin-rescue LED36
 U 1 1 6369CBE4
 P 5600 10000
 F 0 "LED36" V 5475 10025 20  0000 L CNN
@@ -5281,7 +5280,7 @@ F 3 "~" H 5900 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED37
+L austin-rescue:LED-acheronSymbols-austin-rescue LED37
 U 1 1 6369CBF0
 P 5900 10000
 F 0 "LED37" V 5775 10025 20  0000 L CNN
@@ -5303,7 +5302,7 @@ F 3 "~" H 6200 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED38
+L austin-rescue:LED-acheronSymbols-austin-rescue LED38
 U 1 1 6369CBFC
 P 6200 10000
 F 0 "LED38" V 6075 10025 20  0000 L CNN
@@ -5325,7 +5324,7 @@ F 3 "~" H 1100 10400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED40
+L austin-rescue:LED-acheronSymbols-austin-rescue LED40
 U 1 1 63744B1A
 P 1100 10650
 F 0 "LED40" V 975 10675 20  0000 L CNN
@@ -5347,7 +5346,7 @@ F 3 "~" H 1400 10400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED41
+L austin-rescue:LED-acheronSymbols-austin-rescue LED41
 U 1 1 63744B26
 P 1400 10650
 F 0 "LED41" V 1275 10675 20  0000 L CNN
@@ -5369,7 +5368,7 @@ F 3 "~" H 1700 10400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED42
+L austin-rescue:LED-acheronSymbols-austin-rescue LED42
 U 1 1 63744B32
 P 1700 10650
 F 0 "LED42" V 1575 10675 20  0000 L CNN
@@ -5391,7 +5390,7 @@ F 3 "~" H 2000 10400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED43
+L austin-rescue:LED-acheronSymbols-austin-rescue LED43
 U 1 1 63744B3E
 P 2000 10650
 F 0 "LED43" V 1875 10675 20  0000 L CNN
@@ -5413,7 +5412,7 @@ F 3 "~" H 2300 10400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED44
+L austin-rescue:LED-acheronSymbols-austin-rescue LED44
 U 1 1 63744B4A
 P 2300 10650
 F 0 "LED44" V 2175 10675 20  0000 L CNN
@@ -5435,7 +5434,7 @@ F 3 "~" H 2600 10400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED45
+L austin-rescue:LED-acheronSymbols-austin-rescue LED45
 U 1 1 63744B56
 P 2600 10650
 F 0 "LED45" V 2475 10675 20  0000 L CNN
@@ -5457,7 +5456,7 @@ F 3 "~" H 2900 10400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED46
+L austin-rescue:LED-acheronSymbols-austin-rescue LED46
 U 1 1 63744B62
 P 2900 10650
 F 0 "LED46" V 2775 10675 20  0000 L CNN
@@ -5479,7 +5478,7 @@ F 3 "~" H 3200 10400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED47
+L austin-rescue:LED-acheronSymbols-austin-rescue LED47
 U 1 1 63744B6E
 P 3200 10650
 F 0 "LED47" V 3075 10675 20  0000 L CNN
@@ -5501,7 +5500,7 @@ F 3 "~" H 3500 10400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED48
+L austin-rescue:LED-acheronSymbols-austin-rescue LED48
 U 1 1 63744B7A
 P 3500 10650
 F 0 "LED48" V 3375 10675 20  0000 L CNN
@@ -5523,7 +5522,7 @@ F 3 "~" H 3800 10400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED49
+L austin-rescue:LED-acheronSymbols-austin-rescue LED49
 U 1 1 63744B86
 P 3800 10650
 F 0 "LED49" V 3675 10675 20  0000 L CNN
@@ -5545,7 +5544,7 @@ F 3 "~" H 4100 10400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED50
+L austin-rescue:LED-acheronSymbols-austin-rescue LED50
 U 1 1 63744B92
 P 4100 10650
 F 0 "LED50" V 3975 10675 20  0000 L CNN
@@ -5567,7 +5566,7 @@ F 3 "~" H 4400 10400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED51
+L austin-rescue:LED-acheronSymbols-austin-rescue LED51
 U 1 1 63744B9E
 P 4400 10650
 F 0 "LED51" V 4275 10675 20  0000 L CNN
@@ -5589,7 +5588,7 @@ F 3 "~" H 4700 10400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED52
+L austin-rescue:LED-acheronSymbols-austin-rescue LED52
 U 1 1 63744BAA
 P 4700 10650
 F 0 "LED52" V 4575 10675 20  0000 L CNN
@@ -5611,7 +5610,7 @@ F 3 "~" H 5000 10400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED53
+L austin-rescue:LED-acheronSymbols-austin-rescue LED53
 U 1 1 63744BB6
 P 5000 10650
 F 0 "LED53" V 4875 10500 20  0000 L CNN
@@ -5633,7 +5632,7 @@ F 3 "~" H 5300 10400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED54
+L austin-rescue:LED-acheronSymbols-austin-rescue LED54
 U 1 1 63744BC2
 P 5300 10650
 F 0 "LED54" V 5175 10675 20  0000 L CNN
@@ -5655,7 +5654,7 @@ F 3 "~" H 5600 10400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED55
+L austin-rescue:LED-acheronSymbols-austin-rescue LED55
 U 1 1 63744BCE
 P 5600 10650
 F 0 "LED55" V 5475 10675 20  0000 L CNN
@@ -5677,7 +5676,7 @@ F 3 "~" H 5900 10400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED56
+L austin-rescue:LED-acheronSymbols-austin-rescue LED56
 U 1 1 63744BDA
 P 5900 10650
 F 0 "LED56" V 5775 10675 20  0000 L CNN
@@ -5699,7 +5698,7 @@ F 3 "~" H 6200 10400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED57
+L austin-rescue:LED-acheronSymbols-austin-rescue LED57
 U 1 1 63744BE6
 P 6200 10650
 F 0 "LED57" V 6075 10675 20  0000 L CNN
@@ -5710,7 +5709,7 @@ F 3 "" H 6200 10650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED60
+L austin-rescue:LED-acheronSymbols-austin-rescue LED60
 U 1 1 63883121
 P 1100 11275
 F 0 "LED60" V 975 11300 20  0000 L CNN
@@ -5732,7 +5731,7 @@ F 3 "~" H 1400 11025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED62
+L austin-rescue:LED-acheronSymbols-austin-rescue LED62
 U 1 1 63883139
 P 1400 11275
 F 0 "LED62" V 1275 11300 20  0000 L CNN
@@ -5754,7 +5753,7 @@ F 3 "~" H 1700 11025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED63
+L austin-rescue:LED-acheronSymbols-austin-rescue LED63
 U 1 1 63883145
 P 1700 11275
 F 0 "LED63" V 1575 11300 20  0000 L CNN
@@ -5776,7 +5775,7 @@ F 3 "~" H 2000 11025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED64
+L austin-rescue:LED-acheronSymbols-austin-rescue LED64
 U 1 1 63883151
 P 2000 11275
 F 0 "LED64" V 1875 11300 20  0000 L CNN
@@ -5798,7 +5797,7 @@ F 3 "~" H 2300 11025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED65
+L austin-rescue:LED-acheronSymbols-austin-rescue LED65
 U 1 1 6388315D
 P 2300 11275
 F 0 "LED65" V 2175 11300 20  0000 L CNN
@@ -5820,7 +5819,7 @@ F 3 "~" H 2600 11025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED66
+L austin-rescue:LED-acheronSymbols-austin-rescue LED66
 U 1 1 63883169
 P 2600 11275
 F 0 "LED66" V 2475 11300 20  0000 L CNN
@@ -5842,7 +5841,7 @@ F 3 "~" H 2900 11025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED67
+L austin-rescue:LED-acheronSymbols-austin-rescue LED67
 U 1 1 63883175
 P 2900 11275
 F 0 "LED67" V 2775 11300 20  0000 L CNN
@@ -5864,7 +5863,7 @@ F 3 "~" H 3200 11025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED68
+L austin-rescue:LED-acheronSymbols-austin-rescue LED68
 U 1 1 63883181
 P 3200 11275
 F 0 "LED68" V 3075 11300 20  0000 L CNN
@@ -5886,7 +5885,7 @@ F 3 "~" H 3500 11025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED69
+L austin-rescue:LED-acheronSymbols-austin-rescue LED69
 U 1 1 6388318D
 P 3500 11275
 F 0 "LED69" V 3375 11300 20  0000 L CNN
@@ -5908,7 +5907,7 @@ F 3 "~" H 3800 11025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED70
+L austin-rescue:LED-acheronSymbols-austin-rescue LED70
 U 1 1 63883199
 P 3800 11275
 F 0 "LED70" V 3675 11300 20  0000 L CNN
@@ -5930,7 +5929,7 @@ F 3 "~" H 4100 11025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED71
+L austin-rescue:LED-acheronSymbols-austin-rescue LED71
 U 1 1 638831B1
 P 4100 11275
 F 0 "LED71" V 3975 11300 20  0000 L CNN
@@ -5952,7 +5951,7 @@ F 3 "~" H 5600 11025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED75
+L austin-rescue:LED-acheronSymbols-austin-rescue LED75
 U 1 1 638831D5
 P 5600 11275
 F 0 "LED75" V 5475 11300 20  0000 L CNN
@@ -5974,7 +5973,7 @@ F 3 "~" H 5900 11025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED76
+L austin-rescue:LED-acheronSymbols-austin-rescue LED76
 U 1 1 638831E1
 P 5900 11275
 F 0 "LED76" V 5775 11300 20  0000 L CNN
@@ -5996,7 +5995,7 @@ F 3 "~" H 6200 11025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED77
+L austin-rescue:LED-acheronSymbols-austin-rescue LED77
 U 1 1 638831ED
 P 6200 11275
 F 0 "LED77" V 6075 11300 20  0000 L CNN
@@ -6018,7 +6017,7 @@ F 3 "~" H 5600 11650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED92
+L austin-rescue:LED-acheronSymbols-austin-rescue LED92
 U 1 1 63929731
 P 5600 11900
 F 0 "LED92" V 5475 11925 20  0000 L CNN
@@ -6040,7 +6039,7 @@ F 3 "~" H 5900 11650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED93
+L austin-rescue:LED-acheronSymbols-austin-rescue LED93
 U 1 1 6392973D
 P 5900 11900
 F 0 "LED93" V 5775 11925 20  0000 L CNN
@@ -6062,7 +6061,7 @@ F 3 "~" H 6200 11650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED94
+L austin-rescue:LED-acheronSymbols-austin-rescue LED94
 U 1 1 63929749
 P 6200 11900
 F 0 "LED94" V 6075 11925 20  0000 L CNN
@@ -6084,7 +6083,7 @@ F 3 "~" H 6500 11650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED95
+L austin-rescue:LED-acheronSymbols-austin-rescue LED95
 U 1 1 63929755
 P 6500 11900
 F 0 "LED95" V 6375 11925 20  0000 L CNN
@@ -6117,7 +6116,7 @@ F 3 "~" H 1400 12275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED97
+L austin-rescue:LED-acheronSymbols-austin-rescue LED97
 U 1 1 639D077F
 P 1400 12525
 F 0 "LED97" V 1525 12600 20  0000 L CNN
@@ -6139,7 +6138,7 @@ F 3 "~" H 1700 12275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED98
+L austin-rescue:LED-acheronSymbols-austin-rescue LED98
 U 1 1 639D078B
 P 1700 12525
 F 0 "LED98" V 1575 12550 20  0000 L CNN
@@ -6161,7 +6160,7 @@ F 3 "~" H 2600 12275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED111
+L austin-rescue:LED-acheronSymbols-austin-rescue LED111
 U 1 1 639D07AF
 P 2600 12525
 F 0 "LED111" V 2475 12300 20  0000 L CNN
@@ -6183,7 +6182,7 @@ F 3 "~" H 3800 12275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED100
+L austin-rescue:LED-acheronSymbols-austin-rescue LED100
 U 1 1 639D07DF
 P 3800 12525
 F 0 "LED100" V 3675 12550 20  0000 L CNN
@@ -6205,7 +6204,7 @@ F 3 "~" H 4100 12275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED101
+L austin-rescue:LED-acheronSymbols-austin-rescue LED101
 U 1 1 639D07EB
 P 4100 12525
 F 0 "LED101" V 3975 12550 20  0000 L CNN
@@ -6227,7 +6226,7 @@ F 3 "~" H 4700 12275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED103
+L austin-rescue:LED-acheronSymbols-austin-rescue LED103
 U 1 1 639D0803
 P 4700 12525
 F 0 "LED103" V 4575 12550 20  0000 L CNN
@@ -6249,7 +6248,7 @@ F 3 "~" H 5300 12275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED104
+L austin-rescue:LED-acheronSymbols-austin-rescue LED104
 U 1 1 639D081B
 P 5300 12525
 F 0 "LED104" V 5175 12550 20  0000 L CNN
@@ -6271,7 +6270,7 @@ F 3 "~" H 5600 12275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED105
+L austin-rescue:LED-acheronSymbols-austin-rescue LED105
 U 1 1 639D0827
 P 5600 12525
 F 0 "LED105" V 5775 12550 20  0000 L CNN
@@ -6293,7 +6292,7 @@ F 3 "~" H 5900 12275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED106
+L austin-rescue:LED-acheronSymbols-austin-rescue LED106
 U 1 1 639D0833
 P 5900 12525
 F 0 "LED106" V 5775 12550 20  0000 L CNN
@@ -6315,7 +6314,7 @@ F 3 "~" H 6200 12275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED107
+L austin-rescue:LED-acheronSymbols-austin-rescue LED107
 U 1 1 639D083F
 P 6200 12525
 F 0 "LED107" V 6075 12550 20  0000 L CNN
@@ -6337,7 +6336,7 @@ F 3 "~" H 6500 12275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED108
+L austin-rescue:LED-acheronSymbols-austin-rescue LED108
 U 1 1 639D084B
 P 6500 12525
 F 0 "LED108" V 6600 12325 20  0000 L CNN
@@ -6348,7 +6347,7 @@ F 3 "" H 6500 12525 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED61
+L austin-rescue:LED-acheronSymbols-austin-rescue LED61
 U 1 1 63AFC68F
 P 1000 11275
 F 0 "LED61" V 875 11125 20  0000 L CNN
@@ -6373,7 +6372,7 @@ Wire Wire Line
 	1100 11125 1000 11125
 Connection ~ 1100 11125
 $Comp
-L austin-rescue:LED-acheronSymbols LED109
+L austin-rescue:LED-acheronSymbols-austin-rescue LED109
 U 1 1 63C2C62D
 P 1100 12525
 F 0 "LED109" V 1100 12175 20  0000 L CNN
@@ -6384,7 +6383,7 @@ F 3 "" H 1100 12525 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED112
+L austin-rescue:LED-acheronSymbols-austin-rescue LED112
 U 1 1 6404FD5D
 P 5550 12525
 F 0 "LED112" V 5725 12425 20  0000 L CNN
@@ -6877,7 +6876,7 @@ Wire Notes Line width 20
 Wire Notes Line width 20
 	625  8275 7150 8275
 $Comp
-L austin-rescue:STM32F072_LQFP48-acheronSymbols U1
+L austin-rescue:STM32F072_LQFP48-acheronSymbols-austin-rescue U1
 U 1 1 6623D717
 P 20600 12375
 F 0 "U1" H 20600 14425 50  0000 C CNB
@@ -6961,7 +6960,7 @@ Wire Wire Line
 	11300 12375 11400 12375
 Connection ~ 2600 4825
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW29
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW29
 U 1 1 5C1B88A7
 P 11600 3125
 F 0 "SW29" H 11475 3175 50  0000 L CNN
@@ -6991,7 +6990,7 @@ Text Notes 13575 5275 0    50   ~ 0
 Wire Wire Line
 	18250 6200 18100 6200
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW92
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW92
 U 1 1 5F8CEFC7
 P 17600 6200
 F 0 "SW92" H 17500 6225 50  0000 L CNN
@@ -7002,7 +7001,7 @@ F 3 "" H 17600 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW106
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW106
 U 1 1 60EBFD0C
 P 18600 7225
 F 0 "SW106" H 18475 7225 50  0000 L CNN
@@ -7013,7 +7012,7 @@ F 3 "" H 18600 7225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW109
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW109
 U 1 1 60F9BC29
 P 2575 7250
 F 0 "SW109" H 1950 7075 50  0000 L CNN
@@ -7039,7 +7038,7 @@ F 3 "~" H 20600 6700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW107
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW107
 U 1 1 69C034E5
 P 19600 7225
 F 0 "SW107" H 19475 7275 50  0000 L CNN
@@ -7050,7 +7049,7 @@ F 3 "" H 19600 7225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW108
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW108
 U 1 1 5D4BB027
 P 20600 7225
 F 0 "SW108" H 20475 7275 50  0000 L CNN
@@ -7061,7 +7060,7 @@ F 3 "" H 20600 7225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW104
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW104
 U 1 1 5DF0F87A
 P 16600 7250
 F 0 "SW104" H 16725 7625 50  0000 L CNN
@@ -7072,7 +7071,7 @@ F 3 "" H 16600 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW103
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW103
 U 1 1 5F8CF0D4
 P 14600 7225
 F 0 "SW103" H 14475 7300 50  0000 L CNN
@@ -7115,7 +7114,7 @@ Wire Wire Line
 Text Notes 14525 6275 0    50   ~ 0
 Shift
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW90
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW90
 U 1 1 5D60C510
 P 14600 6175
 F 0 "SW90" H 14500 6225 50  0000 L CNN
@@ -7126,7 +7125,7 @@ F 3 "" H 14600 6175 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW112
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW112
 U 1 1 5D72A694
 P 17575 7250
 F 0 "SW112" H 17000 7025 50  0000 L CNN
@@ -7146,7 +7145,7 @@ Wire Wire Line
 	4400 12675 4100 12675
 Connection ~ 4400 12675
 $Comp
-L austin-rescue:LED-acheronSymbols LED102
+L austin-rescue:LED-acheronSymbols-austin-rescue LED102
 U 1 1 639D07F7
 P 4400 12525
 F 0 "LED102" V 4275 12550 20  0000 L CNN
@@ -7171,7 +7170,7 @@ Connection ~ 4400 12175
 Wire Wire Line
 	4400 12175 4100 12175
 $Comp
-L austin-rescue:LED-acheronSymbols LED99
+L austin-rescue:LED-acheronSymbols-austin-rescue LED99
 U 1 1 5E0B3F58
 P 2550 12525
 F 0 "LED99" V 2425 12625 20  0000 L CNN
@@ -7188,7 +7187,7 @@ Wire Wire Line
 	2550 12375 2600 12375
 Connection ~ 2600 12375
 $Comp
-L austin-rescue:LED-acheronSymbols LED35
+L austin-rescue:LED-acheronSymbols-austin-rescue LED35
 U 1 1 5D0D10AE
 P 5250 10000
 F 0 "LED35" V 5125 9900 20  0000 L CNN
@@ -7236,7 +7235,7 @@ F 3 "~" H 6500 9750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED39
+L austin-rescue:LED-acheronSymbols-austin-rescue LED39
 U 1 1 5D4F2E76
 P 6500 10000
 F 0 "LED39" V 6375 10025 20  0000 L CNN
@@ -7265,7 +7264,7 @@ F 3 "~" H 6500 10400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED58
+L austin-rescue:LED-acheronSymbols-austin-rescue LED58
 U 1 1 5D80C3AF
 P 6575 10650
 F 0 "LED58" V 6450 10675 20  0000 L CNN
@@ -7296,7 +7295,7 @@ F 3 "~" H 4400 11025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED72
+L austin-rescue:LED-acheronSymbols-austin-rescue LED72
 U 1 1 5DA221B4
 P 4400 11275
 F 0 "LED72" V 4275 11125 20  0000 L CNN
@@ -7318,7 +7317,7 @@ F 3 "~" H 4700 11025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED73
+L austin-rescue:LED-acheronSymbols-austin-rescue LED73
 U 1 1 5DB28DA7
 P 4700 11275
 F 0 "LED73" V 4575 11300 20  0000 L CNN
@@ -7347,7 +7346,7 @@ Wire Wire Line
 Wire Wire Line
 	775  11550 1100 11550
 $Comp
-L austin-rescue:LED-acheronSymbols LED91
+L austin-rescue:LED-acheronSymbols-austin-rescue LED91
 U 1 1 5DD3CC0D
 P 4700 11900
 F 0 "LED91" V 4575 11925 20  0000 L CNN
@@ -7369,7 +7368,7 @@ F 3 "~" H 4700 11650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED90
+L austin-rescue:LED-acheronSymbols-austin-rescue LED90
 U 1 1 6392970D
 P 4400 11900
 F 0 "LED90" V 4275 11925 20  0000 L CNN
@@ -7391,7 +7390,7 @@ F 3 "~" H 4400 11650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED89
+L austin-rescue:LED-acheronSymbols-austin-rescue LED89
 U 1 1 639296F5
 P 4100 11900
 F 0 "LED89" V 3975 11925 20  0000 L CNN
@@ -7413,7 +7412,7 @@ F 3 "~" H 4100 11650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED88
+L austin-rescue:LED-acheronSymbols-austin-rescue LED88
 U 1 1 639296E9
 P 3800 11900
 F 0 "LED88" V 3675 11925 20  0000 L CNN
@@ -7435,7 +7434,7 @@ F 3 "~" H 3800 11650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED87
+L austin-rescue:LED-acheronSymbols-austin-rescue LED87
 U 1 1 639296DD
 P 3500 11900
 F 0 "LED87" V 3375 11925 20  0000 L CNN
@@ -7457,7 +7456,7 @@ F 3 "~" H 3500 11650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED86
+L austin-rescue:LED-acheronSymbols-austin-rescue LED86
 U 1 1 639296D1
 P 3200 11900
 F 0 "LED86" V 3075 11925 20  0000 L CNN
@@ -7479,7 +7478,7 @@ F 3 "~" H 3200 11650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED85
+L austin-rescue:LED-acheronSymbols-austin-rescue LED85
 U 1 1 639296C5
 P 2900 11900
 F 0 "LED85" V 2775 11925 20  0000 L CNN
@@ -7501,7 +7500,7 @@ F 3 "~" H 2900 11650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED84
+L austin-rescue:LED-acheronSymbols-austin-rescue LED84
 U 1 1 639296B9
 P 2600 11900
 F 0 "LED84" V 2475 11925 20  0000 L CNN
@@ -7523,7 +7522,7 @@ F 3 "~" H 2600 11650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED83
+L austin-rescue:LED-acheronSymbols-austin-rescue LED83
 U 1 1 639296AD
 P 2300 11900
 F 0 "LED83" V 2175 11925 20  0000 L CNN
@@ -7545,7 +7544,7 @@ F 3 "~" H 2300 11650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED82
+L austin-rescue:LED-acheronSymbols-austin-rescue LED82
 U 1 1 639296A1
 P 2000 11900
 F 0 "LED82" V 1875 11925 20  0000 L CNN
@@ -7567,7 +7566,7 @@ F 3 "~" H 2000 11650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED81
+L austin-rescue:LED-acheronSymbols-austin-rescue LED81
 U 1 1 63929695
 P 1700 11900
 F 0 "LED81" V 1575 11925 20  0000 L CNN
@@ -7589,7 +7588,7 @@ F 3 "~" H 1700 11650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED80
+L austin-rescue:LED-acheronSymbols-austin-rescue LED80
 U 1 1 63929689
 P 1400 11900
 F 0 "LED80" V 1275 11925 20  0000 L CNN
@@ -7611,7 +7610,7 @@ F 3 "~" H 1400 11650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED79
+L austin-rescue:LED-acheronSymbols-austin-rescue LED79
 U 1 1 6392967D
 P 1100 11900
 F 0 "LED79" V 975 11925 20  0000 L CNN
@@ -7723,7 +7722,7 @@ F 3 "~" H 5300 11025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED74
+L austin-rescue:LED-acheronSymbols-austin-rescue LED74
 U 1 1 5F67496D
 P 5300 11275
 F 0 "LED74" V 5175 11300 20  0000 L CNN
@@ -7772,7 +7771,7 @@ Wire Wire Line
 Text Label 3275 12675 0    50   ~ 0
 LEDK
 $Comp
-L austin-rescue:LED-acheronSymbols LED110
+L austin-rescue:LED-acheronSymbols-austin-rescue LED110
 U 1 1 5D607B0E
 P 1350 12525
 F 0 "LED110" V 1475 12600 20  0000 L CNN
@@ -7838,7 +7837,7 @@ F 3 "~" H 16075 13925 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LEDSCRL1
+L austin-rescue:LED-acheronSymbols-austin-rescue LEDSCRL1
 U 1 1 5E6E87E8
 P 16075 14175
 F 0 "LEDSCRL1" V 15950 14200 20  0000 L CNN
@@ -7860,7 +7859,7 @@ F 3 "~" H 16375 13925 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LEDNUM1
+L austin-rescue:LED-acheronSymbols-austin-rescue LEDNUM1
 U 1 1 5E7E8E17
 P 16375 14175
 F 0 "LEDNUM1" V 16250 14200 20  0000 L CNN
@@ -7882,7 +7881,7 @@ F 3 "~" H 16675 13925 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LEDCAPS1
+L austin-rescue:LED-acheronSymbols-austin-rescue LEDCAPS1
 U 1 1 5E8E84FA
 P 16675 14175
 F 0 "LEDCAPS1" V 16550 14200 20  0000 L CNN
@@ -8034,7 +8033,7 @@ Wire Wire Line
 	6200 11425 6500 11425
 Connection ~ 6500 11425
 $Comp
-L austin-rescue:LED-acheronSymbols LED78
+L austin-rescue:LED-acheronSymbols-austin-rescue LED78
 U 1 1 5EDECAD3
 P 6500 11275
 F 0 "LED78" V 6375 11300 20  0000 L CNN
@@ -8045,7 +8044,7 @@ F 3 "" H 6500 11275 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW59
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW59
 U 1 1 613F87A0
 P 20600 5175
 F 0 "SW59" H 20475 5225 50  0000 L CNN
@@ -8083,7 +8082,7 @@ Wire Wire Line
 Wire Wire Line
 	20100 3125 20100 5175
 $Comp
-L austin-rescue:LED-acheronSymbols LED113
+L austin-rescue:LED-acheronSymbols-austin-rescue LED113
 U 1 1 5E30A77E
 P 1000 12525
 F 0 "LED113" V 850 12350 20  0000 L CNN
@@ -8100,7 +8099,7 @@ Wire Wire Line
 	1000 12375 1100 12375
 Connection ~ 1100 12375
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW113
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW113
 U 1 1 5D935C45
 P 15575 4125
 F 0 "SW113" H 15475 4175 50  0000 L CNN
@@ -8113,7 +8112,7 @@ $EndComp
 Text Notes 15400 4025 0    50   ~ 0
 ISO Enter
 $Comp
-L austin-rescue:LED-acheronSymbols LED114
+L austin-rescue:LED-acheronSymbols-austin-rescue LED114
 U 1 1 5DDBA94A
 P 5050 10650
 F 0 "LED114" V 4925 10675 20  0000 L CNN
@@ -8147,7 +8146,7 @@ Connection ~ 15600 3775
 Wire Wire Line
 	14100 5175 14225 5175
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW114
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW114
 U 1 1 5E9FC89A
 P 14575 5150
 F 0 "SW114" H 14575 5025 50  0000 C CNN
@@ -8168,7 +8167,7 @@ Wire Wire Line
 Text Notes 14400 5225 0    50   ~ 0
 ISO Tilde
 $Comp
-L austin-rescue:LED-acheronSymbols LED115
+L austin-rescue:LED-acheronSymbols-austin-rescue LED115
 U 1 1 5EC374A6
 P 4450 11275
 F 0 "LED115" V 4325 11325 20  0000 L CNN
@@ -8252,7 +8251,7 @@ $EndComp
 Wire Wire Line
 	3600 5850 3600 5825
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW78
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW78
 U 1 1 5D9F141E
 P 3600 6200
 F 0 "SW78" H 3600 6250 50  0000 C CNN
@@ -8263,7 +8262,7 @@ F 3 "" H 3600 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:MXSwitch-acheronSymbols SW58
+L austin-rescue:MXSwitch-acheronSymbols-austin-rescue SW58
 U 1 1 5DAF33C9
 P 2625 6175
 F 0 "SW58" H 1900 6125 40  0000 L CNN
@@ -8441,7 +8440,7 @@ Wire Notes Line width 20
 Wire Wire Line
 	13600 9925 13525 9925
 $Comp
-L austin-rescue:LED-acheronSymbols LED59
+L austin-rescue:LED-acheronSymbols-austin-rescue LED59
 U 1 1 63404F5C
 P 975 11900
 F 0 "LED59" V 1075 11700 20  0000 L CNN
@@ -8471,7 +8470,7 @@ F 3 "~" H 5200 11650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L austin-rescue:LED-acheronSymbols LED96
+L austin-rescue:LED-acheronSymbols-austin-rescue LED96
 U 1 1 6386A58D
 P 5200 11900
 F 0 "LED96" V 5300 11700 20  0000 L CNN

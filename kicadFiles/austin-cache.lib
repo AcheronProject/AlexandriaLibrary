@@ -290,11 +290,11 @@ X C 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# austin-rescue_AO4406AL-acheronSymbols
+# austin-rescue_AO4406AL-acheronSymbols-austin-rescue
 #
-DEF austin-rescue_AO4406AL-acheronSymbols Q 0 40 Y Y 1 F N
+DEF austin-rescue_AO4406AL-acheronSymbols-austin-rescue Q 0 40 Y Y 1 F N
 F0 "Q" -200 150 50 H V C CNN
-F1 "austin-rescue_AO4406AL-acheronSymbols" -200 -100 20 H V C CNN
+F1 "austin-rescue_AO4406AL-acheronSymbols-austin-rescue" -200 -100 20 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -327,11 +327,11 @@ X ~ 8 0 200 100 D 0 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# austin-rescue_LED-acheronSymbols
+# austin-rescue_LED-acheronSymbols-austin-rescue
 #
-DEF austin-rescue_LED-acheronSymbols LED 0 40 Y Y 1 F N
+DEF austin-rescue_LED-acheronSymbols-austin-rescue LED 0 40 Y Y 1 F N
 F0 "LED" 0 -150 20 H V C CNN
-F1 "austin-rescue_LED-acheronSymbols" 0 150 20 H V C CNN
+F1 "austin-rescue_LED-acheronSymbols-austin-rescue" 0 150 20 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -346,11 +346,11 @@ X K K 150 0 50 L 20 20 1 1 O
 ENDDRAW
 ENDDEF
 #
-# austin-rescue_MXSwitch-acheronSymbols
+# austin-rescue_MXSwitch-acheronSymbols-austin-rescue
 #
-DEF austin-rescue_MXSwitch-acheronSymbols SW 0 40 Y Y 1 F N
+DEF austin-rescue_MXSwitch-acheronSymbols-austin-rescue SW 0 40 Y Y 1 F N
 F0 "SW" 0 0 50 H V C CNN
-F1 "austin-rescue_MXSwitch-acheronSymbols" 0 -150 39 H V C CNN
+F1 "austin-rescue_MXSwitch-acheronSymbols-austin-rescue" 0 -150 39 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -362,11 +362,11 @@ X Row 2 0 350 100 D 20 20 1 1 I N
 ENDDRAW
 ENDDEF
 #
-# austin-rescue_STM32F072_LQFP48-acheronSymbols
+# austin-rescue_STM32F072_LQFP48-acheronSymbols-austin-rescue
 #
-DEF austin-rescue_STM32F072_LQFP48-acheronSymbols U 0 20 Y Y 1 F N
+DEF austin-rescue_STM32F072_LQFP48-acheronSymbols-austin-rescue U 0 20 Y Y 1 F N
 F0 "U" -950 1850 50 H V L CNB
-F1 "austin-rescue_STM32F072_LQFP48-acheronSymbols" -1250 1750 50 H V L CNB
+F1 "austin-rescue_STM32F072_LQFP48-acheronSymbols-austin-rescue" -1250 1750 50 H V L CNB
 F2 "acheronComponents:LQFP-48_7x7mm_P0.5mm" -750 -1400 50 H I R CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -425,11 +425,11 @@ X VDDA 9 150 1700 100 D 40 40 1 1 W
 ENDDRAW
 ENDDEF
 #
-# austin-rescue_TYPE-C-31-M12_13-acheronSymbols
+# austin-rescue_TYPE-C-31-M12_13-acheronSymbols-austin-rescue
 #
-DEF austin-rescue_TYPE-C-31-M12_13-acheronSymbols J 0 40 Y Y 1 F N
+DEF austin-rescue_TYPE-C-31-M12_13-acheronSymbols-austin-rescue J 0 40 Y Y 1 F N
 F0 "J" -50 1400 50 H V L CNN
-F1 "austin-rescue_TYPE-C-31-M12_13-acheronSymbols" 400 1300 50 H V R CNN
+F1 "austin-rescue_TYPE-C-31-M12_13-acheronSymbols-austin-rescue" 400 1300 50 H V R CNN
 F2 "acheronConnectors:TYPE-C-31-M-12" -500 50 50 V I C CNN
 F3 "" 200 50 50 H I C CNN
 $FPLIST
