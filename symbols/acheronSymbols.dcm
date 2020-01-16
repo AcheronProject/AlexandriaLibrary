@@ -1,62 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP AO4407A
-D P-MOSFET transistor, drain/gate/source
-K transistor PMOS P-MOS P-MOSFET
-F ~
-$ENDCMP
-#
-$CMP AVR-JTAG-10
-D Atmel 10-pin JTAG connector
-K AVR JTAG Connector
-F  ~
-$ENDCMP
-#
-$CMP Conn_ARM_JTAG_SWD_10
-D Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface
-K Cortex Debug Connector ARM SWD JTAG
-F http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf
-$ENDCMP
-#
-$CMP DTC123J
-D Digital NPN Transistor, 2k2/47k, SOT-23
-K ROHM Digital NPN Transistor
-$ENDCMP
-#
-$CMP LED_GBRA
-D RGB LED, anode/red/green/blue
+$CMP LED_BRGA
+D RGB LED, anode/blue/red/green
 K LED RGB diode
 F ~
-$ENDCMP
-#
-$CMP L_Core_Ferrite_Coupled_1423
-D Coupled inductor with ferrite core
-K inductor choke coil reactor magnetic coupled
-F ~
-$ENDCMP
-#
-$CMP TYPE-C-31-M12_13
-D USB Full-Featured Type-C Receptacle connector
-K usb universal serial bus type-C full-featured
-F https://www.usb.org/sites/default/files/documents/usb_type-c.zip
-$ENDCMP
-#
-$CMP USBLC6-2SC6
-D Bidirectional ESD Protection Diode, SOT-23-6
-K usb ethernet
-F http://www2.st.com/resource/en/datasheet/CD00050750.pdf
-$ENDCMP
-#
-$CMP WS2811M
-D 3-Channel 8-Bit PWM LED Driver, DIP-8/SOIC-8
-K PWM LED driver
-F https://cdn-shop.adafruit.com/datasheets/WS2811.pdf
-$ENDCMP
-#
-$CMP WS2812D
-D RGB LED with integrated controller
-K RGB LED NeoPixel addressable
-F https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
 $ENDCMP
 #
 #End Doc Library
