@@ -6,4 +6,22 @@ K LED RGB diode
 F ~
 $ENDCMP
 #
+$CMP TPD2E001DRLR
+D Bidirectional ESD Protection Diode, SOT-23-6
+K usb ethernet
+F https://datasheet.lcsc.com/szlcsc/Texas-Instruments-TI-TPD2E001DRLR_C150526.pdf
+$ENDCMP
+#
+$CMP TPD4E05U06DQAR
+D 4-Channel ESD Protection for Super-Speed USB 3.0 Interface, USON-10
+K ESD protection USB 3.0
+F http://www.ti.com/lit/ds/symlink/tpd2eusb30a.pdf
+$ENDCMP
+#
+$CMP USBLC6-4SC6Y
+D Bidirectional ESD Protection Diode, SOT-23-6
+K usb ethernet
+F https://datasheet.lcsc.com/szlcsc/1910211106_STMicroelectronics-USBLC6-4SC6Y_C435848.pdf
+$ENDCMP
+#
 #End Doc Library
