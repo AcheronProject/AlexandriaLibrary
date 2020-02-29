@@ -6,6 +6,7 @@ K LED RGB diode
 F ~
 $ENDCMP
 #
+<<<<<<< Updated upstream
 $CMP TPD2E001DRLR
 D Bidirectional ESD Protection Diode, SOT-23-6
 K usb ethernet
@@ -22,6 +23,12 @@ $CMP USBLC6-4SC6Y
 D Bidirectional ESD Protection Diode, SOT-23-6
 K usb ethernet
 F https://datasheet.lcsc.com/szlcsc/1910211106_STMicroelectronics-USBLC6-4SC6Y_C435848.pdf
+=======
+$CMP USBLC6-2SC6
+D Bidirectional ESD Protection Diode, SOT-23-6
+K usb ethernet
+F http://www2.st.com/resource/en/datasheet/CD00050750.pdf
+>>>>>>> Stashed changes
 $ENDCMP
 #
 #End Doc Library
