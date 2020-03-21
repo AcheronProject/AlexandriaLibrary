@@ -6,4 +6,8 @@ K rotary switch encoder switch push button
 F ~
 $ENDCMP
 #
+$CMP SK6812MINI-E
+F https://ecksteinimg.de/Datasheet/LED/LED0011/SK6812MINI-E_REV02_EN.pdf
+$ENDCMP
+#
 #End Doc Library
