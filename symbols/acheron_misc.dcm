@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MDBT40-256RV3
+D nRF51822 Bluetooth Low Energy Module
+F https://www.raytac.com/document/act.php?act=1&index_id=16
+$ENDCMP
+#
+#End Doc Library

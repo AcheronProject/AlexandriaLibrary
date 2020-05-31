@@ -1,0 +1,125 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# AO4406AL
+#
+DEF AO4406AL Q 0 40 Y Y 1 F N
+F0 "Q" -200 150 50 H V C CNN
+F1 "AO4406AL" -200 -100 20 H V C CNN
+F2 "acheron_Components:SOIC-8" 0 500 50 H I C CNN
+F3 "https://datasheet.lcsc.com/szlcsc/Alpha-Omega-Semicon-AOS-AO4406AL_C35349.pdf" 0 425 50 H I C CNN
+F4 "Alpha and Omega Semicon" 0 575 50 H I C CNN "Manufacturer"
+F5 "SOIC-8" 0 725 50 H I C CNN "Package "
+F6 "AO4406AL" 0 650 50 H I C CNN "Manufacturer Part Number"
+DRAW
+C -35 0 111 1 1 10 N
+C 0 -70 11 1 1 0 F
+C 0 70 11 1 1 0 F
+P 2 1 1 0 -98 0 -90 0 N
+P 2 1 1 0 -70 -70 0 -70 N
+P 2 1 1 10 -70 -50 -70 -90 N
+P 2 1 1 0 -70 0 0 0 N
+P 2 1 1 10 -70 20 -70 -20 N
+P 2 1 1 0 -70 70 0 70 N
+P 2 1 1 10 -70 90 -70 50 N
+P 2 1 1 0 0 -70 0 -100 N
+P 2 1 1 0 0 -70 0 0 N
+P 2 1 1 0 0 100 0 70 N
+P 3 1 1 10 -90 75 -90 -75 -90 -75 N
+P 4 1 1 0 -60 0 -20 15 -20 -15 -60 0 F
+P 4 1 1 0 0 -70 30 -70 30 70 0 70 N
+P 4 1 1 0 10 20 15 15 45 15 50 10 N
+P 4 1 1 0 30 15 15 -10 45 -10 30 15 N
+X ~ 1 0 -200 100 U 0 0 1 1 P
+X ~ 2 0 -200 100 U 0 0 1 1 P
+X ~ 3 0 -200 100 U 0 0 1 1 P
+X G 4 -300 0 200 R 0 0 1 1 I
+X D 5 0 200 100 D 0 0 1 1 P
+X ~ 6 0 200 100 D 0 0 1 1 P
+X ~ 7 0 200 100 D 0 0 1 1 P
+X ~ 8 0 200 100 D 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# AO4407A
+#
+DEF AO4407A Q 0 0 Y N 1 F N
+F0 "Q" 100 50 50 H V L CNN
+F1 "AO4407A" 100 -50 50 H V L CNN
+F2 "acheron_Components:SOIC-8" 0 450 50 H I C CNN
+F3 "https://datasheet.lcsc.com/szlcsc/1811021926_Alpha-Omega-Semicon-AO4407A_C16072.pdf" 0 525 50 H I C CNN
+F4 "Alpha and Omega Semicon" 0 600 50 H I C CNN "Manufacturer"
+F5 "AO4407A" 0 750 50 H I C CNN "Manufacturer Part Number"
+F6 "SOIC-8" 0 675 50 H I C CNN "Package"
+DRAW
+C -35 0 111 0 1 10 N
+C 0 -70 11 0 1 0 F
+C 0 70 11 0 1 0 F
+P 2 0 1 0 -98 0 -90 0 N
+P 2 0 1 0 -70 -70 0 -70 N
+P 2 0 1 10 -70 -50 -70 -90 N
+P 2 0 1 0 -70 0 0 0 N
+P 2 0 1 10 -70 20 -70 -20 N
+P 2 0 1 0 -70 70 0 70 N
+P 2 0 1 10 -70 90 -70 50 N
+P 2 0 1 0 0 -70 0 -100 N
+P 2 0 1 0 0 -70 0 0 N
+P 2 0 1 0 0 100 0 70 N
+P 3 0 1 10 -90 75 -90 -75 -90 -75 N
+P 4 0 1 0 -10 0 -50 -15 -50 15 -10 0 F
+P 4 0 1 0 0 -70 30 -70 30 70 0 70 N
+P 4 0 1 0 10 -20 15 -15 45 -15 50 -10 N
+P 4 0 1 0 30 -15 15 10 45 10 30 -15 N
+X S 1 0 -200 100 U 0 50 1 1 P
+X S 2 0 -200 100 U 0 50 1 1 P
+X S 3 0 -200 100 U 0 50 1 1 P
+X G 4 -300 0 200 R 0 50 1 1 I
+X D 5 0 200 100 D 0 50 1 1 P
+X D 6 0 200 100 D 0 50 1 1 P
+X D 7 0 200 100 D 0 50 1 1 P
+X D 8 0 200 100 D 0 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# DTC123JKAT146
+#
+DEF DTC123JKAT146 Q 0 0 Y N 1 F N
+F0 "Q" 200 75 50 H V L CNN
+F1 "DTC123JKAT146" 200 0 50 H V L CNN
+F2 "Package_TO_SOT_SMD:SOT-23" 0 425 50 H I C CNN
+F3 "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/digital/dtc123jkat146-e.pdf" 0 550 50 H I C CNN
+F4 "ROHM" -125 650 50 H I C CNN "Manufacturer "
+F5 "DTC123JKAT146" 300 650 50 H I C CNN "Manufacturer Part Number"
+F6 "SOT-23" 0 750 50 H I C CNN "Package"
+F7 "C111724" 0 850 50 H I C CNN "LCSC Part Number"
+$FPLIST
+ SOT?23*
+ SC?59*
+$ENDFPLIST
+DRAW
+A -50 0 125 901 -901 0 1 10 N -50 125 -50 -125
+A 25 0 125 -899 899 0 1 10 N 25 -125 25 125
+C -50 0 5 0 1 0 N
+C 100 -90 5 0 1 0 N
+T 0 -100 40 15 0 0 0 2k2 Normal 0 C C
+T 900 -90 -50 15 0 0 0 47k Normal 0 C C
+T 0 -205 -20 15 0 1 1 1 Normal 0 C C
+T 0 120 -145 15 0 1 1 2 Normal 0 C C
+T 0 120 145 15 0 1 1 3 Normal 0 C C
+P 2 0 1 0 -135 0 -150 0 N
+P 2 0 1 10 -50 -125 25 -125 N
+P 2 0 1 10 -50 125 25 125 N
+P 2 0 1 0 0 -10 100 90 N
+P 2 0 1 20 5 60 5 -65 F
+P 2 0 1 0 100 90 100 100 N
+P 3 0 1 0 100 -90 0 10 0 10 N
+P 4 0 1 0 35 -45 55 -25 75 -65 35 -45 F
+P 9 0 1 0 0 0 -75 0 -80 20 -90 -20 -100 20 -110 -20 -120 20 -130 -20 -135 0 N
+P 11 0 1 0 -50 0 -50 -15 -30 -20 -70 -30 -30 -40 -70 -50 -30 -60 -70 -70 -50 -75 -50 -90 100 -90 N
+X B 1 -250 0 100 R 0 0 1 1 I
+X E 2 100 -200 100 U 0 0 1 1 P
+X C 3 100 200 100 D 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

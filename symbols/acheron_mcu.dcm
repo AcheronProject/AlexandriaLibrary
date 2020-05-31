@@ -1,0 +1,33 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ATMEGA32U4-AU
+D 8-bit Microcontroller with 16/32K bytes of ISP Flash and USB Controller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf
+$ENDCMP
+#
+$CMP ATMEGA32U4-MU
+D 8-bit Microcontroller with 16/32K bytes of ISP Flash and USB Controller
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf
+$ENDCMP
+#
+$CMP STM32F072CxT6
+D ARM-based 32-bit MCU, up to 128 KB Flash, crystal-less USB FS 2.0, CAN, 12 timers, ADC, DAC & comm. interfaces, 2.0 - 3.6 V
+F https://www.st.com/resource/en/datasheet/stm32f072c8.pdf
+$ENDCMP
+#
+$CMP STM32F103CxT6
+D Medium-density performance line ARM-based 32-bit MCU with 64 or 128 KB Flash, USB, CAN, 7 timers, 2 ADCs, 9 com. interfaces
+F https://www.st.com/resource/en/datasheet/stm32f103c8.pdf
+$ENDCMP
+#
+$CMP STM32F103CxU6
+D Medium-density performance line ARM-based 32-bit MCU with 64 or 128 KB Flash, USB, CAN, 7 timers, 2 ADCs, 9 com. interfaces
+F https://www.st.com/resource/en/datasheet/stm32f103c8.pdf
+$ENDCMP
+#
+$CMP STM32F303CxT6
+D ARM Cortex-M4 32b MCU+FPU, up to 64KB Flash, 16KB SRAM 2 ADCs, 3 DACs, 3 comp., op-amp 2.0 - 3.6 V
+F https://datasheet.lcsc.com/szlcsc/STMicroelectronics-STM32F303C8T6_C88449.pdf
+$ENDCMP
+#
+#End Doc Library

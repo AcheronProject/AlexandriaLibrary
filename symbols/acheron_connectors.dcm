@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ARM_JTAG_SWD_10
+D ARM MCUs JTAG debugging interface 10-pin connector
+$ENDCMP
+#
+$CMP AVR-JTAG-10
+D AVR MCUs JTAG debugging interface 10-pin connector
+$ENDCMP
+#
+$CMP AVR-JTAG-6
+D AVR MCUs JTAG debugging interface 10-pin connector
+$ENDCMP
+#
+#End Doc Library

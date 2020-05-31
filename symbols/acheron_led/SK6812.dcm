@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SK6812
+D Integrated controller line serial cascade constant current RGB LED (5050 package)
+$ENDCMP
+#
+#End Doc Library

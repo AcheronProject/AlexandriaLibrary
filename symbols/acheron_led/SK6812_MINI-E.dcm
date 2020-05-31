@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SK6812MINI-E
+D Integrated controller line serial cascade constant current RGB LED (3228 package)
+F https://ecksteinimg.de/Datasheet/LED/LED0011/SK6812MINI-E_REV02_EN.pdf
+$ENDCMP
+#
+#End Doc Library

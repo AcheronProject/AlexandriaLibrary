@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LED_GBRA
+D RGB LED, GBRA sequence
+$ENDCMP
+#
+#End Doc Library

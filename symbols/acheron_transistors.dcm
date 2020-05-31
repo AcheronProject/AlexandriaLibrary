@@ -1,0 +1,18 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AO4406AL
+D 30V N-channel MOSFET
+F https://datasheet.lcsc.com/szlcsc/Alpha-Omega-Semicon-AOS-AO4406AL_C35349.pdf
+$ENDCMP
+#
+$CMP AO4407A
+D P-Channel Enhancement Mode Field Effect Transistor
+F https://datasheet.lcsc.com/szlcsc/1811021926_Alpha-Omega-Semicon-AO4407A_C16072.pdf
+$ENDCMP
+#
+$CMP DTC123JKAT146
+D NPN 100mA 50V digital (pre-biased) transistor
+F https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/digital/dtc123jkat146-e.pdf
+$ENDCMP
+#
+#End Doc Library

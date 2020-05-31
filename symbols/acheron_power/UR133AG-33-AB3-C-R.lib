@@ -1,0 +1,31 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# UR133AG-33-AB3-C-R
+#
+DEF UR133AG-33-AB3-C-R U 0 40 Y Y 1 F N
+F0 "U" 0 50 50 H V C CNN
+F1 "UR133AG-33-AB3-C-R" 0 250 50 H V C CNN
+F2 "Package_TO_SOT_SMD:SOT-89-3" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Unisonic Tech" 0 0 50 H I C CNN "Manufacturer"
+F5 "UR133AG-33-AB3-C-R" 0 0 50 H V C CNN "Manufacturer Part #"
+F6 "SOT-89" 0 0 50 H V C CNN "Package"
+F7 "C73288" 0 0 50 H V C CNN "LCSC Part #"
+DRAW
+T 0 0 -100 50 0 0 0 GND Normal 0 C C
+T 0 -150 0 50 0 0 0 VI Normal 0 C C
+T 0 150 0 50 0 0 0 VO Normal 0 C C
+S -201 150 -200 -150 0 1 0 N
+S -200 -150 200 -150 0 1 0 N
+S -200 150 200 150 0 1 0 N
+S 200 -150 200 -150 0 1 0 N
+S 200 -100 200 -150 0 1 0 N
+S 200 150 200 -100 0 1 0 N
+X ~ 1 300 0 100 L 50 50 1 1 O
+X ~ 2 0 -250 100 U 50 50 1 1 B
+X ~ 3 -300 0 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

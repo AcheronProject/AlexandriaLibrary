@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPD2E001DRLR
+D Low-Capacitance 2-Channel ESD-Protection for High-Speed Data Interface
+F https://datasheet.lcsc.com/szlcsc/1811081627_Texas-Instruments-TPD2E001DRLR_C150526.pdf
+$ENDCMP
+#
+$CMP TPD4E05U06DQAR
+D 4 Channel ESD Protection Device for Super-Speed (Up to 6 Gbps) Interface
+F https://datasheet.lcsc.com/szlcsc/1811132110_Texas-Instruments-TPD4E05U06DQAR_C138714.pdf
+$ENDCMP
+#
+#End Doc Library
