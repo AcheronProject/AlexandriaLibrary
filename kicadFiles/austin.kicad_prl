@@ -35,7 +35,6 @@
       8,
       9,
       10,
-      11,
       12,
       13,
       14,
@@ -64,5 +63,45 @@
   "meta": {
     "filename": "austin.kicad_prl",
     "version": 2
+  },
+  "project": {
+    "files": [
+      {
+        "name": "austin.kicad_sch",
+        "open": false,
+        "window": {
+          "display": 1,
+          "maximized": true,
+          "pos_x": 2562,
+          "pos_y": 310,
+          "size_x": 500,
+          "size_y": 400
+        }
+      },
+      {
+        "name": "austin.kicad_pcb",
+        "open": false,
+        "window": {
+          "display": 1,
+          "maximized": true,
+          "pos_x": 2758,
+          "pos_y": 347,
+          "size_x": 662,
+          "size_y": 601
+        }
+      },
+      {
+        "name": "austin.kicad_pro",
+        "open": false,
+        "window": {
+          "display": 1,
+          "maximized": true,
+          "pos_x": 2368,
+          "pos_y": 694,
+          "size_x": 914,
+          "size_y": 478
+        }
+      }
+    ]
   }
 }

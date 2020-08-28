@@ -296,7 +296,8 @@
       "pin_not_driven": "error",
       "pin_to_pin": "warning",
       "similar_labels": "error",
-      "unresolved_variable": "error"
+      "unresolved_variable": "error",
+      "wire_dangling": "error"
     }
   },
   "libraries": {
@@ -399,7 +400,7 @@
   },
   "sheets": [
     [
-      "7620a106-1d90-4441-851f-9e0b25d47190",
+      "ea883f51-1c16-4818-919a-b6a9f76cfcf3",
       ""
     ]
   ],
