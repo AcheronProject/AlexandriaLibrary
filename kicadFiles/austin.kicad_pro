@@ -25,9 +25,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 3.9878,
+          "height": 3.9878,
+          "width": 3.9878
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -42,9 +42,14 @@
       },
       "diff_pair_dimensions": [
         {
-          "gap": 0.25,
+          "gap": 0.254,
           "via_gap": 0.25,
-          "width": 0.25
+          "width": 0.254
+        },
+        {
+          "gap": 0.1524,
+          "via_gap": 0.0,
+          "width": 0.1524
         }
       ],
       "drc_exclusions": [],
@@ -91,33 +96,33 @@
         "allow_microvias": false,
         "max_error": 0.005,
         "min_clearance": 0.0,
-        "min_copper_edge_clearance": 0.01,
-        "min_hole_to_hole": 0.25,
+        "min_copper_edge_clearance": 0.15239999999999998,
+        "min_hole_to_hole": 0.254,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.25,
-        "min_via_annulus": 0.049999999999999996,
-        "min_via_diameter": 0.39999999999999997,
+        "min_through_hole_diameter": 0.30479999999999996,
+        "min_track_width": 0.15239999999999998,
+        "min_via_annulus": 0.2032,
+        "min_via_diameter": 0.508,
         "solder_mask_clearance": 0.051,
         "solder_mask_min_width": 0.25,
         "solder_paste_clearance": 0.0,
-        "solder_paste_margin_ratio": 0.0
+        "solder_paste_margin_ratio": -0.0
       },
       "track_widths": [
-        0.25,
-        0.25,
-        0.5,
-        1.0
+        0.1524,
+        0.254,
+        0.508,
+        1.016
       ],
       "via_dimensions": [
         {
-          "diameter": 0.5,
-          "drill": 0.3
+          "diameter": 0.508,
+          "drill": 0.3048
         },
         {
-          "diameter": 1.0,
-          "drill": 0.5
+          "diameter": 0.8128,
+          "drill": 0.3048
         }
       ],
       "zones_use_no_outline": true
@@ -312,49 +317,17 @@
     "classes": [
       {
         "bus_width": 12.0,
-        "clearance": 0.13,
-        "diff_pair_gap": 0.25,
+        "clearance": 0.1524,
+        "diff_pair_gap": 0.254,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.25,
+        "diff_pair_width": 0.254,
         "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
+        "microvia_diameter": 0.3048,
+        "microvia_drill": 0.1016,
         "name": "Default",
-        "track_width": 0.25,
-        "via_diameter": 0.5,
-        "via_drill": 0.3,
-        "wire_width": 6.0
-      },
-      {
-        "bus_width": 12.0,
-        "clearance": 0.25,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.25,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Thicc Boi",
-        "nets": [],
-        "track_width": 1.0,
-        "via_diameter": 1.0,
-        "via_drill": 0.5,
-        "wire_width": 6.0
-      },
-      {
-        "bus_width": 12.0,
-        "clearance": 0.5,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.25,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Thick",
-        "nets": [],
-        "track_width": 0.25,
-        "via_diameter": 0.5,
-        "via_drill": 0.3,
+        "track_width": 0.1524,
+        "via_diameter": 0.508,
+        "via_drill": 0.3048,
         "wire_width": 6.0
       }
     ],
@@ -400,7 +373,7 @@
   },
   "sheets": [
     [
-      "ea883f51-1c16-4818-919a-b6a9f76cfcf3",
+      "f5bdb1a5-8c17-464e-9615-46dbacc8f0db",
       ""
     ]
   ],
