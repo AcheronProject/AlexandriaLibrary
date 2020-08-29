@@ -58,13 +58,50 @@
       36,
       37
     ],
-    "visible_layers": "0d938_80000001"
+    "visible_layers": "0d138_80000001"
   },
   "meta": {
     "filename": "austin.kicad_prl",
     "version": 2
   },
   "project": {
-    "files": []
+    "files": [
+      {
+        "name": "austin.kicad_pcb",
+        "open": false,
+        "window": {
+          "display": 1,
+          "maximized": true,
+          "pos_x": 2758,
+          "pos_y": 347,
+          "size_x": 662,
+          "size_y": 564
+        }
+      },
+      {
+        "name": "austin.kicad_sch",
+        "open": false,
+        "window": {
+          "display": 2,
+          "maximized": true,
+          "pos_x": 717,
+          "pos_y": 310,
+          "size_x": 500,
+          "size_y": 400
+        }
+      },
+      {
+        "name": "austin.kicad_pro",
+        "open": false,
+        "window": {
+          "display": 1,
+          "maximized": true,
+          "pos_x": 2368,
+          "pos_y": 731,
+          "size_x": 914,
+          "size_y": 478
+        }
+      }
+    ]
   }
 }
