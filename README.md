@@ -27,6 +27,7 @@ The libraries listed below are KiCAD footprint libraries for mechanical keyboard
 - [**Acheron MXH**](https://github.com/AcheronProject/acheron_MXH.pretty): exclusive support for MX-type switches using Kailh "hotswap" sockets;
 - [**Acheron MXH "Metal Rings"**](https://github.com/AcheronProject/acheron_MXH_metalrings.pretty): exclusive support for MX-type switches using Kailh "hotswap" sockets with metallic rings around the switch contacts for aesthetic effect;
 - [**Acheron MXA**](https://github.com/AcheronProject/acheron_MXA.pretty): hybrid MX-ALPS footprints;
+- [**Acheron EC**](https://github.com/AcheronProject/acheron_EC.pretty): exclusive support for electrocapacitive ("Topre-style") switches;
 
 ### Macros, makefiles
 - [**Acheron Setup**](https://github.com/AcheronProject/AcheronSetup): makefiles and bash scripts to automate some of the work needed to use and maintain a project based on the Acheron Library
@@ -38,4 +39,4 @@ See [the AcheronDocs page](http://acheronproject.com/alexandria/introduction.htm
 
 ## Licensing
 
-The Alexandria Library uses the BSD 3-clause License. Be sure to read it before using this library on a project.
+Each component of the Alexandria Library is subject to its own licensing and thorough reading is highly advised. This repository itself is licensed under a BSD-3 clause.
