@@ -1,4 +1,4 @@
-﻿# The Alexandria Library 
+﻿# The Acheron Alexandria Library 
 
 <p align="center">
   <img align="middle" src="https://raw.githubusercontent.com/Gondolindrim/file_hosting/main/alexandria/alexandria_logo.png"  width="400"> 
@@ -33,9 +33,9 @@ The libraries listed below are KiCAD footprint libraries for mechanical keyboard
 - [**Acheron Setup**](https://github.com/AcheronProject/AcheronSetup): makefiles and bash scripts to automate some of the work needed to use and maintain a project based on the Acheron Library
 - [**LT2PY**](https://github.com/Gondolindrim/lt2py): Python tool that converts data plots taken from LTSpice into Python plots, allowing to manipulate and edit the plots
 
-## Documentation
+## Showing support
 
-See [the AcheronDocs page](http://acheronproject.com/alexandria/introduction.html) for the Alexandria Library documentation.
+Designs using the Alexandria Library into their composition can show support through the KiCAD footprints in the ``./alexandria_kicad_logos'' repository.
 
 ## Licensing
 
