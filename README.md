@@ -31,7 +31,14 @@ The libraries listed below are KiCAD footprint libraries for mechanical keyboard
 
 ### Macros, makefiles
 - [**Acheron Setup**](https://github.com/AcheronProject/AcheronSetup): makefiles and bash scripts to automate some of the work needed to use and maintain a project based on the Acheron Library
-- [**LT2PY**](https://github.com/Gondolindrim/lt2py): Python tool that converts data plots taken from LTSpice into Python plots, allowing to manipulate and edit the plots
+
+### LTSPICE
+
+- [**Acheron LTSPICE**](https://github.com/AcheronProject/acheron_ltspice): symbols and models for the LTSpice simulation software
+- [**LT2PY**](https://github.com/Gondolindrim/lt2py): Python tool that converts data plots taken from LTSpice into Python plots, allowing to manipulate and edit the graphs
+
+## Miscellaneous
+- [**Acheron Ruler**](https://github.com/AcheronProject/AcheronRuler): in true greek geometry fashion, a ruler featuring both milimeter and inch measurements with electronic components footprints on the back;
 
 ## Showing support
 
