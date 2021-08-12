@@ -1,7 +1,7 @@
 ﻿# The Alexandria Library 
 
 <p align="center">
-  <img align="middle" src="https://raw.githubusercontent.com/Gondolindrim/file_dump/alexandria/alexandria_logo.png"  width="400"> 
+  <img align="middle" src="https://raw.githubusercontent.com/Gondolindrim/file_hosting/main/alexandria/alexandria_logo.png"  width="400"> 
 </p>
 
 ## Documentation
