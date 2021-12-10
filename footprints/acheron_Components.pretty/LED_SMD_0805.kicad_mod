@@ -72,7 +72,7 @@
          (xy -0.3175 0.508) (xy 0 0.508) (xy 0 -0.508) (xy -0.3175 -0.508)) (width 0.127))
       (gr_circle (center -0.254 0.508) (end -0.1905 0.508) (width 0.127))
     ))
-  (model "/home/alvaro/Downloads/0805 Chip SMD LED (2x1.2mm).STEP"
+  (model "${KIPRJMOD}/AcheronLibrary/3d_models/0805 Chip SMD LED (2x1.2mm).STEP"
     (offset (xyz 0 0 0.3048))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 0))
