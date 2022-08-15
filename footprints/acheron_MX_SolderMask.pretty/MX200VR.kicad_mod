@@ -67,7 +67,7 @@
   (pad "" np_thru_hole circle (at 8.255 11.938 90) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask) (tstamp b28bcd4a-3ba6-454f-9af7-9bc47c04784f))
   (pad "" connect circle (at -2.54 -5.08) (size 1.524 1.524) (layers "B.Mask") (tstamp 4d7a4c21-679e-4e5d-85bf-7dd09ff2974f))
   (pad "" connect circle (at 3.81 -2.54) (size 1.524 1.524) (layers "B.Mask") (tstamp 86c20c17-31f9-440b-a4ce-6000828e67d8))
-  (model "/home/alvaro/Downloads/Stabilizer - close.STEP"
+  (model "${KIPRJMOD}/AcheronLibrary/3d_models/Stabilizer - close.STEP"
     (offset (xyz -11.938 0 3.81))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

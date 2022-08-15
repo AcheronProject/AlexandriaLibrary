@@ -90,7 +90,7 @@
   (pad 2 thru_hole circle (at 3.15 -5.75) (size 2.54 2.54) (drill 1.524) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at -4.44 0) (size 1.6 1.6) (drill 1.6) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 4.44 0) (size 1.6 1.6) (drill 1.6) (layers *.Cu *.Mask))
-  (model "/home/alvaro/Downloads/Stabilizer - close.STEP"
+  (model "${KIPRJMOD}/AcheronLibrary/3d_models/Stabilizer - close.STEP"
     (offset (xyz -11.938 0 3.81))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

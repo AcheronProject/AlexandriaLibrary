@@ -71,7 +71,7 @@
   (pad "" np_thru_hole circle (at 5.08 0) (size 1.7018 1.7018) (drill 1.7018) (layers *.Cu *.Mask) (tstamp fc8589ff-dd48-4d8a-95c6-2f80848d5bce))
   (pad "1" thru_hole circle (at -2.54 -5.08) (size 2.54 2.54) (drill 1.524) (layers *.Cu "F.Mask") (tstamp 28147271-3336-4e64-bd30-ce828f545a2e))
   (pad "2" thru_hole circle (at 3.81 -2.54) (size 2.54 2.54) (drill 1.524) (layers *.Cu "F.Mask") (tstamp 450b853d-33b9-405c-a62b-03128a20839c))
-  (model "/home/alvaro/Downloads/Stabilizer - close.STEP"
+  (model "${KIPRJMOD}/AcheronLibrary/3d_models/Stabilizer - close.STEP"
     (offset (xyz -11.938 0 3.81))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
